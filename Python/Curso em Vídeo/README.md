@@ -1,3 +1,5 @@
+![Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png)
+
 # Exercícios
 
 ## Exercício 001
@@ -32,69 +34,107 @@ Faça um programa que leia um número inteiro e mostre na tela o seu sucessor e 
 
 ## Exercício 006
 
+Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.
+
 <a href="./Exercícios/ex006.py">Resolução</a>
 
 ## Exercício 007
+
+Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
 <a href="./Exercícios/ex007.py">Resolução</a>
 
 ## Exercício 008
 
+Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+
 <a href="./Exercícios/ex008.py">Resolução</a>
 
 ## Exercício 009
+
+Faça um programa que leia um número inteiro qualquer e mostre na tela a sua tabuada.
 
 <a href="./Exercícios/ex009.py">Resolução</a>
 
 ## Exercício 010
 
+Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
+Considere US$1,00 = R\$5,22 (23/09/2022). 
+
 <a href="./Exercícios/ex010.py">Resolução</a>
 
 ## Exercício 011
+
+Faça um programa que leia a largura e a altura de uma parede em metros, calcule a sua área e a quantidade de tinta necessária para pintá-la, sabendo que cada litro de tinta, pinta uma área de 2m².
 
 <a href="./Exercícios/ex011.py">Resolução</a>
 
 ## Exercício 012
 
+Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
+
 <a href="./Exercícios/ex012.py">Resolução</a>
 
 ## Exercício 013
+
+Faça um algoritmo que leia o salário de um funcionário e mostre seu novo salário, com 15% de aumento.
 
 <a href="./Exercícios/ex013.py">Resolução</a>
 
 ## Exercício 014
 
+Escreva um programa que converta uma temperatura digitada em °C para °F.
+
 <a href="./Exercícios/ex014.py">Resolução</a>
 
 ## Exercício 015
+
+Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.
 
 <a href="./Exercícios/ex015.py">Resolução</a>
 
 ## Exercício 016
 
+Crie um programa que leia um número real qualquer pelo teclado e mostre na tela a sua porção inteira.
+
 <a href="./Exercícios/ex016.py">Resolução</a>
 
 ## Exercício 017
+
+Faça um programa que leia o comprimento do cateto oposto e do cateto adjacente de um triângulo retângulo, calcule e mostre o comprimento da hipotenusa.
 
 <a href="./Exercícios/ex017.py">Resolução</a>
 
 ## Exercício 018
 
+Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno, cosseno, e tangente desse ângulo.
+
 <a href="./Exercícios/ex018.py">Resolução</a>
 
 ## Exercício 019
+
+Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome deles e escrevendo o nome escolhido.
 
 <a href="./Exercícios/ex019.py">Resolução</a>
 
 ## Exercício 020
 
+O mesmo professor do exercício anterior quer sortear a ordem de apresentações de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada.
+
 <a href="./Exercícios/ex020.py">Resolução</a>
 
 ## Exercício 021
 
+Faça um programa em Python que abra e reproduza o áudio de um arquivo MP3. 
+
 <a href="./Exercícios/ex021.py">Resolução</a>
 
 ## Exercício 022
+
+Crie um programa que leia o nome de uma pessoa e mostre:
+- O nome com todas as letras maiúsculas e minúsculas.
+- Quantas letras ao todo (sem considerar espaços).
+- Quantas letras tem o primeiro nome.
 
 <a href="./Exercícios/ex022.py">Resolução</a>
 
