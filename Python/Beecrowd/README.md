@@ -2,7 +2,25 @@
 
 # Iniciante
 
-## Beecrowd 1001 - Extremamente Básico
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1000">Beecrowd 1000 - Hello World!</a>
+
+Bem-vindo ao **beecrowd!**
+
+O seu primeiro programa em qualquer linguagem de programação normalmente é o **"Hello World!"**. Neste primeiro problema tudo o que você precisa fazer é imprimir esta mensagem na tela.
+
+**Entrada**
+Este problema não possui nenhuma entrada.
+
+**Saída**
+Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha, conforme o exemplo abaixo.
+
+| Exemplos de Entrada | Exemplos de Saída |
+| ------------- | ------------- |
+|  | Hello World! |
+
+**<a href="./Exercícios/bee1000.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1001">Beecrowd 1001 - Extremamente Básico</a>
 
 Leia 2 valores inteiros e armazene-os nas variáveis **A** e **B**. Efetue a soma de A e B atribuindo o seu resultado na variável **X**. Imprima **X** conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
@@ -20,7 +38,7 @@ Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável *
 
 **<a href="./Exercícios/bee1001.py">Resolução</a>**
 
-## Beecrowd 1003 - Soma Simples
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1003">Beecrowd 1003 - Soma Simples</a>
 
 Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável **SOMA**. A seguir escrever o valor desta variável.
 
@@ -38,7 +56,7 @@ Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em bra
 
 **<a href="./Exercícios/bee1003.py">Resolução</a>**
 
-## Beecrowd 1004 - Produto Simples
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1004">Beecrowd 1004 - Produto Simples</a>
 
 Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável **PROD**. A seguir mostre a variável **PROD** com mensagem correspondente.
 
@@ -56,7 +74,7 @@ Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com u
 
 **<a href="./Exercícios/bee1004.py">Resolução</a>**
 
-## Beecrowd 1006 - Média 2
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1006">Beecrowd 1006 - Média 2</a>
 
 Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
@@ -74,7 +92,7 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 d�
 
 **<a href="./Exercícios/bee1006.py">Resolução</a>**
 
-## Beecrowd 1008 - Salário
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1008">Beecrowd 1008 - Salário</a>
 
 Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
 
@@ -92,7 +110,7 @@ Imprima o número e o salário do funcionário, conforme exemplo fornecido, com 
 
 **<a href="./Exercícios/bee1008.py">Resolução</a>**
 
-## Beecrowd 1009 - Salário com Bônus
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1009">Beecrowd 1009 - Salário com Bônus</a>
 
 Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
 
@@ -110,7 +128,7 @@ Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
 **<a href="./Exercícios/bee1009.py">Resolução</a>**
 
-## Beecrowd 1010 - Cálculo Simples
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1010">Beecrowd 1010 - Cálculo Simples</a>
 
 Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
 
@@ -128,7 +146,7 @@ A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando
 
 **<a href="./Exercícios/bee1010.py">Resolução</a>**
 
-## Beecrowd 1011 - Esfera
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1011">Beecrowd 1011 - Esfera</a>
 
 Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o valor de seu raio (R). A fórmula para calcular o volume é: (4/3) * pi * R3. Considere (atribua) para pi o valor 3.14159.
 
@@ -148,7 +166,7 @@ A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, 
 
 **<a href="./Exercícios/bee1011.py">Resolução</a>**
 
-## Beecrowd 1012 - Área
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1012">Beecrowd 1012 - Área</a>
 
 Escreva um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e mostre:
 a) a área do triângulo retângulo que tem A por base e C por altura.
@@ -170,7 +188,7 @@ O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a u
 
 **<a href="./Exercícios/bee1012.py">Resolução</a>**
 
-## Beecrowd 1013 - O Maior
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1013">Beecrowd 1013 - O Maior</a>
 
 Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
 
@@ -191,7 +209,7 @@ Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maio
 
 **<a href="./Exercícios/bee1013.py">Resolução</a>**
 
-## Beecrowd 1015 - Distância Entre Dois Pontos
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1015">Beecrowd 1015 - Distância Entre Dois Pontos</a>
 
 Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer no plano, p1(x1,y1) e p2(x2,y2) e calcule a distância entre eles, mostrando 4 casas decimais após a vírgula, segundo a fórmula:
 
@@ -211,7 +229,7 @@ Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casa
 
 **<a href="./Exercícios/bee1015.py">Resolução</a>**
 
-## Beecrowd 1017 - Gasto de Combustível
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1017">Beecrowd 1017 - Gasto de Combustível</a>
 
 Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
 
