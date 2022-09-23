@@ -1,7 +1,7 @@
 from datetime import date
 ano = date.today().year
 nascimento = int(input('Digite seu ano de nascimento: '))
-idade = 2021 - nascimento
+idade = ano - nascimento
 if idade <= 17:
     print('\033[34mVocê ainda não possui idade para se alistar\033[m')
     print('\033[31mSeu alistamento será em {}\033[m'.format(18 - idade + ano))

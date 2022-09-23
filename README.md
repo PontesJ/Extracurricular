@@ -1,4 +1,4 @@
 # Exercícios Extracurriculares
 
-## Python 3
+## :snake: Python 3
 
