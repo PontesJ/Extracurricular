@@ -1,0 +1,16 @@
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.exe
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.deps.json
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.runtimeconfig.json
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.runtimeconfig.dev.json
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.dll
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\bin\Debug\net5.0\bee1038.pdb
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.csproj.AssemblyReference.cache
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.AssemblyInfoInputs.cache
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.AssemblyInfo.cs
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.csproj.CoreCompileInputs.cache
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.dll
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\refint\bee1038.dll
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.pdb
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\bee1038.genruntimeconfig.cache
+D:\GitHub Desktop\Extracurricular\C#\Beecrowd\bee1038\obj\Debug\net5.0\ref\bee1038.dll
