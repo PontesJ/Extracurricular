@@ -1,4 +1,4 @@
-![Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png)
+<img src="https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png" width="300">
 
 # Mundo 1: Fundamentos
 
