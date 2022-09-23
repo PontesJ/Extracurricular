@@ -1,0 +1,5 @@
+a = int(input('Digite um número inteiro: '))
+print('O número {} tem {} unidade(s)'.format(a, a // 1 % 10))
+print('O número {} tem {} dezena(s)'.format(a, a // 10 % 10))
+print('O número {} tem {} centena(s)'.format(a, a // 100 % 10))
+print('O número {} tem {} milhar(s)'.format(a, a // 1000 % 10))
