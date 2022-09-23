@@ -1,6 +1,6 @@
 ![Curso em Vídeo](https://www.cursoemvideo.com/wp-content/uploads/2019/08/cursoemvideo-logo.png)
 
-# Exercícios
+# Mundo 1: Fundamentos
 
 ## Exercício 001 - Deixando tudo pronto
 
@@ -222,6 +222,8 @@ Para os inferiores ou iguais, o aumento é de 15%.
 Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 
 <a href="./Exercícios/ex035.py">Resolução</a>
+
+# Mundo 2: Estrutura de Controle
 
 ## Exercício 036 - Aprovando Empréstimo
 
