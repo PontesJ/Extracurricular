@@ -14,7 +14,7 @@ Este problema não possui nenhuma entrada.
 **Saída**
 Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha, conforme o exemplo abaixo.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 |  | Hello World! |
 
@@ -30,7 +30,7 @@ A entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável **X** e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 10<br>9 | X = 19 |
 | -10<br>4 | X = -6 |
@@ -50,7 +50,7 @@ A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a vari
 **Saída**
 Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 2.00 | A=12.5664 |
 | 100.64 | A=31819.3103 |
@@ -68,7 +68,7 @@ O arquivo de entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 30<br>10 | SOMA = 40 |
 | -30<br>10 | SOMA = -20 |
@@ -86,7 +86,7 @@ O arquivo de entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3<br>9 | PROD = 27 |
 | -30<br>10 | PROD = -300 |
@@ -104,7 +104,7 @@ O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 **Saída**
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 5.0<br>7.1 | MEDIA = 6.43182 |
 | 0.0<br>7.1 | MEDIA = 4.84091 |
@@ -122,7 +122,7 @@ O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão 
 **Saída**
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 5.0<br>6.0<br>7.0 | MEDIA = 6.3 |
 | 5.0<br>10.0<br>10.0 | MEDIA = 9.0 |
@@ -140,7 +140,7 @@ O arquivo de entrada contém 4 valores inteiros.
 **Saída**
 Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 5<br>6<br>7<br>8 | DIFERENCA = -26 |
 | 0<br>0<br>7<br>8 | DIFERENCA = -56 |
@@ -158,7 +158,7 @@ O arquivo de entrada contém 2 números inteiros e 1 número com duas casas deci
 **Saída**
 Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 25<br>100<br>5.50 | NUMBER = 25<BR>SALARY = U$ 550.00 |
 | 1<br>200<br>20.50 | NUMBER = 1<BR>SALARY = U$ 4100.00 |
@@ -176,7 +176,7 @@ O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de
 **Saída**
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | JOAO<br>500.00<br>1230.30 | TOTAL = R$ 684.54 |
 | PEDRO<br>700.00<br>0.00 | TOTAL = R$ 700.00 |
@@ -194,7 +194,7 @@ O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valor
 **Saída**
 A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 12 1 5.30<br>16 2 5.10 | VALOR A PAGAR: R$ 15.50 |
 | 13 2 15.30<br>161 4 5.20 | VALOR A PAGAR: R$ 51.40 |
@@ -214,7 +214,7 @@ O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), corr
 **Saída**
 A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3 | VOLUME = 113.097 |
 | 15 | VOLUME = 14137.155 |
@@ -237,7 +237,7 @@ O arquivo de entrada contém três valores com um dígito após o ponto decimal.
 **Saída**
 O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3.0 4.0 5.2 | TRIANGULO: 7.800<BR>CIRCULO: 84.949<BR>TRAPEZIO: 18.200<BR>QUADRADO: 16.000<BR>RETANGULO: 12.000 |
 | 12.7 10.4 15.2 | TRIANGULO: 96.520<BR>CIRCULO: 725.833<BR>TRAPEZIO: 175.560<BR>QUADRADO: 108.160<BR>RETANGULO: 132.080 |
@@ -258,7 +258,7 @@ O arquivo de entrada contém três valores inteiros.
 **Saída**
 Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7 14 106 | 106 eh o maior |
 | 217 14 6 | 217 eh o maior |
@@ -275,7 +275,7 @@ O arquivo de entrada contém dois valores: um valor inteiro **X** representando 
 **Saída**
 Apresente o valor que representa o consumo médio do automóvel com 3 casas após a vírgula, seguido da mensagem "km/l".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 500<br>35.0 | 14.286 km/l |
 | 2254<br>124.4 | 18.119 km/l |
@@ -295,7 +295,7 @@ O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois
 **Saída**
 Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 1.0 7.0<br>5.0 9.0 | 4.4721 |
 | -2.5 0.4<br>12.1 7.3 | 16.1484 |
@@ -317,7 +317,7 @@ O arquivo de entrada contém um número inteiro.
 **Saída**
 Imprima o tempo necessário seguido da mensagem "minutos".
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 30 | 60 minutos |
 | 110 | 220 minutos |
@@ -335,7 +335,7 @@ O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viage
 **Saída**
 Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 10<br>85 | 70.833 |
 | 2<br>92 | 15.333 |
@@ -355,7 +355,7 @@ O arquivo de entrada contém um valor inteiro **N** (0 < **N** < 1000000).
 **Saída**
 Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 576 | 576<br>5 nota(s) de R$ 100,00<br>1 nota(s) de R$ 50,00<br>1 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>1 nota(s) de R$ 5,00<br>0 nota(s) de R$ 2,00<br>1 nota(s) de R$ 1,00 |
 | 11257 | 11257<br>112 nota(s) de R$ 100,00<br>1 nota(s) de R$ 50,00<br>0 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>1 nota(s) de R$ 5,00<br>1 nota(s) de R$ 2,00<br>0 nota(s) de R$ 1,00 |
@@ -391,7 +391,7 @@ Leia três valores de ponto flutuante (double) A, B e C.
 **Saída**
 Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impossivel calcular". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 10.0 20.1 5.1 | R1 = -0.29788<br>R2 = -1.71212 |
 | 0.0 20.0 5.0 | Impossivel calcular |
@@ -412,7 +412,7 @@ O arquivo de entrada contém dois valores inteiros correspondentes ao código e 
 **Saída**
 O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser pago, com 2 casas após o ponto decimal.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3 2 | Total: R$ 10.00 |
 | 4 3 | Total: R$ 6.00 |
@@ -430,7 +430,7 @@ A entrada contem três números inteiros.
 **Saída**
 Imprima a saída conforme foi especificado.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7 21 -14 | -14<br>7<br>21<br><br>7<br>21<br>-14 |
 
@@ -446,7 +446,7 @@ A entrada contém valores inteiros.
 **Saída**
 A saída deve conter uma das mensagens conforme descrito acima.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 6 24 | Sao Multiplos |
 | 6 25 | Nao sao Multiplos |
@@ -473,7 +473,7 @@ A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 **Saída**
 Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 400.00 | Novo salario: 460.00<br>Reajuste ganho: 60.00<br>Em percentual: 15 % |
 | 800.01 | Novo salario: 880.01<br>Reajuste ganho: 80.00<br>Em percentual: 10 % |
@@ -491,7 +491,7 @@ Seis valores, negativos e/ou positivos.
 **Saída**
 Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos |
 
@@ -507,7 +507,7 @@ A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuant
 **Saída**
 O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos<br>7.4 |
 
@@ -523,7 +523,7 @@ O arquivo de entrada contém 5 valores inteiros quaisquer.
 **Saída**
 Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-4<br>12 | 3 valores pares |
 
@@ -539,7 +539,7 @@ O arquivo de entrada contém dois valores inteiros.
 **Saída**
 O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímpares que estão entre os valores fornecidos na entrada que deverá caber em um inteiro.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 6<br>-5 | 5 |
 | 15<br>12 | 13 |
@@ -559,7 +559,7 @@ Cada caso de teste a seguir é um valor inteiro **X** (-10<sup>7</sup> < **X** <
 **Saída**
 Para cada caso, imprima quantos números estão dentro (**in**) e quantos valores estão fora (**out**) do intervalo.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 4<br>14<br>123<br>10<br>-25 | 2 in<br>2 out |
 
@@ -577,7 +577,7 @@ Imprima o quadrado de cada um dos valores pares, de 1 até **N**, conforme o exe
 
 Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006 ao invés de 1000000 o que ocasionará resposta errada. Neste caso, configure a precisão adequadamente para que isso não ocorra.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 6 | 2^2 = 4<br>4^2 = 16<br>6^2 = 36 |
 
@@ -594,7 +594,7 @@ A entrada contém um valor inteiro N (2 < N < 1000).
 **Saída**
 Imprima a tabuada de N, conforme o exemplo fornecido.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 140 | 1 x 140 = 140<br>2 x 140 = 280<br>3 x 140 = 420<br>4 x 140 = 560<br>5 x 140 = 700<br>6 x 140 = 840<br>7 x 140 = 980<br>8 x 140 = 1120<br>9 x 140 = 1260<br>10 x 140 = 1400 |
 
@@ -610,7 +610,7 @@ A entrada contém vários casos de teste. Cada caso contém dois valores inteiro
 **Saída**
 Para cada caso de teste imprima “Crescente”, caso os valores tenham sido digitados na ordem crescente, caso contrário imprima a mensagem “Decrescente”.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 5 4<br>7 2<br>3 8<br>2 2 | Decrescente<br>Decrescente<br>Crescente<br> |
 
@@ -626,7 +626,7 @@ O arquivo de entrada contém 2 valores inteiros quaisquer, não necessariamente 
 **Saída**
 Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores lidos na entrada, inclusive ambos se for o caso.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 100<br>200 | 13954 |
 
@@ -642,7 +642,7 @@ O arquivo de entrada contém um número inteiro positivo N.
 **Saída**
 Imprima a saída conforme o exemplo fornecido.
 
-| **Exemplos de Entrada | Exemplos de Saída** |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7 | 1 2 3 PUM<br>5 6 7 PUM<br>9 10 11 PUM<br>13 14 15 PUM<br>17 18 19 PUM<br>21 22 23 PUM<br>25 26 27 PUM |
 
