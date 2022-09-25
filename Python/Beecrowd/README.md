@@ -14,7 +14,7 @@ Este problema não possui nenhuma entrada.
 **Saída**
 Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha, conforme o exemplo abaixo.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 |  | Hello World! |
 
@@ -30,7 +30,7 @@ A entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável **X** e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 10<br>9 | X = 19 |
 | -10<br>4 | X = -6 |
@@ -48,7 +48,7 @@ O arquivo de entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 30<br>10 | SOMA = 40 |
 | -30<br>10 | SOMA = -20 |
@@ -66,7 +66,7 @@ O arquivo de entrada contém 2 valores inteiros.
 **Saída**
 Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3<br>9 | PROD = 27 |
 | -30<br>10 | PROD = -300 |
@@ -84,7 +84,7 @@ O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão 
 **Saída**
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 5.0<br>6.0<br>7.0 | MEDIA = 6.3 |
 | 5.0<br>10.0<br>10.0 | MEDIA = 9.0 |
@@ -102,7 +102,7 @@ O arquivo de entrada contém 2 números inteiros e 1 número com duas casas deci
 **Saída**
 Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 25<br>100<br>5.50 | NUMBER = 25<BR>SALARY = U$ 550.00 |
 | 1<br>200<br>20.50 | NUMBER = 1<BR>SALARY = U$ 4100.00 |
@@ -120,7 +120,7 @@ O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de
 **Saída**
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | JOAO<br>500.00<br>1230.30 | TOTAL = R$ 684.54 |
 | PEDRO<br>700.00<br>0.00 | TOTAL = R$ 700.00 |
@@ -138,7 +138,7 @@ O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valor
 **Saída**
 A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 12 1 5.30<br>16 2 5.10 | VALOR A PAGAR: R$ 15.50 |
 | 13 2 15.30<br>161 4 5.20 | VALOR A PAGAR: R$ 51.40 |
@@ -158,7 +158,7 @@ O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), corr
 **Saída**
 A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3 | VOLUME = 113.097 |
 | 15 | VOLUME = 14137.155 |
@@ -181,7 +181,7 @@ O arquivo de entrada contém três valores com um dígito após o ponto decimal.
 **Saída**
 O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3.0 4.0 5.2 | TRIANGULO: 7.800<BR>CIRCULO: 84.949<BR>TRAPEZIO: 18.200<BR>QUADRADO: 16.000<BR>RETANGULO: 12.000 |
 | 12.7 10.4 15.2 | TRIANGULO: 96.520<BR>CIRCULO: 725.833<BR>TRAPEZIO: 175.560<BR>QUADRADO: 108.160<BR>RETANGULO: 132.080 |
@@ -202,7 +202,7 @@ O arquivo de entrada contém três valores inteiros.
 **Saída**
 Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7 14 106 | 106 eh o maior |
 | 217 14 6 | 217 eh o maior |
@@ -221,7 +221,7 @@ O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois
 **Saída**
 Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 1.0 7.0<br>5.0 9.0 | 4.4721 |
 | -2.5 0.4<br>12.1 7.3 | 16.1484 |
@@ -239,7 +239,7 @@ O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viage
 **Saída**
 Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 10<br>85 | 70.833 |
 | 2<br>92 | 15.333 |
@@ -249,8 +249,6 @@ Imprima a quantidade de litros necessária para realizar a viagem, com três dí
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1018">Beecrowd 1018 - Cédulas</a>
 
-
-
 Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o **valor lido** e a relação de notas necessárias.
 
 **Entrada**
@@ -259,10 +257,28 @@ O arquivo de entrada contém um valor inteiro **N** (0 < **N** < 1000000).
 **Saída**
 Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
-| Exemplos de Entrada | Exemplos de Saída |
+| **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 576 | 576<br>5 nota(s) de R$ 100,00<br>1 nota(s) de R$ 50,00<br>1 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>1 nota(s) de R$ 5,00<br>0 nota(s) de R$ 2,00<br>1 nota(s) de R$ 1,00 |
 | 11257 | 11257<br>112 nota(s) de R$ 100,00<br>1 nota(s) de R$ 50,00<br>0 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>1 nota(s) de R$ 5,00<br>1 nota(s) de R$ 2,00<br>0 nota(s) de R$ 1,00 |
 | 503 | 503<br>5 nota(s) de R$ 100,00<br>0 nota(s) de R$ 50,00<br>0 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>0 nota(s) de R$ 5,00<br>1 nota(s) de R$ 2,00<br>1 nota(s) de R$ 1,00 |
 
 **<a href="./Exercícios/bee1018.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1019">Beecrowd 1019 - Conversão de Tempo</a>
+
+Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
+
+**Entrada**
+O arquivo de entrada contém um valor inteiro **N**.
+
+**Saída**
+Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 556 | 0:9:16 |
+| 1 | 0:0:1 |
+| 140153 | 38:55:53 |
+
+**<a href="./Exercícios/bee1019.py">Resolução</a>**
