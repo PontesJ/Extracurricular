@@ -421,6 +421,23 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1021.py">Resolução</a>**
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1035">Beecrowd 1035 - Teste de Seleção 1</a>
+
+Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem **"Valores aceitos"**, senão escrever **"Valores nao aceitos"**.
+
+**Entrada**
+Quatro números inteiros A, B, C e D.
+
+**Saída**
+Mostre a respectiva mensagem após a validação dos valores.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 5 6 7 8 | Valores nao aceitos |
+| 2 3 2 6 | Valores aceitos |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1035.py">Resolução</a>**
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1036">Beecrowd 1036 - Fórmula de Bhaskara</a>
 
 Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
