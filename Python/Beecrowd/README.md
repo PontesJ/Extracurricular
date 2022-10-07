@@ -448,7 +448,6 @@ A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) ,
 **Saída**
 Imprima todas as classificações do triângulo especificado na entrada.
 
-
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 7.0 5.0 7.0 | TRIANGULO ACUTANGULO<br>TRIANGULO ISOSCELES |
@@ -458,3 +457,21 @@ Imprima todas as classificações do triângulo especificado na entrada.
 | 6.0 8.0 10.0 | TRIANGULO RETANGULO |
 
 **<a href="./Exercícios/bee1045.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1046">Beecrowd 1046 - Tempo de Jogo</a>
+
+Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
+
+**Entrada**
+A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
+
+**Saída**
+Apresente a duração do jogo conforme exemplo abaixo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 16 2 | O JOGO DUROU 10 HORA(S) |
+| 0 0 | O JOGO DUROU 24 HORA(S) |
+| 2 16 | O JOGO DUROU 14 HORA(S) |
+
+**<a href="./Exercícios/bee1046.py">Resolução</a>**
