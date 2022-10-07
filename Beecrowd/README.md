@@ -9,9 +9,11 @@ Bem-vindo ao **beecrowd!**
 O seu primeiro programa em qualquer linguagem de programação normalmente é o **"Hello World!"**. Neste primeiro problema tudo o que você precisa fazer é imprimir esta mensagem na tela.
 
 **Entrada**
+
 Este problema não possui nenhuma entrada.
 
 **Saída**
+
 Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha, conforme o exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -25,9 +27,11 @@ Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha,
 Leia 2 valores inteiros e armazene-os nas variáveis **A** e **B**. Efetue a soma de A e B atribuindo o seu resultado na variável **X**. Imprima **X** conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 **Entrada**
+
 A entrada contém 2 valores inteiros.
 
 **Saída**
+
 Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável **X** e pelo final de linha. Cuide para que tenha um espaço antes e depois do sinal de igualdade, conforme o exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -45,9 +49,11 @@ A fórmula para calcular a área de uma circunferência é: **area = π . raio²
 \- Efetue o cálculo da área, elevando o valor de **raio** ao quadrado e multiplicando por **π**.
 
 **Entrada**
+
 A entrada contém um valor de ponto flutuante (dupla precisão), no caso, a variável **raio**.
 
 **Saída**
+
 Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme exemplo abaixo, com 4 casas após o ponto decimal. Utilize variáveis de dupla precisão (double). Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -63,9 +69,11 @@ Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme ex
 Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável **SOMA**. A seguir escrever o valor desta variável.
 
 **Entrada**
+
 O arquivo de entrada contém 2 valores inteiros.
 
 **Saída**
+
 Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em branco antes e depois da igualdade seguido pelo valor correspondente à soma de A e B. Como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -81,9 +89,11 @@ Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em bra
 Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável **PROD**. A seguir mostre a variável **PROD** com mensagem correspondente.
 
 **Entrada**
+
 O arquivo de entrada contém 2 valores inteiros.
 
 **Saída**
+
 Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade. Não esqueça de imprimir o fim de linha após o produto, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -99,9 +109,11 @@ Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com u
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
 **Entrada**
+
 O arquivo de entrada contém 2 valores com uma casa decimal cada um.
 
 **Saída**
+
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 dígitos após o ponto decimal e com um espaço em branco antes e depois da igualdade. Utilize variáveis de dupla precisão (double) e como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -117,9 +129,11 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 d�
 Leia 3 valores, no caso, variáveis A, B e C, que são as três notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 2, a nota B tem peso 3 e a nota C tem peso 5. Considere que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
 **Entrada**
+
 O arquivo de entrada contém 3 valores com uma casa decimal, de dupla precisão (double).
 
 **Saída**
+
 Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 dígito após o ponto decimal e com um espaço em branco antes e depois da igualdade. Assim como todos os problemas, não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -135,9 +149,11 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 d�
 Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
 
 **Entrada**
+
 O arquivo de entrada contém 4 valores inteiros.
 
 **Saída**
+
 Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemplo abaixo, com um espaço em branco antes e depois da igualdade.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -153,9 +169,11 @@ Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemp
 Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
 
 **Entrada**
+
 O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada, respectivamente.
 
 **Saída**
+
 Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -171,9 +189,11 @@ Imprima o número e o salário do funcionário, conforme exemplo fornecido, com 
 Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
 
 **Entrada**
+
 O arquivo de entrada contém um texto (primeiro nome do vendedor) e 2 valores de dupla precisão (double) com duas casas decimais, representando o salário fixo do vendedor e montante total das vendas efetuadas por este vendedor, respectivamente.
 
 **Saída**
+
 Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -189,9 +209,11 @@ Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
 
 **Entrada**
+
 O arquivo de entrada contém duas linhas de dados. Em cada linha haverá 3 valores, respectivamente dois inteiros e um valor com 2 casas decimais.
 
 **Saída**
+
 A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando de deixar um espaço após os dois pontos e um espaço após o "R$". O valor deverá ser apresentado com 2 casas após o ponto.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -209,9 +231,11 @@ Faça um programa que calcule e mostre o volume de uma esfera sendo fornecido o 
 Dica: Ao utilizar a fórmula, procure usar (4/3.0) ou (4.0/3), pois algumas linguagens (dentre elas o C++), assumem que o resultado da divisão entre dois inteiros é outro inteiro.
 
 **Entrada**
+
 O arquivo de entrada contém um valor de ponto flutuante (dupla precisão), correspondente ao raio da esfera.
 
 **Saída**
+
 A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, com um espaço antes e um espaço depois da igualdade. O valor deverá ser apresentado com 3 casas após o ponto.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -232,9 +256,11 @@ d) a área do quadrado que tem lado B.
 e) a área do retângulo que tem lados A e B.
 
 **Entrada**
+
 O arquivo de entrada contém três valores com um dígito após o ponto decimal.
 
 **Saída**
+
 O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a uma das áreas descritas acima, sempre com mensagem correspondente e um espaço entre os dois pontos e o valor. O valor calculado deve ser apresentado com 3 dígitos após o ponto decimal.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -253,9 +279,11 @@ Faça um programa que leia três valores e apresente o maior dos três valores l
 Obs.: a fórmula apenas calcula o maior entre os dois primeiros (a e b). Um segundo passo, portanto é necessário para chegar no resultado esperado.
 
 **Entrada**
+
 O arquivo de entrada contém três valores inteiros.
 
 **Saída**
+
 Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maior".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -270,9 +298,11 @@ Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maio
 Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
 
 **Entrada**
+
 O arquivo de entrada contém dois valores: um valor inteiro **X** representando a distância total percorrida (em Km), e um valor real Y representando o total de combustível gasto, com um dígito após o ponto decimal.
 
 **Saída**
+
 Apresente o valor que representa o consumo médio do automóvel com 3 casas após a vírgula, seguido da mensagem "km/l".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -290,9 +320,11 @@ Leia os quatro valores correspondentes aos eixos x e y de dois pontos quaisquer 
 Distancia = <img src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1015.png">
 
 **Entrada**
+
 O arquivo de entrada contém duas linhas de dados. A primeira linha contém dois valores de ponto flutuante: **x1 y1** e a segunda linha contém dois valores de ponto flutuante **x2 y2**.
 
 **Saída**
+
 Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casas após o ponto decimal.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -312,9 +344,11 @@ Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do car
 Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro.
 
 **Entrada**
+
 O arquivo de entrada contém um número inteiro.
 
 **Saída**
+
 Imprima o tempo necessário seguido da mensagem "minutos".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -330,9 +364,11 @@ Imprima o tempo necessário seguido da mensagem "minutos".
 Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
 
 **Entrada**
+
 O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viagem (em horas) e o segundo é a velocidade média durante a mesma (em km/h).
 
 **Saída**
+
 Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -350,9 +386,11 @@ Imprima a quantidade de litros necessária para realizar a viagem, com três dí
 Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o **valor lido** e a relação de notas necessárias.
 
 **Entrada**
+
 O arquivo de entrada contém um valor inteiro **N** (0 < **N** < 1000000).
 
 **Saída**
+
 Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo necessárias, conforme o exemplo fornecido. Não esqueça de imprimir o fim de linha após cada linha, caso contrário seu programa apresentará a mensagem: “Presentation Error”.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -368,9 +406,11 @@ Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo n
 Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
 
 **Entrada**
+
 O arquivo de entrada contém um valor inteiro **N**.
 
 **Saída**
+
 Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:minutos:segundos, conforme exemplo fornecido.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -388,9 +428,11 @@ Leia um valor inteiro correspondente à idade de uma pessoa em dias e informe-a 
 Obs.: apenas para facilitar o cálculo, considere todo ano com 365 dias e todo mês com 30 dias. Nos casos de teste nunca haverá uma situação que permite 12 meses e alguns dias, como 360, 363 ou 364. Este é apenas um exercício com objetivo de testar raciocínio matemático simples.
 
 **Entrada**
+
 O arquivo de entrada contém um valor inteiro.
 
 **Saída**
+
 Imprima a saída conforme exemplo fornecido.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -406,9 +448,11 @@ Imprima a saída conforme exemplo fornecido.
 Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.
 
 **Entrada**
+
 O arquivo de entrada contém um valor de ponto flutuante **N** (0 ≤ **N** ≤ 1000000.00).
 
 **Saída**
+
 Imprima a quantidade mínima de notas e moedas necessárias para trocar o valor inicial, conforme exemplo fornecido.
 
 Obs: Utilize ponto (.) para separar a parte decimal.
@@ -426,9 +470,11 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem **"Valores aceitos"**, senão escrever **"Valores nao aceitos"**.
 
 **Entrada**
+
 Quatro números inteiros A, B, C e D.
 
 **Saída**
+
 Mostre a respectiva mensagem após a validação dos valores.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -443,9 +489,11 @@ Mostre a respectiva mensagem após a validação dos valores.
 Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
 
 **Entrada**
+
 Leia três valores de ponto flutuante (double) A, B e C.
 
 **Saída**
+
 Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impossivel calcular". Caso contrário, imprima o resultado das raízes com 5 dígitos após o ponto, com uma mensagem correspondente conforme exemplo abaixo. Imprima sempre o final de linha após cada mensagem.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -466,9 +514,11 @@ O símbolo ( representa "maior que". Por exemplo:
 (25,50] indica valores maiores que 25 Ex: 25.00001 até o valor 50.0000000
 
 **Entrada**
+
 O arquivo de entrada contém um número com ponto flutuante qualquer.
 
 **Saída**
+
 A saída deve ser uma mensagem conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -487,9 +537,11 @@ Com base na tabela abaixo, escreva um programa que leia o código de um item e a
 <img src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1038_pt.png">
 
 **Entrada**
+
 O arquivo de entrada contém dois valores inteiros correspondentes ao código e à quantidade de um item conforme tabela acima.
 
 **Saída**
+
 O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser pago, com 2 casas após o ponto decimal.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -507,9 +559,11 @@ Leia quatro números (N1, N2, N3, N4), cada um deles com uma casa decimal, corre
 No caso do aluno estar em exame, leia um valor correspondente à nota do exame obtida pelo aluno. Imprima então a mensagem "Nota do exame: " acompanhada pela nota digitada. Recalcule a média (some a pontuação do exame com a média anteriormente calculada e divida por 2). e imprima a mensagem "Aluno aprovado." (caso a média final seja 5.0 ou mais ) ou "Aluno reprovado.", (caso a média tenha ficado 4.9 ou menos). Para estes dois casos (aprovado ou reprovado após ter pego exame) apresente na última linha uma mensagem "Media final: " seguido da média final para esse aluno.
 
 **Entrada**
+
 A entrada contém quatro números de ponto flutuante correspendentes as notas dos alunos.
 
 **Saída**
+
 Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens devem ser impressas conforme a descrição do problema. Não esqueça de imprimir o enter após o final de cada linha, caso contrário obterá "Presentation Error".
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -531,9 +585,11 @@ Se o ponto estiver na origem, escreva a mensagem “Origem”.
 Se o ponto estiver sobre um dos eixos escreva “Eixo X” ou “Eixo Y”, conforme for a situação.
 
 **Entrada**
+
 A entrada contem as coordenadas de um ponto.
 
 **Saída**
+
 A saída deve apresentar o quadrante em que o ponto se encontra.
 
 
@@ -550,9 +606,11 @@ A saída deve apresentar o quadrante em que o ponto se encontra.
 Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.
 
 **Entrada**
+
 A entrada contem três números inteiros.
 
 **Saída**
+
 Imprima a saída conforme foi especificado.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -572,9 +630,11 @@ Em caso negativo, calcule a área do trapézio que tem A e B como base e C como 
 Area = XX.X
 
 **Entrada**
+
 A entrada contém três valores reais.
 
 **Saída**
+
 O resultado deve ser apresentado com uma casa decimal.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -589,9 +649,11 @@ O resultado deve ser apresentado com uma casa decimal.
 Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem **"Sao Multiplos"** ou **"Nao sao Multiplos"**, indicando se os valores lidos são múltiplos entre si.
 
 **Entrada**
+
 A entrada contém valores inteiros.
 
 **Saída**
+
 A saída deve conter uma das mensagens conforme descrito acima.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -613,9 +675,11 @@ Leia 3 valores de ponto flutuante A, B e C e ordene-os em ordem decrescente, de 
 - se apenas dois dos lados forem iguais, apresente a mensagem: TRIANGULO ISOSCELES
 
 **Entrada**
+
 A entrada contem três valores de ponto flutuante de dupla precisão A (0 < A) , B (0 < B) e C (0 < C).
 
 **Saída**
+
 Imprima todas as classificações do triângulo especificado na entrada.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -633,9 +697,11 @@ Imprima todas as classificações do triângulo especificado na entrada.
 Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
 
 **Entrada**
+
 A entrada contém dois valores inteiros representando a hora de início e a hora de fim do jogo.
 
 **Saída**
+
 Apresente a duração do jogo conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -653,9 +719,11 @@ Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seg
 Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
 
 **Entrada**
+
 Quatro números inteiros representando a hora de início e fim do jogo.
 
 **Saída**
+
 Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -681,9 +749,11 @@ A empresa ABC resolveu conceder um aumento de salários a seus funcionários de 
 Leia o salário do funcionário e calcule e mostre o novo salário, bem como o valor de reajuste ganho e o índice reajustado, em percentual.
 
 **Entrada**
+
 A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 
 **Saída**
+
 Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos devem ser apresentados com 2 casas decimais) e o percentual de reajuste ganho, conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -701,9 +771,11 @@ Neste problema, você deverá ler 3 palavras que definem o tipo de animal possí
 <img src="https://resources.beecrowd.com.br/gallery/images/problems/UOJ_1049_b.png">
 
 **Entrada**
+
 A entrada contém 3 palavras, uma em cada linha, necessárias para identificar o animal segundo a figura acima, com todas as letras minúsculas.
 
 **Saída**
+
 Imprima o nome do animal correspondente à entrada fornecida.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -719,9 +791,11 @@ Imprima o nome do animal correspondente à entrada fornecida.
 Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
 
 **Entrada**
+
 Seis valores, negativos e/ou positivos.
 
 **Saída**
+
 Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -735,9 +809,11 @@ Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
 
 **Entrada**
+
 A entrada contém 6 números que podem ser valores inteiros ou de ponto flutuante. Pelo menos um destes números será positivo.
 
 **Saída**
+
 O primeiro valor de saída é a quantidade de valores positivos. A próxima linha deve mostrar a média dos valores positivos digitados.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -751,9 +827,11 @@ O primeiro valor de saída é a quantidade de valores positivos. A próxima linh
 Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
 
 **Entrada**
+
 O arquivo de entrada contém 5 valores inteiros quaisquer.
 
 **Saída**
+
 Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valores pares lidos.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -767,9 +845,11 @@ Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valor
 Leia 2 valores inteiros **X** e **Y**. A seguir, calcule e mostre a soma dos números impares entre eles.
 
 **Entrada**
+
 O arquivo de entrada contém dois valores inteiros.
 
 **Saída**
+
 O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímpares que estão entre os valores fornecidos na entrada que deverá caber em um inteiro.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -786,10 +866,12 @@ Leia um valor inteiro **N**. Este valor será a quantidade de valores inteiros *
 Mostre quantos destes valores **X** estão dentro do intervalo [10,20] e quantos estão fora do intervalo, mostrando essas informações.
 
 **Entrada**
+
 A primeira linha da entrada contém um valor inteiro **N** (**N** < 10000), que indica o número de casos de teste.
 Cada caso de teste a seguir é um valor inteiro **X** (-10<sup>7</sup> < **X** <10<sup>7</sup>).
  
 **Saída**
+
 Para cada caso, imprima quantos números estão dentro (**in**) e quantos valores estão fora (**out**) do intervalo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -803,9 +885,11 @@ Para cada caso, imprima quantos números estão dentro (**in**) e quantos valore
 Leia um valor inteiro **N**. Apresente o quadrado de cada um dos valores pares, de 1 até **N**, inclusive **N**, se for o caso.
 
 **Entrada**
+
 A entrada contém um valor inteiro **N** (5 < **N** < 2000).
 
 **Saída**
+
 Imprima o quadrado de cada um dos valores pares, de 1 até **N**, conforme o exemplo abaixo.
 
 Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006 ao invés de 1000000 o que ocasionará resposta errada. Neste caso, configure a precisão adequadamente para que isso não ocorra.
@@ -822,9 +906,11 @@ Leia 1 valor inteiro N (2 < N < 1000). A seguir, mostre a tabuada de N:
 1 x N = N      2 x N = 2N        ...       10 x N = 10N
 
 **Entrada**
+
 A entrada contém um valor inteiro N (2 < N < 1000).
 
 **Saída**
+
 Imprima a tabuada de N, conforme o exemplo fornecido.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -838,9 +924,11 @@ Imprima a tabuada de N, conforme o exemplo fornecido.
 Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
 
 **Entrada**
+
 A entrada contém vários casos de teste. Cada caso contém dois valores inteiros X e Y. A leitura deve ser encerrada ao ser fornecido valores iguais para X e Y.
 
 **Saída**
+
 Para cada caso de teste imprima “Crescente”, caso os valores tenham sido digitados na ordem crescente, caso contrário imprima a mensagem “Decrescente”.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -854,9 +942,11 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.
 
 **Entrada**
+
 O arquivo de entrada contém 2 valores inteiros quaisquer, não necessariamente em ordem crescente.
 
 **Saída**
+
 Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores lidos na entrada, inclusive ambos se for o caso.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
@@ -870,9 +960,11 @@ Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores
 Escreva um programa que leia um valor inteiro N. Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
 
 **Entrada**
+
 O arquivo de entrada contém um número inteiro positivo N.
 
 **Saída**
+
 Imprima a saída conforme o exemplo fornecido.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
