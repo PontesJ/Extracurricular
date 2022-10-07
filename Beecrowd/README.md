@@ -644,7 +644,28 @@ Apresente a duração do jogo conforme exemplo abaixo.
 | 0 0 | O JOGO DUROU 24 HORA(S) |
 | 2 16 | O JOGO DUROU 14 HORA(S) |
 
-**<a href="./Exercícios/bee1046.py">Resolução</a>**
+**<a href="../Python/Beecrowd/Exercícios/bee1046.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1047">Beecrowd 1047 - Tempo de Jogo com Minutos</a>
+
+Leia a hora inicial, minuto inicial, hora final e minuto final de um jogo. A seguir calcule a duração do jogo.
+
+Obs: O jogo tem duração mínima de um (1) minuto e duração máxima de 24 horas.
+
+**Entrada**
+Quatro números inteiros representando a hora de início e fim do jogo.
+
+**Saída**
+Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
+
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 7 8 9 10 | O JOGO DUROU 2 HORA(S) E 2 MINUTO(S) |
+| 7 7 7 7 | O JOGO DUROU 24 HORA(S) E 0 MINUTO(S) |
+| 7 10 8 9 | O JOGO DUROU 0 HORA(S) E 59 MINUTO(S) |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1047.py">Resolução</a>**
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1048">Beecrowd 1048 - Aumento de Salário</a>
 
