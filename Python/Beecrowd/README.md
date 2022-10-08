@@ -609,7 +609,6 @@ A entrada contém apenas um valor de ponto flutuante, com duas casas decimais.
 
 Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de Renda, com duas casas após o ponto. Se o valor de entrada for menor ou igual a 2000, deverá ser impressa a mensagem "Isento".
 
-
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 | 3002.00 | R$ 80.36 |
@@ -617,3 +616,21 @@ Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de
 | 4520.00 | R$ 355.60 |
 
 **<a href="./Exercícios/bee1051.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1052">Beecrowd 1052 - Mês</a>
+
+Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este valor, deve ser apresentado como resposta o mês do ano por extenso, em inglês, com a primeira letra maiúscula.
+
+**Entrada**
+
+A entrada contém um único valor inteiro.
+
+**Saída**
+
+Imprima por extenso o nome do mês correspondente ao número existente na entrada, com a primeira letra em maiúscula.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 4 | April |
+
+**<a href="./Exercícios/bee1052.py">Resolução</a>**
