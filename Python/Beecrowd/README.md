@@ -634,3 +634,21 @@ Imprima por extenso o nome do mês correspondente ao número existente na entrad
 | 4 | April |
 
 **<a href="./Exercícios/bee1052.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1059">Beecrowd 1059 - Mês</a>
+
+Faça um programa que mostre os números pares entre 1 e 100, inclusive.
+
+**Entrada**
+
+Neste problema extremamente simples de repetição não há entrada.
+
+**Saída**
+
+Imprima todos os números pares entre 1 e 100, inclusive se for o caso, um em cada linha.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  | 2<br>4<br>6<br>...<br>100 |
+
+**<a href="./Exercícios/bee1059.py">Resolução</a>**
