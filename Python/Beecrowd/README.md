@@ -583,7 +583,7 @@ A entrada consiste de um único valor inteiro.
 
 **Saída**
 
-Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima DDD nao cadastrado caso não existir DDD correspondente ao número digitado.
+Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima *DDD nao cadastrado* caso não existir DDD correspondente ao número digitado.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
