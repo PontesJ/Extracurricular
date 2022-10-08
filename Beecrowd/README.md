@@ -988,6 +988,24 @@ Imprima todos os valores ímpares de 1 até **X**, inclusive **X**, se for o cas
 
 **<a href="../Python/Beecrowd/Exercícios/bee1067.py">Resolução</a>**
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1070">Beecrowd 1070 - Seis Números Ímpares</a>
+
+Leia um valor inteiro **X**. Em seguida apresente os 6 valores ímpares consecutivos a partir de **X**, um valor por linha, inclusive o **X** ser for o caso.
+
+**Entrada**
+
+A entrada será um valor inteiro positivo.
+
+**Saída**
+
+A saída será uma sequência de seis números ímpares.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 8 | 9<br>11<br>13<br>15<br>17<br>19 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1070.py">Resolução</a>**
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1071">Beecrowd 1071 - Soma de Impares Consecutivos I</a>
 
 Leia 2 valores inteiros **X** e **Y**. A seguir, calcule e mostre a soma dos números impares entre eles.

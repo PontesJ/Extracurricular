@@ -715,3 +715,21 @@ Imprima todos os valores ímpares de 1 até **X**, inclusive **X**, se for o cas
 | 8 | 1<br>3<br>5<br>7 |
 
 **<a href="./Exercícios/bee1067.py">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1070">Beecrowd 1070 - Seis Números Ímpares</a>
+
+Leia um valor inteiro **X**. Em seguida apresente os 6 valores ímpares consecutivos a partir de **X**, um valor por linha, inclusive o **X** ser for o caso.
+
+**Entrada**
+
+A entrada será um valor inteiro positivo.
+
+**Saída**
+
+A saída será uma sequência de seis números ímpares.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 8 | 9<br>11<br>13<br>15<br>17<br>19 |
+
+**<a href="./Exercícios/bee1070.py">Resolução</a>**
