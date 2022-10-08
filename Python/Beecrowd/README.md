@@ -667,10 +667,10 @@ Como entrada, na primeira linha vai haver a descrição “Dia”, seguido de um
 
 Na saída, deve ser apresentada a duração do evento, no seguinte formato:
 
-W dia(s)
-X hora(s)
-Y minuto(s)
-Z segundo(s)
+W dia(s)<br>
+X hora(s)<br>
+Y minuto(s)<br>
+Z segundo(s)<br>
 
 *Obs: Considere que o evento do caso de teste para o problema tem duração mínima de 1 minuto.*
 
