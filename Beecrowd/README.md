@@ -914,7 +914,7 @@ Z segundo(s)<br>
 | ------------- | ------------- |
 | Dia 5<br>08 : 12 : 23<br>Dia 9<br>06 : 13 : 23 | 3 dia(s)<br>22 hora(s)<br>1 minuto(s)<br>0 segundo(s) |
 
-**<a href="./Exercícios/bee1061.py">Resolução</a>**
+**<a href="../Python/Beecrowd/Exercícios/bee1061.py">Resolução</a>**
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1064">Beecrowd 1064 - Positivos e Média</a>
 
@@ -951,6 +951,24 @@ Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valor
 | 7<br>-5<br>6<br>-4<br>12 | 3 valores pares |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1065/Program.cs">Resolução</a>**
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1066">Beecrowd 1066 - Pares, Ímpares, Positivos e Negativos</a>
+
+Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
+
+**Entrada**
+
+O arquivo de entrada contém 5 valores inteiros quaisquer.
+
+**Saída**
+
+Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não esquecendo o final de linha após cada uma.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| -5<br>0<br>-3<br>-4<br>12 | 3 valor(es) par(es)<br>2 valor(es) impar(es)<br>1 valor(es) positivo(s)<br>3 valor(es) negativo(s) |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1066.py">Resolução</a>**
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1071">Beecrowd 1071 - Soma de Impares Consecutivos I</a>
 
