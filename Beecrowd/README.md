@@ -970,6 +970,24 @@ Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não es
 
 **<a href="../Python/Beecrowd/Exercícios/bee1066.py">Resolução</a>**
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1067">Beecrowd 1067 - Números Ímpares</a>
+
+Leia um valor inteiro **X** (1 <= **X** <= 1000). Em seguida mostre os ímpares de 1 até **X**, um valor por linha, inclusive o **X**, se for o caso.
+
+**Entrada**
+
+O arquivo de entrada contém 1 valor inteiro qualquer.
+
+**Saída**
+
+Imprima todos os valores ímpares de 1 até **X**, inclusive **X**, se for o caso.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 8 | 1<br>3<br>5<br>7 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1067.py">Resolução</a>**
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1071">Beecrowd 1071 - Soma de Impares Consecutivos I</a>
 
 Leia 2 valores inteiros **X** e **Y**. A seguir, calcule e mostre a soma dos números impares entre eles.
