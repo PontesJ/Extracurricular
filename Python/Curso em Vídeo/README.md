@@ -532,3 +532,9 @@ B) Em que posição foi digitado o valor 3.<br>
 C) Quais foram os números pares.
 
 **<a href="./Exercícios/ex075.py">Resolução</a>**
+
+## <a href="https://youtu.be/Qp2cXfCHk2I">Exercício 076 - Lista de Preços com Tupla</a>
+
+Crie um programa que tenha uma tupla única com nomes de produtos e seus respectivos preços, na sequência. No final, mostre uma listagem de preços, organizando os dados em forma tabular.
+
+**<a href="./Exercícios/ex076.py">Resolução</a>**
