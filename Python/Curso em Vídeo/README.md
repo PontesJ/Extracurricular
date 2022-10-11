@@ -523,7 +523,7 @@ Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla
 
 **<a href="./Exercícios/ex074.py">Resolução</a>**
 
-## <a href="">Exercício 075 - Análise de dados em uma Tupla</a>
+## <a href="https://youtu.be/1u7oA8ckjAc">Exercício 075 - Análise de dados em uma Tupla</a>
 
 Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
 
