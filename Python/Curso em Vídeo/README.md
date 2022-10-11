@@ -522,3 +522,13 @@ D)Em que posição está o time da Chapecoense.
 Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
 
 **<a href="./Exercícios/ex074.py">Resolução</a>**
+
+## <a href="">Exercício 075 - Análise de dados em uma Tupla</a>
+
+Desenvolva um programa que leia quatro valores pelo teclado e guarde-os em uma tupla. No final, mostre:
+
+A) Quantas vezes aparece o valor 9.<br>
+B) Em que posição foi digitado o valor 3.<br>
+C) Quais foram os números pares.
+
+**<a href="./Exercícios/ex075.py">Resolução</a>**
