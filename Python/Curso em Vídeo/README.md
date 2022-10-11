@@ -578,3 +578,9 @@ C) Se o valor 5 foi digitado e está ou não na lista.
 Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão conter apenas os valores pares e os valores impares digitados, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
 
 **<a href="./Exercícios/ex082.py">Resolução</a>**
+
+## <a href="https://youtu.be/dvhP41Z7TLk">Exercício 083 - Validando expressões matemáticas</a>
+
+Crie um programa onde o usuário digite uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se a expressão passada está com os parênteses abertos e fechados na ordem correta.
+
+**<a href="./Exercícios/ex083.py">Resolução</a>**
