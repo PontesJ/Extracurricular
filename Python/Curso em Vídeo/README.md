@@ -522,4 +522,9 @@ C)Times em ordem alfabética.
 
 D)Em que posição está o time da Chapecoense.
 
+A) Os 5 primeiros.<br>
+B) Os últimos 4 colocados.<br>
+C)Times em ordem alfabética.<br>
+D)Em que posição está o time da Chapecoense.
+
 **<a href="./Exercícios/ex073.py">Resolução</a>**
