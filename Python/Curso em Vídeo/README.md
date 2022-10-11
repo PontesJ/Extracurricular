@@ -509,3 +509,17 @@ Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por 
 Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
 
 **<a href="./Exercícios/ex072.py">Resolução</a>**
+
+## <a href="https://youtu.be/RexybLcGewA">Exercício 073 - Tuplas com Times de Futebol</a>
+
+Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
+
+A) Os 5 primeiros.
+
+B) Os últimos 4 colocados.
+
+C)Times em ordem alfabética.
+
+D)Em que posição está o time da Chapecoense.
+
+**<a href="./Exercícios/ex073.py">Resolução</a>**
