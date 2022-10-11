@@ -544,3 +544,9 @@ Crie um programa que tenha uma tupla única com nomes de produtos e seus respect
 Crie um programa que tenha uma tupla com várias palavras (não usar acentos). Depois disso, você deve mostrar, para cada palavra, quais são as suas vogais.
 
 **<a href="./Exercícios/ex077.py">Resolução</a>**
+
+## <a href="https://youtu.be/q8Z1cRdJnfk">Exercício 078 - Maior e Menor valores na Lista</a>
+
+Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitados e as suas respectivas posições na lista.
+
+**<a href="./Exercícios/ex078.py">Resolução</a>**
