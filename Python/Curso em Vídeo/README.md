@@ -501,3 +501,11 @@ Crie um programa que simule o funcionamento de um caixa eletrônico. No início,
 OBS: Considere que o caixa possui cédulas de R\$50, R\$20, R\$10, R$1.
 
 **<a href="./Exercícios/ex071.py">Resolução</a>**
+
+## <a href="https://youtu.be/ei2Kr3ccfO0">Exercício 072 - Número por Extenso</a>
+
+Crie um programa que tenha uma tupla totalmente preenchida com uma contagem por extenso, de zero até vinte.
+
+Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
+
+**<a href="./Exercícios/ex072.py">Resolução</a>**
