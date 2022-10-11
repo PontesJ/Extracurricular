@@ -556,3 +556,9 @@ Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No fin
 Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
 
 **<a href="./Exercícios/ex079.py">Resolução</a>**
+
+## <a href="https://youtu.be/QDpwjBYRcVE">Exercício 080 - Lista ordenada sem repetições</a>
+
+Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista, já na posição correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na tela.
+
+**<a href="./Exercícios/ex080.py">Resolução</a>**
