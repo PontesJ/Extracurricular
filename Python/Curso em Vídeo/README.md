@@ -516,3 +516,9 @@ C)Times em ordem alfabética.<br>
 D)Em que posição está o time da Chapecoense.
 
 **<a href="./Exercícios/ex073.py">Resolução</a>**
+
+## <a href="https://youtu.be/mlwt2CRQkTQ">Exercício 074 - Maior e menor valores em Tupla</a>
+
+Crie um programa que vai gerar cinco números aleatórios e colocar em uma tupla. Depois disso, mostre a listagem de números gerados e também indique o menor e o maior valor que estão na tupla.
+
+**<a href="./Exercícios/ex074.py">Resolução</a>**
