@@ -594,3 +594,9 @@ B) Uma listagem com as pessoas mais pesadas.<br>
 C) Uma listagem com as pessoas mais leves.
 
 **<a href="./Exercícios/ex084.py">Resolução</a>**
+
+## <a href="https://youtu.be/2-fy24bbMJ4">Exercício 085 - Listas com pares e ímpares</a>
+
+Crie um programa onde o usuário possa digitar sete valores numéricos e cadastre-os em uma lista única que mantenha separados os valores pares e ímpares. No final, mostre os valores pares e ímpares em ordem crescente.
+
+**<a href="./Exercícios/ex085.py">Resolução</a>**
