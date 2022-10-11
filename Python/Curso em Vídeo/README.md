@@ -550,3 +550,9 @@ Crie um programa que tenha uma tupla com várias palavras (não usar acentos). D
 Faça um programa que leia 5 valores numéricos e guarde-os em uma lista. No final, mostre qual foi o maior e o menor valor digitados e as suas respectivas posições na lista.
 
 **<a href="./Exercícios/ex078.py">Resolução</a>**
+
+## <a href="https://youtu.be/LkAzRnc_GPk">Exercício 079 - Valores únicos em uma Lista</a>
+
+Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista lá dentro, ele não será adicionado. No final, serão exibidos todos os valores únicos digitados, em ordem crescente.
+
+**<a href="./Exercícios/ex079.py">Resolução</a>**
