@@ -607,6 +607,17 @@ Crie um programa que declare uma matriz de dimensão 3×3 e preencha com valores
 
 **<a href="./Exercícios/ex086.py">Resolução</a>**
 
+## <a href="https://youtu.be/QhS829x6up4">Exercício 087 - Mais sobre Matriz em Python</a>
+
+Aprimore o desafio anterior, mostrando no final:
+
+A) A soma de todos os valores pares digitados.<br>
+B) A soma dos valores da terceira coluna.<br>
+C) O maior valor da segunda linha.
+
+**<a href="./Exercícios/ex087.py">Resolução</a>**
+
+
 <!-- 
 Template
 
@@ -614,4 +625,6 @@ Template
 
 
 
-**<a href="./Exercícios/exLLL.py">Resolução</a>** -->
+**<a href="./Exercícios/exLLL.py">Resolução</a>**
+
+-->
