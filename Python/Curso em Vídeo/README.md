@@ -572,3 +572,9 @@ B) A lista de valores, ordenada em forma decrescente.
 C) Se o valor 5 foi digitado e está ou não na lista.
 
 **<a href="./Exercícios/ex081.py">Resolução</a>**
+
+## <a href="https://youtu.be/uk0gDFQEo_I">Exercício 082 - Dividindo valores em várias listas</a>
+
+Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, crie duas listas extras que vão conter apenas os valores pares e os valores impares digitados, respectivamente. Ao final, mostre o conteúdo das três listas geradas.
+
+**<a href="./Exercícios/ex082.py">Resolução</a>**
