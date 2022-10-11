@@ -474,10 +474,8 @@ Faça um programa que jogue par ou ímpar com o computador. O jogo só será int
 
 Crie um programa que leia a idade e o sexo de várias pessoas. A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não continuar. No final, mostre:
 
-A) Quantas pessoas tem mais de 18 anos.
-
-B) Quantos homens foram cadastrados.
-
+A) Quantas pessoas tem mais de 18 anos.<br>
+B) Quantos homens foram cadastrados.<br>
 C) Quantas mulheres tem menos de 20 anos. 
 
 **<a href="./Exercícios/ex069.py">Resolução</a>**
@@ -486,10 +484,8 @@ C) Quantas mulheres tem menos de 20 anos.
 
 Crie um programa que leia o nome e o preço de vários produtos. O programa deverá perguntar se o usuário vai continuar. No final, mostre:
 
-A) Qual é o total gasto na compra
-
-B) Quantos produtos custam mais de R$1000.
-
+A) Qual é o total gasto na compra.<br>
+B) Quantos produtos custam mais de R$1000.<br>
 C) Qual é o nome do produto mais barato.
 
 **<a href="./Exercícios/ex070.py">Resolução</a>**
@@ -513,14 +509,6 @@ Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por
 ## <a href="https://youtu.be/RexybLcGewA">Exercício 073 - Tuplas com Times de Futebol</a>
 
 Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
-
-A) Os 5 primeiros.
-
-B) Os últimos 4 colocados.
-
-C)Times em ordem alfabética.
-
-D)Em que posição está o time da Chapecoense.
 
 A) Os 5 primeiros.<br>
 B) Os últimos 4 colocados.<br>
