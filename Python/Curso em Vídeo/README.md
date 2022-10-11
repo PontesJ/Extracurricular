@@ -600,3 +600,18 @@ C) Uma listagem com as pessoas mais leves.
 Crie um programa onde o usuário possa digitar sete valores numéricos e cadastre-os em uma lista única que mantenha separados os valores pares e ímpares. No final, mostre os valores pares e ímpares em ordem crescente.
 
 **<a href="./Exercícios/ex085.py">Resolução</a>**
+
+## <a href="https://youtu.be/EGmlFdwD4C4">Exercício 086 - Matriz em Python</a>
+
+Crie um programa que declare uma matriz de dimensão 3×3 e preencha com valores lidos pelo teclado. No final, mostre a matriz na tela, com a formatação correta.
+
+**<a href="./Exercícios/ex086.py">Resolução</a>**
+
+<!-- 
+Template
+
+## <a href="XXXXX">Exercício LLL - XXXXXX</a>
+
+
+
+**<a href="./Exercícios/exLLL.py">Resolução</a>** -->
