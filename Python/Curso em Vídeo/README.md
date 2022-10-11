@@ -584,3 +584,13 @@ Crie um programa que vai ler vários números e colocar em uma lista. Depois dis
 Crie um programa onde o usuário digite uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se a expressão passada está com os parênteses abertos e fechados na ordem correta.
 
 **<a href="./Exercícios/ex083.py">Resolução</a>**
+
+## <a href="https://youtu.be/zPtvuLiEdKk">Exercício 084 - Lista composta e análise de dados</a>
+
+Faça um programa que leia nome e peso de várias pessoas, guardando tudo em uma lista. No final mostre:
+
+A) Quantas pessoas foram cadastradas.<br>
+B) Uma listagem com as pessoas mais pesadas.<br>
+C) Uma listagem com as pessoas mais leves.
+
+**<a href="./Exercícios/ex084.py">Resolução</a>**
