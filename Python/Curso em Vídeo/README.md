@@ -562,3 +562,13 @@ Crie um programa onde o usuário possa digitar vários valores numéricos e cada
 Crie um programa onde o usuário possa digitar cinco valores numéricos e cadastre-os em uma lista, já na posição correta de inserção (sem usar o sort()). No final, mostre a lista ordenada na tela.
 
 **<a href="./Exercícios/ex080.py">Resolução</a>**
+
+## <a href="https://youtu.be/SXJKAVVlvGA">Exercício 081 - Extraindo dados de uma Lista</a>
+
+Crie um programa que vai ler vários números e colocar em uma lista. Depois disso, mostre:
+
+A) Quantos números foram digitados.<br>
+B) A lista de valores, ordenada em forma decrescente.
+C) Se o valor 5 foi digitado e está ou não na lista.
+
+**<a href="./Exercícios/ex081.py">Resolução</a>**
