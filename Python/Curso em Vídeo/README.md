@@ -619,10 +619,15 @@ C) O maior valor da segunda linha.
 
 ## <a href="https://youtu.be/Hd7Ycaj61xE">Exercício 088 - Palpites para a Mega Sena</a>
 
-Faça um programa que ajude um jogador da MEGA SENA a criar palpites.O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista composta.
+Faça um programa que ajude um jogador da MEGA SENA a criar palpites. O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista composta.
 
 **<a href="./Exercícios/ex088.py">Resolução</a>**
 
+## <a href="https://youtu.be/7xrCJnniqMw">Exercício 089 - Boletim com listas compostas</a>
+
+Crie um programa que leia nome e duas notas de vários alunos e guarde tudo em uma lista composta. No final, mostre um boletim contendo a média de cada um e permita que o usuário possa mostrar as notas de cada aluno individualmente.
+
+**<a href="./Exercícios/ex089.py">Resolução</a>**
 
 <!-- 
 Template
