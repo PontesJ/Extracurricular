@@ -617,6 +617,12 @@ C) O maior valor da segunda linha.
 
 **<a href="./Exercícios/ex087.py">Resolução</a>**
 
+## <a href="https://youtu.be/Hd7Ycaj61xE">Exercício 088 - Palpites para a Mega Sena</a>
+
+Faça um programa que ajude um jogador da MEGA SENA a criar palpites.O programa vai perguntar quantos jogos serão gerados e vai sortear 6 números entre 1 e 60 para cada jogo, cadastrando tudo em uma lista composta.
+
+**<a href="./Exercícios/ex088.py">Resolução</a>**
+
 
 <!-- 
 Template
