@@ -1,0 +1,16 @@
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.exe
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.deps.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.runtimeconfig.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.runtimeconfig.dev.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\ref\11.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\bin\Debug\net5.0\11.pdb
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.csproj.AssemblyReference.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.AssemblyInfoInputs.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.AssemblyInfo.cs
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.csproj.CoreCompileInputs.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\ref\11.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.pdb
+D:\GitHub Desktop\Extracurricular\CSharp\POO\11\obj\Debug\net5.0\11.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.exe
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.deps.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.runtimeconfig.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.runtimeconfig.dev.json
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\ref\08.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\bin\Debug\net5.0\08.pdb
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.csproj.AssemblyReference.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.AssemblyInfoInputs.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.AssemblyInfo.cs
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.csproj.CoreCompileInputs.cache
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\ref\08.dll
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.pdb
+D:\GitHub Desktop\Extracurricular\CSharp\POO\08\obj\Debug\net5.0\08.genruntimeconfig.cache
