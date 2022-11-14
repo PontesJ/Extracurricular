@@ -57,3 +57,15 @@
 ## <a href="https://youtu.be/le8DIPlN2ic">Aula 12 - Herança</a>
 
 **<a href="./Aulas/12">Códigos</a>**
+
+---
+
+## <a href="https://youtu.be/JjIqcPyVO0o">Aula 13 - Polimorfismo</a>
+
+**<a href="./Aulas/13">Códigos</a>**
+
+---
+
+## <a href="https://youtu.be/69v1RXUFawc">Aula 14 - Atributos e Métodos Estáticos</a>
+
+**<a href="./Aulas/14">Códigos</a>**
