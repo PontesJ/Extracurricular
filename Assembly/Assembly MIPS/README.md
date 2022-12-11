@@ -2,6 +2,10 @@
 
 <img src= "https://i.imgur.com/MRXvBIg.png" width = 500>
 
+Obs:
+- Para caracteres ou cadeia de caracteres = la (load address).
+- Para tipo .word = lw (load word).
+
 ## <a href="https://youtu.be/XtznbGfyd1o">Aula 1 - Instalação da IDE MARs e Programa Olá, mundo! (Hello World)</a>
 
 **<a href="/Aulas/Programa 01.asm">Código:</a>**
@@ -38,15 +42,22 @@
 	syscall
 ```
 
-## <a href="">Aula X - XXXXX</a>
+## <a href="https://youtu.be/cfHK3xv4tYc">Aula 3 - Impressão de Inteiros (int)</a>
 
-**<a href="/Aulas/Programa XX.asm">Código:</a>**
-
-```
+**<a href="/Aulas/Programa 03.asm">Código:</a>**
 
 ```
-
-
+.data
+	idade: .word 51 # Valor inteiro na memória RAM
+	
+.text
+	li $v0, 1
+	lw $a0, idade
+	syscall
+	
+	li $v0, 10
+	syscall
+```
 
 <!--
 
