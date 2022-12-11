@@ -1,6 +1,6 @@
 # <a href="https://youtube.com/playlist?list=PLHCyLhqWSaHBFGanvPRIIvta3eSna2G6Z">Assembly MIPS</a>
 
-<img src= "https://i.imgur.com/MRXvBIg.png">
+<img src= "https://i.imgur.com/MRXvBIg.png" width = 500>
 
 ## <a href="https://youtu.be/XtznbGfyd1o">Aula 1 - Instalação da IDE MARs e Programa Olá, mundo! (Hello World)</a>
 
