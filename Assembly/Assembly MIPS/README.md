@@ -190,6 +190,103 @@ Obs:
 
 ---
 
+## <a href="https://youtu.be/McVQ0d_25Hw">Aula 9 - Leitura de Strings (Caracteres)</a>
+
+<img src="https://i.imgur.com/RZZLRDi.png" width = 500>
+
+**<a href="/Aulas/Programa 09.asm">Código:</a>**
+
+```
+.data
+	pergunta: .asciiz "Digite seu nome: "
+	saudacao: .asciiz "Olá, "
+	nome: .space 25
+.text
+	li $v0, 4 # Imprimi string
+	la $a0, pergunta # $a0 = pergunta
+	syscall # Imprimi
+	
+	li $v0, 8 # Lê no console
+	la $a0, nome # $a0 = nome / nome = valor digitado pelo usuário
+	la $a1, 25 #a1 = 25 / Tamanho máximo do valor
+	syscall # Pede a leitura
+	
+	li $v0, 4 # Imprimi string
+	la $a0, saudacao # $a0 = saudacao
+	syscall # Imprimi
+	
+	li $v0 4 # Imprimi string
+	la $a0, nome # $a0 = nome
+	syscall # Imprimi
+	
+	li $v0, 10
+	syscall
+```
+
+---
+
+## <a href="https://youtu.be/R2Lbr93GedU">Aula 12 - Comandos Condicionais Se (BEQ BNE BLT BGT BLE BGE)</a>
+
+<img src="https://i.imgur.com/EUcSAwe.png" width = 500>
+
+**<a href="/Aulas/Programa 12.asm">Código:</a>**
+
+```
+.data
+	msg: .asciiz "Forneça um número: "
+	numero: .asciiz "O número "
+	par: .asciiz " é par"
+	impar: .asciiz " é ímpar"
+.text
+	li $v0, 4 # Imprimi string
+	la $a0, msg # $a0 = msg
+	syscall # Imprimi
+	
+	li $v0, 5 # Lê no console
+	syscall # Lê
+	
+	li $t0, 2 # $t0 = 2
+	div $v0, $t0 # $v0 / $t0
+	mfhi $t0 # $t0 = Resto da divisão
+	
+	move $t1, $v0 # $t1 = $v0
+	
+	beq $t0, $zero, imprimiPar # Se $t0 for igual a $zero, vá para "imprimiPar"
+	
+	li $v0, 4 # Imprimi string
+	la $a0, numero
+	syscall
+		
+	li $v0, 1 # Imprimi inteiro
+	move $a0, $t1 # $a0 = $t0
+	syscall
+		
+	li $v0, 4 # Imprimi string
+	la $a0, impar
+	syscall
+	
+	li $v0, 10
+	syscall
+	
+	imprimiPar:
+		li $v0, 4 # Imprimi string
+		la $a0, numero
+		syscall
+		
+		li $v0, 1 # Imprimi inteiro
+		move $a0, $t1 # $a0 = $t0
+		syscall
+		
+		li $v0, 4 # Imprimi string
+		la $a0, par
+		syscall
+		
+		li $v0, 10
+		syscall
+```
+
+---
+
 <!--
 
 Template
