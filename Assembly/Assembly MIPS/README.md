@@ -106,6 +106,8 @@ Obs:
 ## <a href="https://youtu.be/Lm6OMCIezoM">Aula 6 - Multiplicação de Inteiros (mul e sll) - SHIFT LEFT</a>
 
 <img src="https://i.imgur.com/LVMY4JV.png" width = 500>
+<img src="https://i.imgur.com/POX9zRL.png" width = 500>
+<img src="https://i.imgur.com/a46Z6AR.png" width = 500>
 
 **<a href="/Aulas/Programa 06.asm">Código:</a>**
 
@@ -124,6 +126,27 @@ Obs:
 	
 	li $v0 , 10
 	syscall
+```
+
+---
+
+## <a href="https://youtu.be/D8kDCU7qaWQ">Aula 7 - Divisão de Inteiros (div e srl) - SHIFT RIGHT</a>
+
+<img src="https://i.imgur.com/gvnLOgm.png" width = 500>
+
+**<a href="/Aulas/Programa 07.asm">Código:</a>**
+
+```
+.text
+	li $t0, 32 # $t0 = 32
+	li $t1, 5 # $t1 = 5
+	
+	srl $s2, $t0, 2 # $s2 = $t0 / 2^2 // Só pega a parte inteira
+	
+	div $t0, $t1 # $t0 / $t1 -> A parte inteira vai para "lo" e o resto vai para "hi"
+	
+	mflo $s0 # $s0 = Parte inteira da divisão
+	mfhi $s1 # #s1 = Resto da divisão
 ```
 
 ---
