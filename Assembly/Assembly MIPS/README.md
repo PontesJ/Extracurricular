@@ -2,10 +2,6 @@
 
 <img src= "https://i.imgur.com/MRXvBIg.png" width = 500>
 
-Obs:
-- Para caracteres ou cadeia de caracteres = la (load address).
-- Para tipo .word = lw (load word).
-
 ## <a href="https://youtu.be/XtznbGfyd1o">Aula 1 - Instalação da IDE MARs e Programa Olá, mundo! (Hello World)</a>
 
 **<a href="/Aulas/Programa 01.asm">Código:</a>**
@@ -25,6 +21,8 @@ Obs:
 	syscall # Faça! Encerre
 ```
 
+---
+
 ## <a href="https://youtu.be/sn6j-sRffsw">Aula 2 - Impressão de Char (Apenas um Caractere)</a>
 
 **<a href="/Aulas/Programa 02.asm">Código:</a>**
@@ -41,6 +39,8 @@ Obs:
 	li $v0 ,10 # Encerrar o programa
 	syscall
 ```
+
+---
 
 ## <a href="https://youtu.be/cfHK3xv4tYc">Aula 3 - Impressão de Inteiros (int)</a>
 
@@ -59,6 +59,51 @@ Obs:
 	syscall
 ```
 
+Obs:
+- Para caracteres ou cadeia de caracteres = la (load address).
+- Para tipo .word = lw (load word).
+
+---
+
+## <a href="https://youtu.be/h5tas4VkkDM">Aula 4 - Soma de Inteiros (add e addi)</a>
+
+<img src="https://i.imgur.com/DYIJKiA.png" width = 500>
+
+**<a href="/Aulas/Programa 04.asm">Código:</a>**
+
+```
+.text
+	li $t0, 75 # $t0 = 75
+	li $t1, 25 # $t1 = 25
+	add $s0, $t0, $t1 # $s0 = $t0 + $t1
+	addi $s1, $s0, 36 # $s1 = $s0 + 36
+	
+	li $v0 , 10
+	syscall
+```
+
+---
+
+## <a href="https://youtu.be/ybzPO7YQ4eE">Aula 5 - Subtração de Inteiros (sub e subi)</a>
+
+<img src="https://i.imgur.com/j3VSiGX.png" width = 500>
+
+**<a href="/Aulas/Programa 05.asm">Código:</a>**
+
+```
+.text
+	li $t0, 75 # $t0 = 75
+	li $t1, 25 # $t1 = 25
+	sub $t2 $t0, $t1 # $t2 = $t0 - $st1
+	subi $t3, $t2, 40 # $t3 = $t2 - 40
+	
+	li $v0 , 10
+	syscall
+```
+
+---
+
+
 <!--
 
 Template
@@ -70,5 +115,8 @@ Template
 ```
 
 ```
+
+---
+
 
 -->
