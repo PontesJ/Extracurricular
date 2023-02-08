@@ -947,3 +947,23 @@ Imprima a sequencia conforme exemplo abaixo
 |  | I=1 J=60<br>I=4 J=55<br>I=7 J=50<br>...<br>I=? J=0 |
 
 **<a href="./Exercícios/bee1095.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1096 - Sequencia IJ 2</a>
+
+Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+Imprima a sequencia conforme exemplo abaixo
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  | I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=7<br>I=3 J=6<br>I=3 J=5<br>...<br>I=9 J=7<br>I=9 J=6<br>I=9 J=5 |
+
+**<a href="./Exercícios/bee1096.py">Resolução</a>**
