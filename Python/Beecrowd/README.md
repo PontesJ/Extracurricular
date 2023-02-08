@@ -987,3 +987,23 @@ Imprima a sequencia conforme exemplo abaixo
 |  | I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=9<br>I=3 J=8<br>I=3 J=7<br>...<br>I=9 J=15<br>I=9 J=14<br>I=9 J=13 |
 
 **<a href="./Exercícios/bee1097.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1098 - Sequencia IJ 4</a>
+
+Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+Imprima a sequencia conforme exemplo abaixo
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  | I=0 J=1<br>I=0 J=2<br>I=0 J=3<br>I=0.2 J=1.2<br>I=0.2 J=2.2<br>I=0.2 J=3.2<br>.....<br>I=2 J=?<br>I=2 J=?<br>I=2 J=? |
+
+**<a href="./Exercícios/bee1098.py">Resolução</a>**
