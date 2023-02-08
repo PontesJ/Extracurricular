@@ -1353,6 +1353,26 @@ Imprima a sequencia conforme exemplo abaixo
 
 ---
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1097 - Sequencia IJ 3</a>
+
+Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+Imprima a sequencia conforme exemplo abaixo
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  | I=1 J=7<br>I=1 J=6<br>I=1 J=5<br>I=3 J=9<br>I=3 J=8<br>I=3 J=7<br>...<br>I=9 J=15<br>I=9 J=14<br>I=9 J=13 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1097.py">Resolução</a>**
+
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1113">Beecrowd 1113 - Crescente e Decrescente</a>
 
 Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
