@@ -885,3 +885,23 @@ Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exem
 | 3<br>6.5 4.3 6.2<br>5.1 4.2 8.1<br>8.0 9.0 10.0 | 5.7<br>6.3<br>9.3 |
 
 **<a href="./Exercícios/bee1079.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1080 - Maior e Posição</a>
+
+Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
+
+**Entrada**
+
+O arquivo de entrada contém 100 números inteiros, positivos e distintos.
+
+**Saída**
+
+Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 2<br>113<br>45<br>34565<br>6<br>...<br>8 | 34565<br>4 |
+
+**<a href="./Exercícios/bee1080.py">Resolução</a>**
