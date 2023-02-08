@@ -927,3 +927,23 @@ Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizad
 | 10<br>10 C<br>6 R<br>15 S<br>5 C<br>14 R<br>9 C<br>6 R<br>8 S<br>5 C<br>14 R | Total: 92 cobaias<br>Total de coelhos: 29<br>Total de ratos: 40<br>Total de sapos: 23<br>Percentual de coelhos: 31.52 %<br>Percentual de ratos: 43.48 %<br>Percentual de sapos: 25.00 % |
 
 **<a href="./Exercícios/bee1094.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1095 - Sequencia IJ 1</a>
+
+Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+Imprima a sequencia conforme exemplo abaixo
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  | I=1 J=60<br>I=4 J=55<br>I=7 J=50<br>...<br>I=? J=0 |
+
+**<a href="./Exercícios/bee1095.py">Resolução</a>**
