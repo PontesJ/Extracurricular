@@ -22,6 +22,8 @@ Você deve imprimir a mensagem **"Hello World!"** e em seguida o final de linha,
 
 **<a href="../Python/Beecrowd/Exercícios/bee1000.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1001">Beecrowd 1001 - Extremamente Básico</a>
 
 Leia 2 valores inteiros e armazene-os nas variáveis **A** e **B**. Efetue a soma de A e B atribuindo o seu resultado na variável **X**. Imprima **X** conforme exemplo apresentado abaixo. Não apresente mensagem alguma além daquilo que está sendo especificado e não esqueça de imprimir o fim de linha após o resultado, caso contrário, você receberá "Presentation Error".
@@ -41,6 +43,8 @@ Imprima a mensagem "X = " (letra X maiúscula) seguido pelo valor da variável *
 | 15<br>-7 | X = 8 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1001.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1002">Beecrowd 1002 - Área do Círculo</a>
 
@@ -64,6 +68,8 @@ Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme ex
 
 **<a href="../CSharp/Beecrowd/Exercícios/bee1002/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1003">Beecrowd 1003 - Soma Simples</a>
 
 Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável **SOMA**. A seguir escrever o valor desta variável.
@@ -83,6 +89,8 @@ Imprima a mensagem "SOMA" com todas as letras maiúsculas, com um espaço em bra
 | 0<br>0 | SOMA = 0 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1003.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1004">Beecrowd 1004 - Produto Simples</a>
 
@@ -104,6 +112,8 @@ Imprima a mensagem "*PROD" e a variável **PROD** conforme exemplo abaixo, com u
 
 **<a href="../Python/Beecrowd/Exercícios/bee1004.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1005">Beecrowd 1005 - Média 1</a>
 
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
@@ -123,6 +133,8 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 d�
 | 10.0<br>10.0 | MEDIA = 10.00000 |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1005/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1006">Beecrowd 1006 - Média 2</a>
 
@@ -144,6 +156,8 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 1 d�
 
 **<a href="../Python/Beecrowd/Exercícios/bee1006.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1007">Beecrowd 1007 - Diferença</a>
 
 Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
@@ -163,6 +177,8 @@ Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemp
 | 5<br>6<br>-7<br>8 | DIFERENCA = 86 |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1007/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1008">Beecrowd 1008 - Salário</a>
 
@@ -184,6 +200,8 @@ Imprima o número e o salário do funcionário, conforme exemplo fornecido, com 
 
 **<a href="../Python/Beecrowd/Exercícios/bee1008.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1009">Beecrowd 1009 - Salário com Bônus</a>
 
 Faça um programa que leia o nome de um vendedor, o seu salário fixo e o total de vendas efetuadas por ele no mês (em dinheiro). Sabendo que este vendedor ganha 15% de comissão sobre suas vendas efetuadas, informar o total a receber no final do mês, com duas casas decimais.
@@ -204,6 +222,8 @@ Imprima o total que o funcionário deverá receber, conforme exemplo fornecido.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1009.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1010">Beecrowd 1010 - Cálculo Simples</a>
 
 Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
@@ -223,6 +243,8 @@ A saída deverá ser uma mensagem conforme o exemplo fornecido abaixo, lembrando
 | 1 1 15.10<br>2 1 15.10 | VALOR A PAGAR: R$ 30.20 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1010.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1011">Beecrowd 1011 - Esfera</a>
 
@@ -245,6 +267,8 @@ A saída deverá ser uma mensagem "VOLUME" conforme o exemplo fornecido abaixo, 
 | 1523 | VOLUME = 14797486501.627 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1011.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1012">Beecrowd 1012 - Área</a>
 
@@ -270,6 +294,8 @@ O arquivo de saída deverá conter 5 linhas de dados. Cada linha corresponde a u
 
 **<a href="../Python/Beecrowd/Exercícios/bee1012.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1013">Beecrowd 1013 - O Maior</a>
 
 Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “eh o maior”. Utilize a fórmula:
@@ -293,6 +319,8 @@ Imprima o maior dos três valores seguido por um espaço e a mensagem "eh o maio
 
 **<a href="../Python/Beecrowd/Exercícios/bee1013.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1014">Beecrowd 1014 - Consumo</a>
 
 Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
@@ -312,6 +340,8 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 | 4554<br>464.6 | 9.802 km/l |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1014/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1015">Beecrowd 1015 - Distância Entre Dois Pontos</a>
 
@@ -334,6 +364,8 @@ Calcule e imprima o valor da distância segundo a fórmula fornecida, com 4 casa
 | 2.5 -0.4<br>-12.2 7.0 | 16.4575 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1015.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1016">Beecrowd 1016 - Distância</a>
 
@@ -359,6 +391,8 @@ Imprima o tempo necessário seguido da mensagem "minutos".
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1016/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1017">Beecrowd 1017 - Gasto de Combustível</a>
 
 Joaozinho quer calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
@@ -379,9 +413,9 @@ Imprima a quantidade de litros necessária para realizar a viagem, com três dí
 
 **<a href="../Python/Beecrowd/Exercícios/bee1017.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1018">Beecrowd 1018 - Cédulas</a>
-
-
 
 Leia um valor inteiro. A seguir, calcule o menor número de notas possíveis (cédulas) no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2 e 1. A seguir mostre o **valor lido** e a relação de notas necessárias.
 
@@ -400,6 +434,8 @@ Imprima o valor lido e, em seguida, a quantidade mínima de notas de cada tipo n
 | 503 | 503<br>5 nota(s) de R$ 100,00<br>0 nota(s) de R$ 50,00<br>0 nota(s) de R$ 20,00<br>0 nota(s) de R$ 10,00<br>0 nota(s) de R$ 5,00<br>1 nota(s) de R$ 2,00<br>1 nota(s) de R$ 1,00 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1018.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1019">Beecrowd 1019 - Conversão de Tempo</a>
 
@@ -420,6 +456,8 @@ Imprima o tempo lido no arquivo de entrada (segundos), convertido para horas:min
 | 140153 | 38:55:53 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1019.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1020">Beecrowd 1020 - Idade em Dias</a>
 
@@ -443,6 +481,8 @@ Imprima a saída conforme exemplo fornecido.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1020.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1021">Beecrowd 1021 - Notas e Moedas</a>
 
 Leia um valor de ponto flutuante com duas casas decimais. Este valor representa um valor monetário. A seguir, calcule o menor número de notas e moedas possíveis no qual o valor pode ser decomposto. As notas consideradas são de 100, 50, 20, 10, 5, 2. As moedas possíveis são de 1, 0.50, 0.25, 0.10, 0.05 e 0.01. A seguir mostre a relação de notas necessárias.
@@ -464,6 +504,8 @@ Obs: Utilize ponto (.) para separar a parte decimal.
 | 91.01 | NOTAS:<br>0 nota(s) de R$ 100.00<br>1 nota(s) de R$ 50.00<br>2 nota(s) de R$ 20.00<br>0 nota(s) de R$ 10.00<br>0 nota(s) de R$ 5.00<br>0 nota(s) de R$ 2.00<br>MOEDAS:<br>1 moeda(s) de R$ 1.00<br>0 moeda(s) de R$ 0.50<br>0 moeda(s) de R$ 0.25<br>0 moeda(s) de R$ 0.10<br>0 moeda(s) de R$ 0.05<br>1 moeda(s) de R$ 0.01 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1021.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1022">Beecrowd 1022 - TDA Racional</a>
 
@@ -489,6 +531,8 @@ A saída consiste em um valor racional, seguido de um sinal de igualdade e outro
 
 **<a href="./Exercícios/bee1022.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1035">Beecrowd 1035 - Teste de Seleção 1</a>
 
 Leia 4 valores inteiros A, B, C e D. A seguir, se B for maior do que C e se D for maior do que A, e a soma de C com D for maior que a soma de A e B e se C e D, ambos, forem positivos e se a variável A for par escrever a mensagem **"Valores aceitos"**, senão escrever **"Valores nao aceitos"**.
@@ -507,6 +551,8 @@ Mostre a respectiva mensagem após a validação dos valores.
 | 2 3 2 6 | Valores aceitos |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1035.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1036">Beecrowd 1036 - Fórmula de Bhaskara</a>
 
@@ -528,6 +574,8 @@ Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impos
 | 10.0 3.0 5.0 | Impossivel calcular |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1036/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1037">Beecrowd 1037 - Intervalo</a>
 
@@ -554,6 +602,8 @@ A saída deve ser uma mensagem conforme exemplo abaixo.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1037.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1038">Beecrowd 1038 - Lanche</a>
 
 Com base na tabela abaixo, escreva um programa que leia o código de um item e a quantidade deste item. A seguir, calcule e mostre o valor da conta a pagar.
@@ -576,6 +626,8 @@ O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1038/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1040">Beecrowd 1040 - Média 3</a>
 
 Leia quatro números (N1, N2, N3, N4), cada um deles com uma casa decimal, correspondente às quatro notas de um aluno. Calcule a média com pesos 2, 3, 4 e 1, respectivamente, para cada uma destas notas e mostre esta média acompanhada pela mensagem "Media: ". Se esta média for maior ou igual a 7.0, imprima a mensagem "Aluno aprovado.". Se a média calculada for inferior a 5.0, imprima a mensagem "Aluno reprovado.". Se a média calculada for um valor entre 5.0 e 6.9, inclusive estas, o programa deve imprimir a mensagem "Aluno em exame.".
@@ -597,6 +649,8 @@ Todas as respostas devem ser apresentadas com uma casa decimal. As mensagens dev
 | 9.0 4.0 8.5 9.0 | Media: 7.3<br>Aluno aprovado. |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1040.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1041">Beecrowd 1041 - Coordenadas de um Ponto</a>
 
@@ -625,6 +679,8 @@ A saída deve apresentar o quadrante em que o ponto se encontra.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1041.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1042">Beecrowd 1042 - Sort Simples</a>
 
 Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.
@@ -642,6 +698,8 @@ Imprima a saída conforme foi especificado.
 | 7 21 -14 | -14<br>7<br>21<br><br>7<br>21<br>-14 |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1042/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1043">Beecrowd 1043 - Triângulo</a>
 
@@ -668,6 +726,8 @@ O resultado deve ser apresentado com uma casa decimal.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1043.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1044">Beecrowd 1044 - Múltiplos</a>
 
 Leia 2 valores inteiros (A e B). Após, o programa deve mostrar uma mensagem **"Sao Multiplos"** ou **"Nao sao Multiplos"**, indicando se os valores lidos são múltiplos entre si.
@@ -686,6 +746,8 @@ A saída deve conter uma das mensagens conforme descrito acima.
 | 6 25 | Nao sao Multiplos |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1044/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1045">Beecrowd 1045 - Tipos de Triângulos</a>
 
@@ -716,6 +778,8 @@ Imprima todas as classificações do triângulo especificado na entrada.
 
 **<a href="../Python/Beecrowd/Exercícios/bee1045.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1046">Beecrowd 1046 - Tempo de Jogo</a>
 
 Leia a hora inicial e a hora final de um jogo. A seguir calcule a duração do jogo, sabendo que o mesmo pode começar em um dia e terminar em outro, tendo uma duração mínima de 1 hora e máxima de 24 horas.
@@ -735,6 +799,8 @@ Apresente a duração do jogo conforme exemplo abaixo.
 | 2 16 | O JOGO DUROU 14 HORA(S) |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1046.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1047">Beecrowd 1047 - Tempo de Jogo com Minutos</a>
 
@@ -757,6 +823,8 @@ Mostre a seguinte mensagem: “O JOGO DUROU XXX HORA(S) E YYY MINUTO(S)” .
 | 7 10 8 9 | O JOGO DUROU 0 HORA(S) E 59 MINUTO(S) |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1047.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1048">Beecrowd 1048 - Aumento de Salário</a>
 
@@ -788,6 +856,8 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos de
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1048/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1049">Beecrowd 1049 - Animal</a>
 
 Neste problema, você deverá ler 3 palavras que definem o tipo de animal possível segundo o esquema abaixo, da esquerda para a direita.  Em seguida conclua qual dos animais seguintes foi escolhido, através das três palavras fornecidas.
@@ -809,6 +879,8 @@ Imprima o nome do animal correspondente à entrada fornecida.
 | invertebrado<br>anelideo<br>onivoro | minhoca |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1049.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1050">Beecrowd 1050 - DDD</a>
 
@@ -832,6 +904,8 @@ Imprima o nome da cidade correspondente ao DDD existente na entrada. Imprima *DD
 | 11 | Sao Paulo |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1050.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1051">Beecrowd 1051 - Imposto de Renda</a>
 
@@ -859,6 +933,8 @@ Imprima o texto "R$" seguido de um espaço e do valor total devido de Imposto de
 
 **<a href="../Python/Beecrowd/Exercícios/bee1051.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1052">Beecrowd 1052 - Mês</a>
 
 Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este valor, deve ser apresentado como resposta o mês do ano por extenso, em inglês, com a primeira letra maiúscula.
@@ -876,6 +952,8 @@ Imprima por extenso o nome do mês correspondente ao número existente na entrad
 | 4 | April |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1052.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1059">Beecrowd 1059 - Números Pares</a>
 
@@ -895,6 +973,8 @@ Imprima todos os números pares entre 1 e 100, inclusive se for o caso, um em ca
 
 **<a href="../Python/Beecrowd/Exercícios/bee1059.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1060">Beecrowd 1060 - Números Positivos</a>
 
 Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
@@ -912,6 +992,8 @@ Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1060/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1061">Beecrowd 1061 - Tempo de um Evento</a>
 
@@ -940,6 +1022,8 @@ Z segundo(s)<br>
 
 **<a href="../Python/Beecrowd/Exercícios/bee1061.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1064">Beecrowd 1064 - Positivos e Média</a>
 
 Leia 6 valores. Em seguida, mostre quantos destes valores digitados foram positivos. Na próxima linha, deve-se mostrar a média de todos os valores positivos digitados, com um dígito após o ponto decimal.
@@ -957,6 +1041,8 @@ O primeiro valor de saída é a quantidade de valores positivos. A próxima linh
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos<br>7.4 |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1064/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1065">Beecrowd 1065 - Pares entre Cinco Números</a>
 
@@ -976,6 +1062,8 @@ Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valor
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1065/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1066">Beecrowd 1066 - Pares, Ímpares, Positivos e Negativos</a>
 
 Leia 5 valores Inteiros. A seguir mostre quantos valores digitados foram pares, quantos valores digitados foram ímpares, quantos valores digitados foram positivos e quantos valores digitados foram negativos.
@@ -993,6 +1081,8 @@ Imprima a mensagem conforme o exemplo fornecido, uma mensagem por linha, não es
 | -5<br>0<br>-3<br>-4<br>12 | 3 valor(es) par(es)<br>2 valor(es) impar(es)<br>1 valor(es) positivo(s)<br>3 valor(es) negativo(s) |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1066.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1067">Beecrowd 1067 - Números Ímpares</a>
 
@@ -1012,6 +1102,8 @@ Imprima todos os valores ímpares de 1 até **X**, inclusive **X**, se for o cas
 
 **<a href="../Python/Beecrowd/Exercícios/bee1067.py">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1070">Beecrowd 1070 - Seis Números Ímpares</a>
 
 Leia um valor inteiro **X**. Em seguida apresente os 6 valores ímpares consecutivos a partir de **X**, um valor por linha, inclusive o **X** ser for o caso.
@@ -1029,6 +1121,8 @@ A saída será uma sequência de seis números ímpares.
 | 8 | 9<br>11<br>13<br>15<br>17<br>19 |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1070.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1071">Beecrowd 1071 - Soma de Impares Consecutivos I</a>
 
@@ -1050,6 +1144,8 @@ O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímp
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1071/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1072">Beecrowd 1072 - Intervalo 2</a>
 
 Leia um valor inteiro **N**. Este valor será a quantidade de valores inteiros **X** que serão lidos em seguida.
@@ -1069,6 +1165,8 @@ Para cada caso, imprima quantos números estão dentro (**in**) e quantos valore
 | 4<br>14<br>123<br>10<br>-25 | 2 in<br>2 out |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1072/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1073">Beecrowd 1073 - Quadrado de Pares</a>
 
@@ -1090,6 +1188,8 @@ Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1073/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1074">Beecrowd 1074 - Par ou Ímpar</a>
 
 Leia um valor inteiro **N**. Este valor será a quantidade de valores que serão lidos em seguida. Para cada valor lido, mostre uma mensagem em inglês dizendo se este valor lido é par (*EVEN*), ímpar (*ODD*), positivo (*POSITIVE*) ou negativo (*NEGATIVE*). No caso do valor ser igual a zero (0), embora a descrição correta seja (*EVEN NULL*), pois por definição zero é par, seu programa deverá imprimir apenas *NULL*.
@@ -1107,6 +1207,28 @@ Para cada caso, imprima uma mensagem correspondente, de acordo com o exemplo aba
 | 4<br>-5<br>0<br>3<br>-4 | ODD NEGATIVE<br>NULL<br>ODD POSITIVE<br>EVEN NEGATIVE |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1074.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1075">Beecrowd 1075 - Resto 2</a>
+
+Leia um valor inteiro **N**. Apresente todos os números entre 1 e 10000 que divididos por **N** dão resto igual a 2.
+
+**Entrada**
+
+A entrada contém um valor inteiro **N** (**N** < 10000).
+
+**Saída**
+
+Imprima todos valores que quando divididos por **N** dão resto = 2, um por linha.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 13 | 2<br>15<br>28<br>41<br>... |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1075.py">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1078">Beecrowd 1078 - Tabuada</a>
 
@@ -1127,6 +1249,8 @@ Imprima a tabuada de N, conforme o exemplo fornecido.
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1078/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1113">Beecrowd 1113 - Crescente e Decrescente</a>
 
 Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
@@ -1145,6 +1269,8 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1113/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1132">Beecrowd 1132 - Múltiplos de 13</a>
 
 Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.
@@ -1162,6 +1288,8 @@ Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores
 | 100<br>200 | 13954 |
 
 **<a href=".../CSharp/Beecrowd/Exercícios/bee1132/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1142">Beecrowd 1142 - PUM</a>
 

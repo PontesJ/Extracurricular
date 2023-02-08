@@ -24,6 +24,8 @@ Apresentar a mensagem "A=" seguido pelo valor da variável **area**, conforme ex
 
 **<a href="./Exercícios/bee1002/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1005">Beecrowd 1005 - Média 1</a>
 
 Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
@@ -43,6 +45,8 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 d�
 | 10.0<br>10.0 | MEDIA = 10.00000 |
 
 **<a href="./Exercícios/bee1005/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1007">Beecrowd 1007 - Diferença</a>
 
@@ -64,6 +68,8 @@ Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemp
 
 **<a href="./Exercícios/bee1007/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1014">Beecrowd 1014 - Consumo</a>
 
 Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
@@ -83,6 +89,8 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 | 4554<br>464.6 | 9.802 km/l |
 
 **<a href="./Exercícios/bee1014/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1016">Beecrowd 1016 - Distância</a>
 
@@ -108,6 +116,8 @@ Imprima o tempo necessário seguido da mensagem "minutos".
 
 **<a href="./Exercícios/bee1016/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1036">Beecrowd 1036 - Fórmula de Bhaskara</a>
 
 Leia 3 valores de ponto flutuante e efetue o cálculo das raízes da equação de Bhaskara. Se não for possível calcular as raízes, mostre a mensagem correspondente “Impossivel calcular”, caso haja uma divisão por 0 ou raiz de numero negativo.
@@ -128,6 +138,8 @@ Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impos
 | 10.0 3.0 5.0 | Impossivel calcular |
 
 **<a href="./Exercícios/bee1036/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1038">Beecrowd 1038 - Lanche</a>
 
@@ -151,6 +163,8 @@ O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser
 
 **<a href="./Exercícios/bee1038/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1042">Beecrowd 1042 - Sort Simples</a>
 
 Leia 3 valores inteiros e ordene-os em ordem crescente. No final, mostre os valores em ordem crescente, uma linha em branco e em seguida, os valores na sequência como foram lidos.
@@ -168,6 +182,8 @@ Imprima a saída conforme foi especificado.
 | 7 21 -14 | -14<br>7<br>21<br><br>7<br>21<br>-14 |
 
 **<a href="./Exercícios/bee1042/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1044">Beecrowd 1044 - Múltiplos</a>
 
@@ -187,6 +203,8 @@ A saída deve conter uma das mensagens conforme descrito acima.
 | 6 25 | Nao sao Multiplos |
 
 **<a href="./Exercícios/bee1044/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1048">Beecrowd 1048 - Aumento de Salário</a>
 
@@ -218,6 +236,8 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos de
 
 **<a href="./Exercícios/bee1048/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1060">Beecrowd 1060 - Números Positivos</a>
 
 Faça um programa que leia 6 valores. Estes valores serão somente negativos ou positivos (desconsidere os valores nulos). A seguir, mostre a quantidade de valores positivos digitados.
@@ -235,6 +255,8 @@ Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos |
 
 **<a href="./Exercícios/bee1060/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1064">Beecrowd 1064 - Positivos e Média</a>
 
@@ -254,6 +276,8 @@ O primeiro valor de saída é a quantidade de valores positivos. A próxima linh
 
 **<a href="./Exercícios/bee1064/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1065">Beecrowd 1065 - Pares entre Cinco Números</a>
 
 Faça um programa que leia 5 valores inteiros. Conte quantos destes valores digitados são pares e mostre esta informação.
@@ -271,6 +295,8 @@ Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valor
 | 7<br>-5<br>6<br>-4<br>12 | 3 valores pares |
 
 **<a href="./Exercícios/bee1065/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1071">Beecrowd 1071 - Soma de Impares Consecutivos I</a>
 
@@ -292,6 +318,8 @@ O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímp
 
 **<a href="./Exercícios/bee1071/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1072">Beecrowd 1072 - Intervalo 2</a>
 
 Leia um valor inteiro **N**. Este valor será a quantidade de valores inteiros **X** que serão lidos em seguida.
@@ -311,6 +339,8 @@ Para cada caso, imprima quantos números estão dentro (**in**) e quantos valore
 | 4<br>14<br>123<br>10<br>-25 | 2 in<br>2 out |
 
 **<a href="./Exercícios/bee1072/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1073">Beecrowd 1073 - Quadrado de Pares</a>
 
@@ -332,6 +362,8 @@ Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006
 
 **<a href="./Exercícios/bee1073/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1078">Beecrowd 1078 - Tabuada</a>
 
 Leia 1 valor inteiro N (2 < N < 1000). A seguir, mostre a tabuada de N:      
@@ -351,6 +383,8 @@ Imprima a tabuada de N, conforme o exemplo fornecido.
 
 **<a href="./Exercícios/bee1078/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1113">Beecrowd 1113 - Crescente e Decrescente</a>
 
 Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
@@ -369,6 +403,8 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 
 **<a href="./Exercícios/bee1113/Program.cs">Resolução</a>**
 
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1132">Beecrowd 1132 - Múltiplos de 13</a>
 
 Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.
@@ -386,6 +422,8 @@ Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores
 | 100<br>200 | 13954 |
 
 **<a href="./Exercícios/bee1132/Program.cs">Resolução</a>**
+
+---
 
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1142">Beecrowd 1142 - PUM</a>
 
