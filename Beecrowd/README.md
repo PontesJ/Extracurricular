@@ -1628,6 +1628,26 @@ Imprima todos os valores conforme exemplo abaixo, sempre em ordem crescente.
 
 ---
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1134">Beecrowd 1134 - Tipo de Combustível</a>
+
+Um Posto de combustíveis deseja determinar qual de seus produtos tem a preferência de seus clientes. Escreva um algoritmo para ler o tipo de combustível abastecido (codificado da seguinte forma: 1.Álcool 2.Gasolina 3.Diesel 4.Fim). Caso o usuário informe um código inválido (fora da faixa de 1 a 4) deve ser solicitado um novo código (até que seja válido). O programa será encerrado quando o código informado for o número 4.
+
+**Entrada**
+
+A entrada contém apenas valores inteiros e positivos.
+
+**Saída**
+
+Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade de clientes que abasteceram cada tipo de combustível, conforme exemplo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 8<br>1<br>7<br>2<br>2<br>4 | MUITO OBRIGADO<br>Alcool: 1<br>Gasolina: 2<br>Diesel: 0 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1134.py">Resolução</a>**
+
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1142">Beecrowd 1142 - PUM</a>
 
 Escreva um programa que leia um valor inteiro N. Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
