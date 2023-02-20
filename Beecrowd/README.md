@@ -1413,6 +1413,26 @@ Imprima a soma de todos valores ímpares ***entre*** **X** e **Y**.
 
 ---
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1101">Beecrowd 1101 - Sequência de Números e Soma</a>
+
+Leia um conjunto não determinado de pares de valores ***M*** e ***N*** (parar quando algum dos valores for menor ou igual a zero). Para cada par lido, mostre a sequência do menor até o maior e a soma dos inteiros consecutivos entre eles (incluindo o ***N*** e ***M***).
+
+**Entrada**
+
+O arquivo de entrada contém um número não determinado de valores ***M*** e ***N***. A última linha de entrada vai conter um número nulo ou negativo.
+
+**Saída**
+
+Para cada dupla de valores, imprima a sequência do menor até o maior e a soma deles, conforme exemplo abaixo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 5 2<br>6 3<br>5 0 | 2 3 4 5 Sum=14<br>3 4 5 6 Sum=18 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1101.py">Resolução</a>**
+
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1113">Beecrowd 1113 - Crescente e Decrescente</a>
 
 Leia uma quantidade indeterminada de duplas de valores inteiros X e Y. Escreva para cada X e Y uma mensagem que indique se estes valores foram digitados em ordem crescente ou decrescente.
