@@ -1566,10 +1566,10 @@ A média deve ser impressa com dois dígitos após o ponto decimal.
 
 A Federação Gaúcha de Futebol contratou você para escrever um programa para fazer uma estatística do resultado de vários GRENAIS. Escreva um programa para ler o número de gols marcados pelo Inter e pelo Grêmio em um GRENAL. Logo após escrever a mensagem "Novo grenal (1-sim 2-nao)" e solicitar uma resposta. Se a resposta for 1, o algoritmo deve ser executado novamente solicitando o número de gols marcados pelos times em uma nova partida, caso contrário deve ser encerrado imprimindo:
 
-\- Quantos GRENAIS fizeram parte da estatística.
-\- O número de vitórias do Inter.
-\- O número de vitórias do Grêmio.
-\- O número de Empates.
+\- Quantos GRENAIS fizeram parte da estatística.<br>
+\- O número de vitórias do Inter.<br>
+\- O número de vitórias do Grêmio.<br>
+\- O número de Empates.<br>
 \- Uma mensagem indicando qual o time que venceu o maior número de GRENAIS (ou "Nao houve vencedor", caso termine empatado).
 
 **Entrada**
@@ -1605,6 +1605,26 @@ Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores
 | 100<br>200 | 13954 |
 
 **<a href="../CSharp/Beecrowd/Exercícios/bee1132/Program.cs">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1133">Beecrowd 1133 - Resto da Divisão</a>
+
+Escreva um programa que leia 2 valores X e Y e que imprima todos os valores entre eles cujo resto da divisão dele por 5 for igual a 2 ou igual a 3.
+
+**Entrada**
+
+O arquivo de entrada contém 2 valores positivos inteiros quaisquer, não necessariamente em ordem crescente.
+
+**Saída**
+
+Imprima todos os valores conforme exemplo abaixo, sempre em ordem crescente.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 10<br>18 | 12<br>13<br>17 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1133.py">Resolução</a>**
 
 ---
 
