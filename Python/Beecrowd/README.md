@@ -1067,3 +1067,23 @@ Para cada valor lido mostre a mensagem correspondente à descrição do problema
 | 2200<br>1020<br>2022<br>2002 | Senha Invalida<br>Senha Invalida<br>Senha Invalida<br>Acesso Permitido |
 
 **<a href="./Exercícios/bee1114.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1115">Beecrowd 1115 - Quadrante</a>
+
+Escreva um programa para ler as coordenadas (X,Y) de uma quantidade indeterminada de pontos no sistema cartesiano. Para cada ponto escrever o quadrante a que ele pertence. O algoritmo será encerrado quando pelo menos uma de duas coordenadas for NULA (nesta situação sem escrever mensagem alguma).
+
+**Entrada**
+
+A entrada contém vários casos de teste. Cada caso de teste contém 2 valores inteiros.
+
+**Saída**
+
+Para cada caso de teste mostre em qual quadrante do sistema cartesiano se encontra a coordenada lida, conforme o exemplo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 2 2<br>3 -2<br>-8 -1<br>-7 1<br>0 2 | primeiro<br>quarto<br>terceiro<br>segundo |
+
+**<a href="./Exercícios/bee1115.py">Resolução</a>**
