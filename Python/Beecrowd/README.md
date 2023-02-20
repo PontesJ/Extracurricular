@@ -888,7 +888,7 @@ Para cada caso de teste, imprima a média ponderada dos 3 valores, conforme exem
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1080 - Maior e Posição</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1080">Beecrowd 1080 - Maior e Posição</a>
 
 Leia 100 valores inteiros. Apresente então o maior valor lido e a posição dentre os 100 valores lidos.
 
@@ -908,7 +908,7 @@ Apresente o maior valor lido e a posição de entrada, conforme exemplo abaixo.
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1094 - Experiências</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1094">Beecrowd 1094 - Experiências</a>
 
 Maria acabou de iniciar seu curso de graduação na faculdade de medicina e precisa de sua ajuda para organizar os experimentos de um laboratório o qual ela é responsável. Ela quer saber no final do ano, quantas cobaias foram utilizadas no laboratório e o percentual de cada tipo de cobaia utilizada.
 
@@ -930,7 +930,7 @@ Apresente o total de cobaias utilizadas, o total de cada tipo de cobaia utilizad
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1095 - Sequencia IJ 1</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1095">Beecrowd 1095 - Sequencia IJ 1</a>
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
@@ -940,7 +940,7 @@ Não há nenhuma entrada neste problema.
 
 **Saída**
 
-Imprima a sequencia conforme exemplo abaixo
+Imprima a sequencia conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
@@ -950,7 +950,7 @@ Imprima a sequencia conforme exemplo abaixo
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1096 - Sequencia IJ 2</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1096">Beecrowd 1096 - Sequencia IJ 2</a>
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
@@ -960,7 +960,7 @@ Não há nenhuma entrada neste problema.
 
 **Saída**
 
-Imprima a sequencia conforme exemplo abaixo
+Imprima a sequencia conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
@@ -970,7 +970,7 @@ Imprima a sequencia conforme exemplo abaixo
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1097 - Sequencia IJ 3</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1097">Beecrowd 1097 - Sequencia IJ 3</a>
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
@@ -980,7 +980,7 @@ Não há nenhuma entrada neste problema.
 
 **Saída**
 
-Imprima a sequencia conforme exemplo abaixo
+Imprima a sequencia conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
@@ -990,7 +990,7 @@ Imprima a sequencia conforme exemplo abaixo
 
 ---
 
-## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1079">Beecrowd 1098 - Sequencia IJ 4</a>
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1098">Beecrowd 1098 - Sequencia IJ 4</a>
 
 Você deve fazer um programa que apresente a sequencia conforme o exemplo abaixo.
 
@@ -1000,10 +1000,30 @@ Não há nenhuma entrada neste problema.
 
 **Saída**
 
-Imprima a sequencia conforme exemplo abaixo
+Imprima a sequencia conforme exemplo abaixo.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
 |  | I=0 J=1<br>I=0 J=2<br>I=0 J=3<br>I=0.2 J=1.2<br>I=0.2 J=2.2<br>I=0.2 J=3.2<br>.....<br>I=2 J=?<br>I=2 J=?<br>I=2 J=? |
 
 **<a href="./Exercícios/bee1098.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1099">Beecrowd 1099 - Soma de Ímpares Consecutivos II</a>
+
+Leia um valor inteiro **N** que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste de dois inteiros **X** e **Y**. Você deve apresentar a soma de todos os ímpares existentes ***entre*** **X** e **Y**.
+
+**Entrada**
+
+A primeira linha de entrada é um inteiro **N** que é a quantidade de casos de teste que vem a seguir. Cada caso de teste consiste em uma linha contendo dois inteiros **X** e **Y**.
+
+**Saída**
+
+Imprima a soma de todos valores ímpares ***entre*** **X** e **Y**.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 7<br>4 5<br>13 10<br>6 4<br>3 3<br>3 5<br>3 4<br>3 8 | 0<br>11<br>5<br>0<br>0<br>0<br>12 |
+
+**<a href="./Exercícios/bee1099.py">Resolução</a>**
