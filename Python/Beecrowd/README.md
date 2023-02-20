@@ -1222,3 +1222,23 @@ Deve ser escrito a mensagem: "MUITO OBRIGADO" e a quantidade de clientes que aba
 | 8<br>1<br>7<br>2<br>2<br>4 | MUITO OBRIGADO<br>Alcool: 1<br>Gasolina: 2<br>Diesel: 0 |
 
 **<a href="./Exercícios/bee1134.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1143">Beecrowd 1143 - Quadrado e ao Cubo</a>
+
+Escreva um programa que leia um valor inteiro N (1 < N < 1000). Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
+
+**Entrada**
+
+O arquivo de entrada contém um número inteiro positivo N.
+
+**Saída**
+
+Imprima a saída conforme o exemplo fornecido.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 5 | 1 1 1<br>2 4 8<br>3 9 27<br>4 16 64<br>5 25 125 |
+
+**<a href="./Exercícios/bee1143.py">Resolução</a>**

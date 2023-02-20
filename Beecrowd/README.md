@@ -1665,3 +1665,23 @@ Imprima a saída conforme o exemplo fornecido.
 | 7 | 1 2 3 PUM<br>5 6 7 PUM<br>9 10 11 PUM<br>13 14 15 PUM<br>17 18 19 PUM<br>21 22 23 PUM<br>25 26 27 PUM |
 
 **<a href="../CSharp/Beecrowd/Exercícios/bee1142/Program.cs">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1143">Beecrowd 1143 - Quadrado e ao Cubo</a>
+
+Escreva um programa que leia um valor inteiro N (1 < N < 1000). Este N é a quantidade de linhas de saída que serão apresentadas na execução do programa.
+
+**Entrada**
+
+O arquivo de entrada contém um número inteiro positivo N.
+
+**Saída**
+
+Imprima a saída conforme o exemplo fornecido.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 5 | 1 1 1<br>2 4 8<br>3 9 27<br>4 16 64<br>5 25 125 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1143.py">Resolução</a>**
