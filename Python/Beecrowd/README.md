@@ -1047,3 +1047,23 @@ Para cada dupla de valores, imprima a sequência do menor até o maior e a soma 
 | 5 2<br>6 3<br>5 0 | 2 3 4 5 Sum=14<br>3 4 5 6 Sum=18 |
 
 **<a href="./Exercícios/bee1101.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1114">Beecrowd 1114 - Senha Fixa</a>
+
+Escreva um programa que repita a leitura de uma senha até que ela seja válida. Para cada leitura de senha incorreta informada, escrever a mensagem "Senha Invalida". Quando a senha for informada corretamente deve ser impressa a mensagem "Acesso Permitido" e o algoritmo encerrado. Considere que a senha correta é o valor 2002.
+
+**Entrada**
+
+A entrada é composta por vários casos de testes contendo valores inteiros.
+
+**Saída**
+
+Para cada valor lido mostre a mensagem correspondente à descrição do problema.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 2200<br>1020<br>2022<br>2002 | Senha Invalida<br>Senha Invalida<br>Senha Invalida<br>Acesso Permitido |
+
+**<a href="./Exercícios/bee1114.py">Resolução</a>**
