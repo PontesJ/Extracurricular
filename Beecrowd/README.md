@@ -132,7 +132,7 @@ Imprima a mensagem "MEDIA" e a média do aluno conforme exemplo abaixo, com 5 d�
 | 0.0<br>7.1 | MEDIA = 4.84091 |
 | 10.0<br>10.0 | MEDIA = 10.00000 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1005/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1005/Program.cs">Resolução</a>**
 
 ---
 
@@ -176,7 +176,7 @@ Imprima a mensagem **DIFERENCA** com todas as letras maiúsculas, conforme exemp
 | 0<br>0<br>7<br>8 | DIFERENCA = -56 |
 | 5<br>6<br>-7<br>8 | DIFERENCA = 86 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1007/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1007/Program.cs">Resolução</a>**
 
 ---
 
@@ -339,7 +339,7 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
 | 2254<br>124.4 | 18.119 km/l |
 | 4554<br>464.6 | 9.802 km/l |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1014/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1014/Program.cs">Resolução</a>**
 
 ---
 
@@ -389,7 +389,7 @@ Imprima o tempo necessário seguido da mensagem "minutos".
 | 110 | 220 minutos |
 | 7 | 14 minutos |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1016/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1016/Program.cs">Resolução</a>**
 
 ---
 
@@ -573,7 +573,7 @@ Se não houver possibilidade de calcular as raízes, apresente a mensagem "Impos
 | 10.3 203.0 5.0 | R1 = -0.02466<br>R2 = -19.68408 |
 | 10.0 3.0 5.0 | Impossivel calcular |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1036/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1036/Program.cs">Resolução</a>**
 
 ---
 
@@ -624,7 +624,7 @@ O arquivo de saída deve conter a mensagem "Total: R$ " seguido pelo valor a ser
 | 4 3 | Total: R$ 6.00 |
 | 2 3 | Total: R$ 13.50 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1038/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1038/Program.cs">Resolução</a>**
 
 ---
 
@@ -697,7 +697,7 @@ Imprima a saída conforme foi especificado.
 | ------------- | ------------- |
 | 7 21 -14 | -14<br>7<br>21<br><br>7<br>21<br>-14 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1042/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1042/Program.cs">Resolução</a>**
 
 ---
 
@@ -745,7 +745,7 @@ A saída deve conter uma das mensagens conforme descrito acima.
 | 6 24 | Sao Multiplos |
 | 6 25 | Nao sao Multiplos |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1044/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1044/Program.cs">Resolução</a>**
 
 ---
 
@@ -854,7 +854,7 @@ Imprima 3 linhas na saída: o novo salário, o valor ganho de reajuste (ambos de
 | 800.01 | Novo salario: 880.01<br>Reajuste ganho: 80.00<br>Em percentual: 10 % |
 | 2000.00 | Novo salario: 2140.00<br>Reajuste ganho: 140.00<br>Em percentual: 7 % |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1048/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1048/Program.cs">Resolução</a>**
 
 ---
 
@@ -991,7 +991,7 @@ Imprima uma mensagem dizendo quantos valores positivos foram lidos.
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1060/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1060/Program.cs">Resolução</a>**
 
 ---
 
@@ -1040,7 +1040,7 @@ O primeiro valor de saída é a quantidade de valores positivos. A próxima linh
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-3.4<br>4.6<br>12 | 4 valores positivos<br>7.4 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1064/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1064/Program.cs">Resolução</a>**
 
 ---
 
@@ -1060,7 +1060,7 @@ Imprima a mensagem conforme o exemplo fornecido, indicando a quantidade de valor
 | ------------- | ------------- |
 | 7<br>-5<br>6<br>-4<br>12 | 3 valores pares |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1065/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1065/Program.cs">Resolução</a>**
 
 ---
 
@@ -1142,7 +1142,7 @@ O programa deve imprimir um valor inteiro. Este valor é a soma dos valores ímp
 | 15<br>12 | 13 |
 | 12<br>12 | 0 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1071/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1071/Program.cs">Resolução</a>**
 
 ---
 
@@ -1164,7 +1164,7 @@ Para cada caso, imprima quantos números estão dentro (**in**) e quantos valore
 | ------------- | ------------- |
 | 4<br>14<br>123<br>10<br>-25 | 2 in<br>2 out |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1072/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1072/Program.cs">Resolução</a>**
 
 ---
 
@@ -1186,7 +1186,7 @@ Tome cuidado! Algumas linguagens tem por padrão apresentarem como saída 1e+006
 | ------------- | ------------- |
 | 6 | 2^2 = 4<br>4^2 = 16<br>6^2 = 36 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1073/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1073/Program.cs">Resolução</a>**
 
 ---
 
@@ -1247,7 +1247,7 @@ Imprima a tabuada de N, conforme o exemplo fornecido.
 | ------------- | ------------- |
 | 140 | 1 x 140 = 140<br>2 x 140 = 280<br>3 x 140 = 420<br>4 x 140 = 560<br>5 x 140 = 700<br>6 x 140 = 840<br>7 x 140 = 980<br>8 x 140 = 1120<br>9 x 140 = 1260<br>10 x 140 = 1400 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1078/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1078/Program.cs">Resolução</a>**
 
 ---
 
@@ -1449,7 +1449,7 @@ Para cada caso de teste imprima “Crescente”, caso os valores tenham sido dig
 | ------------- | ------------- |
 | 5 4<br>7 2<br>3 8<br>2 2 | Decrescente<br>Decrescente<br>Crescente<br> |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1113/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1113/Program.cs">Resolução</a>**
 
 ---
 
@@ -1509,7 +1509,7 @@ Imprima a soma de todos os valores não divisíveis por 13 entre os dois valores
 | ------------- | ------------- |
 | 100<br>200 | 13954 |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1132/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1132/Program.cs">Resolução</a>**
 
 ---
 
@@ -1529,4 +1529,4 @@ Imprima a saída conforme o exemplo fornecido.
 | ------------- | ------------- |
 | 7 | 1 2 3 PUM<br>5 6 7 PUM<br>9 10 11 PUM<br>13 14 15 PUM<br>17 18 19 PUM<br>21 22 23 PUM<br>25 26 27 PUM |
 
-**<a href=".../CSharp/Beecrowd/Exercícios/bee1142/Program.cs">Resolução</a>**
+**<a href="../CSharp/Beecrowd/Exercícios/bee1142/Program.cs">Resolução</a>**
