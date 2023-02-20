@@ -1515,6 +1515,27 @@ Para cada caso mostre o resultado da divisão com um dígito após o ponto decim
 
 ---
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1117">Beecrowd 1117 - Validação de Nota</a>
+
+Faça um programa que leia as notas referentes às duas avaliações de um aluno. Calcule e imprima a média semestral. Faça com que o algoritmo só aceite notas válidas (uma nota válida deve pertencer ao intervalo [0,10]). Cada nota deve ser validada separadamente.
+
+**Entrada**
+
+A entrada contém vários valores reais, positivos ou negativos. O programa deve ser encerrado quando forem lidas duas notas válidas.
+
+**Saída**
+
+Se uma nota inválida  for lida, deve ser impressa a mensagem "nota invalida".<br>
+Quando duas notas válidas forem lidas, deve ser impressa a mensagem "media = " seguido do valor do cálculo. O valor deve ser apresentado com duas casas após o ponto decimal.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| -3.5<br>3.5<br>11.0<br>10.0 | nota invalida<br>nota invalida<br>media = 6.75 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1117.py">Resolução</a>**
+
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1132">Beecrowd 1132 - Múltiplos de 13</a>
 
 Escreva um algoritmo que leia 2 valores inteiros X e Y calcule a soma dos números que não são múltiplos de 13 entre X e Y, incluindo ambos.
