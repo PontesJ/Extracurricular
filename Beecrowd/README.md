@@ -2142,3 +2142,23 @@ Para cada posição do vetor, escreva "**N**[*i*] = **x**", onde *i* é a posiç
 | 3 | N[0] = 0<br>N[1] = 1<br>N[2] = 2<br>N[3] = 0<br>N[4] = 1<br>N[5] = 2<br>N[6] = 0<br>N[7] = 1<br>N[8] = 2<br>... |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1177.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1178">Beecrowd 1178 - Preenchimento de Vetor III</a>
+
+Leia um valor **X**. Coloque este valor na primeira posição de um vetor **N**[100]. Em cada posição subsequente de N (1 até 99), coloque a metade do valor armazenado na posição anterior, conforme o exemplo abaixo. Imprima o vetor **N**.
+
+**Entrada**
+
+A entrada contem um valor de dupla precisão com 4 casas decimais.
+
+**Saída**
+
+Para cada posição do vetor **N**, escreva "N[*i*] = Y", onde *i* é a posição do vetor e **Y** é o valor armazenado naquela posição. Cada valor do vetor deve ser apresentado com 4 casas decimais.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 200.0000 | N[0] = 200.0000<br>N[1] = 100.0000<br>N[2] = 50.0000<br>N[3] = 25.0000<br>N[4] = 12.5000<br>... |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1178.py">Resolução</a>**
