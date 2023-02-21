@@ -2082,3 +2082,23 @@ Para cada valor do vetor menor ou igual a 10, escreva "A[**i**] = **x**", onde *
 | 0<br>-5<br>63<br>-8.5<br>... | A[0] = 0.0<br>A[1] = -5.0<br>A[3] = -8.5<br>... |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1174.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1175">Beecrowd 1175 - Troca em Vetor I</a>
+
+Faça um programa que leia um vetor **N**[20]. Troque a seguir, o primeiro elemento com o último, o segundo elemento com o penúltimo, etc., até trocar o 10º com o 11º. Mostre o vetor modificado.
+
+**Entrada**
+
+A entrada contém 20 valores inteiros, positivos ou negativos.
+
+**Saída**
+
+Para cada posição do vetor **N**, escreva "N[i] = Y", onde i é a posição do vetor e **Y** é o valor armazenado naquela posição.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 0<br>-5<br>...<br>63<br>230 | N[0] = 230<br>N[1] = 63<br>...<br>N[18] = -5<br>N[19] = 0 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1175.py">Resolução</a>**
