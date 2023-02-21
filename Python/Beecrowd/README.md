@@ -1659,3 +1659,23 @@ Para cada posição do vetor **N**, escreva "N[i] = Y", onde i é a posição do
 | 0<br>-5<br>...<br>63<br>230 | N[0] = 230<br>N[1] = 63<br>...<br>N[18] = -5<br>N[19] = 0 |
 
 **<a href="./Exercícios/bee1175.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1176">Beecrowd 1176 - Fibonacci em Vetor</a>
+
+Faça um programa que leia um valor e apresente o número de Fibonacci correspondente a este valor lido. Lembre que os 2 primeiros elementos da série de Fibonacci são 0 e 1 e cada próximo termo é a soma dos 2 anteriores a ele. Todos os valores de Fibonacci calculados neste problema devem caber em um inteiro de 64 bits sem sinal.
+
+**Entrada**
+
+A primeira linha da entrada contém um inteiro **T**, indicando o número de casos de teste. Cada caso de teste contém um único inteiro **N** (0 ≤ **N** ≤ 60), correspondente ao N-esimo termo da série de Fibonacci.
+
+**Saída**
+
+Para cada caso de teste da entrada, imprima a mensagem "Fib(N) = X", onde X é o N-ésimo termo da série de Fibonacci.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 3<br>0<br>4<br>2 | Fib(0) = 0<br>Fib(4) = 3<br>Fib(2) = 1 |
+
+**<a href="./Exercícios/bee1176.py">Resolução</a>**
