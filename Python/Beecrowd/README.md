@@ -1409,3 +1409,25 @@ A média deve ser impressa com dois dígitos após o ponto decimal.
 | 34<br>56<br>44<br>23<br>-2 | 39.25 |
 
 **<a href="./Exercícios/bee1154.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1155">Beecrowd 1155 - Sequência S</a>
+
+Escreva um algoritmo para calcular e escrever o valor de S, sendo S dado pela fórmula:<br>
+S = 1 + 1/2 + 1/3 + … + 1/100
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+A saída contém um valor correspondente ao valor de S.<br>
+O valor deve ser impresso com dois dígitos após o ponto decimal.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  |  |
+
+**<a href="./Exercícios/bee1155.py">Resolução</a>**
