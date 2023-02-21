@@ -2139,6 +2139,6 @@ Para cada posição do vetor, escreva "**N**[*i*] = **x**", onde *i* é a posiç
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
-| 3 | N[0] = 0<br>N[1] = 1<br>N[2] = 2<br>N[3] = 0<br>N[4] = 1<br>N[5] = 2<br>N[6] = 0<br>N[7] = 1<br>N[8] = 2 |
+| 3 | N[0] = 0<br>N[1] = 1<br>N[2] = 2<br>N[3] = 0<br>N[4] = 1<br>N[5] = 2<br>N[6] = 0<br>N[7] = 1<br>N[8] = 2<br>... |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1177.py">Resolução</a>**
