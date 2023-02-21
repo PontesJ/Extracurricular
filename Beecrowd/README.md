@@ -1750,6 +1750,27 @@ Para cada número **N** do arquivo de entrada deve ser impressa uma linha de 1 a
 
 ---
 
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1149">Beecrowd 1149 - Somando Inteiros Consecutivos</a>
+
+Faça um algoritmo para ler um valor A e um valor N. Imprimir a soma de A + i para cada i com os valores (0 <= i <= N-1). Enquanto N for negativo ou ZERO, um novo N(apenas N) deve ser lido.
+
+**Entrada**
+
+A entrada contém somente valores inteiros, podendo ser positivos ou negativos. Todos os valores estão na mesma linha.
+
+**Saída**
+
+A saída contém apenas um valor inteiro.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 3 2 | 7 |
+| 3 -1 0 -2 2 | 7 |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1149.py">Resolução</a>**
+
+---
+
 ## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1150">Beecrowd 1150 - Ultrapassando Z</a>
 
 Faça um programa que leia dois inteiros: **X** e **Z** (devem ser lidos tantos valores para **Z** quantos necessários, até que seja digitado um valor maior do que **X** para ele). Conte quantos números inteiros devem ser somados em sequência (considerando o **X** nesta soma) para que a soma ultrapasse a **Z** o mínimo possível. Escreva o valor final da contagem.
