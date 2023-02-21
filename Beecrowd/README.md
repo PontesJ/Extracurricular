@@ -1874,3 +1874,25 @@ O valor deve ser impresso com dois dígitos após o ponto decimal.
 |  |  |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1155.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1156">Beecrowd 1156 - Sequência S II</a>
+
+Escreva um algoritmo para calcular e escrever o valor de S, sendo S dado pela fórmula:<br>
+S = 1 + 3/2 + 5/4 + 7/8 + ... + 39/?
+
+**Entrada**
+
+Não há nenhuma entrada neste problema.
+
+**Saída**
+
+A saída contém um valor correspondente ao valor de S.<br>
+O valor deve ser impresso com dois dígitos após o ponto decimal.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  |  |
+
+**<a href="./Exercícios/bee1156.py">Resolução</a>**
