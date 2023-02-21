@@ -1453,3 +1453,23 @@ O valor deve ser impresso com dois dígitos após o ponto decimal.
 |  |  |
 
 **<a href="./Exercícios/bee1156.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1157">Beecrowd 1157 - Divisores I</a>
+
+Ler um número inteiro N e calcular todos os seus divisores.
+
+**Entrada**
+
+O arquivo de entrada contém um valor inteiro.
+
+**Saída**
+
+O arquivo de entrada contém um valor inteiro.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 6 | 1<br>2<br>3<br>6 |
+
+**<a href="./Exercícios/bee1157.py">Resolução</a>**
