@@ -1719,3 +1719,23 @@ Para cada posição do vetor **N**, escreva "N[*i*] = Y", onde *i* é a posiçã
 | 200.0000 | N[0] = 200.0000<br>N[1] = 100.0000<br>N[2] = 50.0000<br>N[3] = 25.0000<br>N[4] = 12.5000<br>... |
 
 **<a href="./Exercícios/bee1178.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1179">Beecrowd 1179 - Preenchimento de Vetor IV</a>
+
+Neste problema você deverá ler 15 valores colocá-los em 2 vetores conforme estes valores forem pares ou ímpares. Só que o tamanho de cada um dos dois vetores é de 5 posições. Então, cada vez que um dos dois vetores encher, você deverá imprimir todo o vetor e utilizá-lo novamente para os próximos números que forem lidos. Terminada a leitura, deve-se imprimir o conteúdo que restou em cada um dos dois vetores, imprimindo primeiro os valores do vetor impar. Cada vetor pode ser preenchido tantas vezes quantas for necessário.
+
+**Entrada**
+
+A entrada contém 15 números inteiros.
+
+**Saída**
+
+Imprima a saída conforme o exemplo abaixo.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 1<br>3<br>4<br>-4<br>2<br>3<br>8<br>2<br>5<br>-7<br>54<br>76<br>789<br>23<br>98 | par[0] = 4<br>par[1] = -4<br>par[2] = 2<br>par[3] = 8<br>par[4] = 2<br>impar[0] = 1<br>impar[1] = 3<br>impar[2] = 3<br>impar[3] = 5<br>impar[4] = -7<br>impar[0] = 789<br>impar[1] = 23<br>par[0] = 54<br>par[1] = 76<br>par[2] = 98 |
+
+**<a href="./Exercícios/bee1179.py">Resolução</a>**
