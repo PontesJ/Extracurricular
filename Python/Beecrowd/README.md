@@ -1539,3 +1539,47 @@ Imprima, para cada caso de teste, quantos anos levará para que a cidade A ultra
 | 6<br>100 150 1.0 0<br>90000 120000 5.5 3.5<br>56700 72000 5.2 3.0<br>123 2000 3.0 2.0<br>100000 110000 1.5 0.5<br>62422 484317 3.1 1.0 | 51 anos.<br>16 anos.<br>12 anos.<br>Mais de 1 seculo.<br>10 anos.<br>100 anos. |
 
 **<a href="./Exercícios/bee1160.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1164">Beecrowd 1164 - Número Perfeito</a>
+
+Na matemática, um número perfeito é um número inteiro para o qual a soma de todos os seus divisores positivos próprios (excluindo ele mesmo) é igual ao próprio número. Por exemplo o número 6 é perfeito, pois 1+2+3 é igual a 6. Sua tarefa é escrever um programa que imprima se um determinado número é perfeito ou não.
+
+**Entrada**
+
+A entrada contém vários casos de teste. A primeira linha da entrada contém um inteiro **N** (1 ≤ **N** ≤ 20), indicando o número de casos de teste da entrada. Cada uma das **N** linhas seguintes contém um valor inteiro **X** (1 ≤ **X** ≤ 108), que pode ser ou não, um número perfeito.
+
+**Saída**
+
+Para cada caso de teste de entrada, imprima a mensagem “**X** eh perfeito” ou “**X** nao eh perfeito”, de acordo com a especificação fornecida.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 3<br>6<br>5<br>28 | 6 eh perfeito<br>5 nao eh perfeito<br>28 eh perfeito |
+
+**<a href="./Exercícios/bee1164.py">Resolução</a>**
+
+<!--
+
+Template:
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/XXXX">Beecrowd XXXX - YYYY</a>
+
+
+
+**Entrada**
+
+
+
+**Saída**
+
+
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+|  |  |
+
+**<a href="./Exercícios/beeXXXX.py">Resolução</a>**
+
+-->
