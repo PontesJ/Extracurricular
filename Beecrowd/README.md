@@ -2022,3 +2022,23 @@ Para cada caso de teste de entrada, imprima a mensagem “**X** eh primo” ou �
 | 3<br>8<br>51<br>7 | 8 nao eh primo<br>51 nao eh primo<br>7 eh primo |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1165.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1172">Beecrowd 1172 - Substituição em Vetor I</a>
+
+Faça um programa que leia um vetor X[10]. Substitua a seguir, todos os valores nulos e negativos do vetor X por 1. Em seguida mostre o vetor X.
+
+**Entrada**
+
+A entrada contém 10 valores inteiros, podendo ser positivos ou negativos.
+
+**Saída**
+
+Para cada posição do vetor, escreva "X[**i**] = **x**", onde **i** é a posição do vetor e **x** é o valor armazenado naquela posição.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 0<br>-5<br>63<br>0<br>... | X[0] = 1<br>X[1] = 1<br>X[2] = 63<br>X[3] = 1<br>... |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1172.py">Resolução</a>**
