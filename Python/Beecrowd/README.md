@@ -1652,7 +1652,7 @@ A entrada contém 20 valores inteiros, positivos ou negativos.
 
 **Saída**
 
-Para cada posição do vetor **N**, escreva "N[i] = Y", onde i é a posição do vetor e **Y** é o valor armazenado naquela posição.
+Para cada posição do vetor **N**, escreva "N[*i*] = Y", onde *i* é a posição do vetor e **Y** é o valor armazenado naquela posição.
 
 | **Exemplos de Entrada** | **Exemplos de Saída** |
 | ------------- | ------------- |
@@ -1679,3 +1679,23 @@ Para cada caso de teste da entrada, imprima a mensagem "Fib(N) = X", onde X é o
 | 3<br>0<br>4<br>2 | Fib(0) = 0<br>Fib(4) = 3<br>Fib(2) = 1 |
 
 **<a href="./Exercícios/bee1176.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1177">Beecrowd 1177 - Preenchimento de Vetor II</a>
+
+Faça um programa que leia um valor **T** e preencha um vetor **N**[1000] com a sequência de valores de 0 até **T**-1 repetidas vezes, conforme exemplo abaixo. Imprima o vetor **N**.
+
+**Entrada**
+
+A entrada contém um valor inteiro **T** (2 ≤ **T** ≤ 50).
+
+**Saída**
+
+Para cada posição do vetor, escreva "**N**[*i*] = **x**", onde *i* é a posição do vetor e **x** é o valor armazenado naquela posição.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 3 | N[0] = 0<br>N[1] = 1<br>N[2] = 2<br>N[3] = 0<br>N[4] = 1<br>N[5] = 2<br>N[6] = 0<br>N[7] = 1<br>N[8] = 2 |
+
+**<a href="./Exercícios/bee1177.py">Resolução</a>**
