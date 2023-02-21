@@ -2062,3 +2062,23 @@ Para cada posição do vetor, escreva "N[**i**] = **X**", onde **i** é a posiç
 | 1 | N[0] = 1<br>N[1] = 2<br>N[2] = 4<br>... |
 
 **<a href="../Python/Beecrowd/Exercícios/bee1173.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1174">Beecrowd 1174 - Seleçao em Vetor I</a>
+
+Faça um programa que leia um vetor A[100]. No final, mostre todas as posições do vetor que armazenam um valor menor ou igual a 10 e o valor armazenado em cada uma das posições.
+
+**Entrada**
+
+A entrada contém 100 valores, podendo ser inteiros, reais, positivos ou negativos.
+
+**Saída**
+
+Para cada valor do vetor menor ou igual a 10, escreva "A[**i**] = **x**", onde **i** é a posição do vetor e **x** é o valor armazenado na posição, com uma casa após o ponto decimal.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 0<br>-5<br>63<br>-8.5<br>... | A[0] = 0.0<br>A[1] = -5.0<br>A[3] = -8.5<br>... |
+
+**<a href="../Python/Beecrowd/Exercícios/bee1174.py">Resolução</a>**
