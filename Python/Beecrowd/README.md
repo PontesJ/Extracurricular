@@ -1387,3 +1387,25 @@ A saída contém um valor inteiro, correspondente ao fatorial de N.
 | 4 | 24 |
 
 **<a href="./Exercícios/bee1153.py">Resolução</a>**
+
+---
+
+## <a href="https://www.beecrowd.com.br/judge/pt/problems/view/1154">Beecrowd 1154 - Idades</a>
+
+Faça um algoritmo para ler um número indeterminado de dados, contendo cada um, a idade de um indivíduo. O último dado, que não entrará nos cálculos, contém o valor de idade negativa. Calcular e imprimir a idade média deste grupo de indivíduos.
+
+**Entrada**
+
+A entrada contém um número indeterminado de inteiros. A entrada será encerrada quando um valor negativo for lido.
+
+**Saída**
+
+A saída contém um valor correspondente à média de idade dos indivíduos.
+
+A média deve ser impressa com dois dígitos após o ponto decimal.
+
+| **Exemplos de Entrada** | **Exemplos de Saída** |
+| ------------- | ------------- |
+| 34<br>56<br>44<br>23<br>-2 | 39.25 |
+
+**<a href="./Exercícios/bee1154.py">Resolução</a>**
