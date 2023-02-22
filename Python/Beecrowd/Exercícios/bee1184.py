@@ -13,7 +13,7 @@ if caracter == 'S':
 
     for i in range(12):
         for j in range(12):
-            if i < j:
+            if i > j:
                 soma += matriz[i][j]
     print(f"{soma:.1f}")
 
