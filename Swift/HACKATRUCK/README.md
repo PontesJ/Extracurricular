@@ -26,7 +26,7 @@ Programar é criar um conjunto de instruções para um dispositivo executar, sem
 
 Ao montar uma pizza temos a seguinte lista de ingredientes:
 
-<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_01.png">
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_01.png" width = 400>
 
 Quais são as nossas opções de instruções?
 
@@ -52,7 +52,7 @@ Teremos um problema, pois colocaríamos o queijo onde? As instruções, que tamb
 
 Será esse o nosso melhor conjunto de instruções? Vamos ver o resultado?
 
-<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_02.png">
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_02.png" width = 400>
 
 Esquecemos de alguma coisa? Precisamos fatiar os ingredientes! Nova receita:
 
@@ -80,7 +80,7 @@ Esquecemos de alguma coisa? Precisamos fatiar os ingredientes! Nova receita:
 
 Será!?
 
-<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_03.png">
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/1._Conceitos_Iniciais_-_03.png" width = 400>
 
 Agora sim!  Montamos nossa pizza e conseguimos entender o quanto comandos imprecisos ou a falta deles podem nos levar a resultados inesperados!
 
