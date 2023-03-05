@@ -1012,3 +1012,578 @@ true
 true
 true
 ```
+
+---
+
+# COMANDOS DE DECISÃO
+
+## COMANDO IF
+
+Às vezes precisamos executar uma ação somente se uma condição for verdadeira, no ***Swift*** isso é representado pela instrução ***if.*** Você informa uma condição pro ***Swift*** verificar e um trecho de código a ser executado caso a condição seja válida.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/2._Comandos_de_Decisao_-_01.png" width = 400>
+
+Vamos exemplificar e aprender a sintaxe do comando **if** :
+
+Sintaxe:
+
+```
+if  condicao  {
+
+    //Código a ser executado caso a condição seja verdadeira
+
+}
+```
+
+```
+var estaSol: Bool = true
+
+if estaSol {
+  print("O sol está visível")  
+}
+```
+
+**Saída**
+
+```
+O sol está visível
+```
+
+No nosso exemplo nossa mensagem só é impressa porque **nossa condição é verdadeira**. No **if** podemos utilizar operadores lógicos e aritméticos. Para ambos a regra é a mesma, se a expressão for verdadeira, o trecho de código daquele **if** será executado. Vamos a mais alguns exemplos pra fixação da sintaxe:
+
+```
+var estaSol: Bool = true
+var estaChovendo: Bool = true
+var estaNublado: Bool = false
+var descricaoTempo: String = "Ensolarado"
+
+if estaSol {
+  print("O sol está visível")  
+}
+
+//Operador AND
+if  estaSol && estaChovendo {
+  print("Chuva & Sol...")  
+}
+
+//Operador NOT
+if !estaNublado {
+  print("Opa, parece que está nublado sim! - Nesse caso o estaNublado (false), foi negado.")  
+}
+
+//Operador OR
+if estaSol || estaChovendo {
+  print("Opa, parece que está sol ou está chovendo")  
+}
+
+//Comparações
+if 5 > 1 {
+  print("Sim! Cinco é maior que um.")  
+}
+
+//Comparações
+if descricaoTempo == "Ensolarado" {
+  print("Sim! O tempo está ensolarado.")  
+}
+```
+
+**Saída**
+
+```
+O sol está visível
+Chuva & Sol...
+Opa, parece que está nublado sim! - Nesse caso o estaNublado (false), foi negado.
+Opa, parece que está sol ou está chovendo
+Sim! Cinco é maior que um.
+Sim! O tempo está ensolarado.
+```
+
+Apenas como exemplo, vejamos algumas condições falsas:
+
+```
+var estaSol: Bool = false
+var estaChovendo: Bool = false
+var estaNublado: Bool = true
+var descricaoTempo: String = "Chuvoso"
+
+if estaSol {
+  print("O sol está visível")  
+}
+
+//Operador AND
+if estaSol && estaChovendo {
+  print("Chuva & Sol...")  
+}
+
+//Operador OR
+if estaSol || estaChovendo {
+  print("Opa, parece que está sol ou está chovendo")  
+}
+
+//Comparações
+if 5 > 10 {
+  print("Sim! Cinco é maior que dez.")  
+}
+
+//Comparações
+if descricaoTempo == "Ensolarado" {
+  print("Sim! O tempo está ensolarado.")  
+}
+```
+
+Nada foi impresso pois nossas condições não eram verdadeiras, mas isso também pode ser útil não pode? Vamos conhecer o comando que complementa o nosso **if**, o **else**.
+
+---
+
+## COMANDO IF-ELSE
+
+Opcionalmente podemos adicionar um segundo bloco chamado de **else**, este será encarregado de nos prover um bloco que só será executado caso a **nossa condição não seja verdadeira**. No exemplo abaixo sairíamos pelo fluxo false na condicional.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/2._Comandos_de_Decisao_-_02.png" width = 400>
+
+Sintaxe:
+
+```
+if condicao {
+
+    //Código a ser executado caso a condição seja verdadeira
+
+} else {
+
+    //Código a ser executado caso a condição não seja verdadeira
+
+}
+```
+
+```
+var estaSol: Bool = false
+
+if estaSol {
+  print("O sol está visível")  
+}else{
+    print("O sol não está visível")  
+}
+```
+
+**Saída**
+
+```
+O sol não está visível
+```
+
+Vamos ver mais exemplos com diferentes expressões condicionais:
+
+```
+var estaSol: Bool = false
+var estaChovendo: Bool = false
+var estaNublado: Bool = true
+var descricaoTempo: String = "Chuvoso"
+
+if estaSol {
+    print("O sol está visível")  
+}else{
+    print("O sol não está visível")  
+}
+
+//Operador AND
+if estaSol && estaChovendo {
+    print("Chuva & Sol...")  
+} else {
+    print("Não temos Chuva & Sol hoje :(") 
+}
+
+//Operador OR
+if estaSol || estaChovendo {
+    print("Opa, parece que está sol ou está chovendo")  
+} else {
+    print("Opa, parece que não está sol ou não está chovendo")      
+}
+
+//Comparações
+if 5 > 10 {
+    print("Com essa condição nunca entraremos aqui não é mesmo? ")  
+} else {
+    print("Não! Cinco não é maior que dez.")  
+}
+
+//Comparações
+if descricaoTempo == "Ensolarado" {
+    print("Sim! O tempo está ensolarado.")  
+} else {
+    print("Não o tempo não está Ensolarado hoje! O tempo está \(descricaoTempo).")  
+}
+```
+
+**Saída**
+
+```
+O sol não está visível
+Não temos Chuva & Sol hoje :(
+Opa, parece que não está sol ou não está chovendo
+Não! Cinco não é maior que dez.
+Não o tempo não está Ensolarado hoje! O tempo está Chuvoso.
+```
+
+**Vamos treinar?**
+
+Crie uma constante com o valor de *pi*π (3,14), e uma variável com um valor a ser definido por você, e compare-as utilizando ***IF-ELSE***, as mensagens de saída deverão conter as seguintes mensagens respectivamente: “Este número é menor que *pi*” ou “Este número é maior ou igual a *pi*”.
+
+**<a href="./Códigos/main06.swift">Código</a>**
+
+Resolução:
+
+```
+/*Crie uma constante com o valor de pi π (3,14), e uma variável com um valor 
+a ser definido por você, e compare-as utilizando IF-ELSE, 
+as mensagens de saída deverão conter as seguintes mensagens respectivamente: 
+“Este número é menor que pi” ou “Este número é maior ou igual a pi”.*/
+
+let pi: Double = 3.14
+
+var numero: Double = 3
+
+if numero < pi {
+    print("Este número é menor que pi"  )    
+} else {
+    print("Este número é maior ou igual a pi")    
+}
+```
+
+**Saída**
+
+```
+Este número é menor que pi
+```
+
+**💡Poderíamos utilizar inferência de tipo ( ***let pi = 3.14*** ) ao invés de informar o tipo para ambas as variáveis! Mas e aí, lembraram de utilizar ponto e não virgula na hora de informar os decimais?!**
+
+---
+
+## COMANDO IF - ELSE IF - ELSE
+
+Isso ainda pode ficar mais interessante! E se quisermos testar mais de uma condição? No nosso cenário anterior sempre será executado um dos dois trechos, mas poderíamos testar mais uma condição dentro de um bloco true, ou de um bloco false (sim, é permitido encadear ***if***). Vamos ver como ficaria?
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/2._Comandos_de_Decisao_-_03.png" width = 400>
+
+No exemplo acima temos um controle de idade, a partir de 18 podem entrar, a partir de 16 entram acompanhados de um responsável, e abaixo disso o acesso é negado, vamos ver no Swift?
+
+```
+var idade: Int = 16
+
+if idade >= 16 {
+    if idade > 18 {
+        print ("Acesso permitido")
+    }else{
+        print ("Acesso permitido com responsável")
+    }
+} else{
+    print ("Acesso negado")
+}
+```
+
+**Saída**
+
+```
+Acesso permitido com responsável
+```
+
+Tudo tranquilo né? Vamos trabalhar com temperaturas e aprender mais uma possibilidade, para agregar ainda mais nossos conhecimentos sobre **condicionais**? Olhem o exemplo abaixo:
+
+```
+var temp = 13
+
+if temp <= 12 {
+    print("Está muito frio")
+} else {
+    print("Oba deu praia!")
+}
+```
+
+**Saída**
+
+```
+Oba deu praia!
+```
+
+Como nosso código só verifica uma condição, da forma que foi estruturado ele nos diz que deu praia, com 13 graus? Meio frio né? E se pudéssemos tratar diferentes faixas de temperatura? Vamos conhecer o ***else if***, ele funciona também dentro da estrutura padrão do ***if***, vejamos:
+
+Sintaxe:
+
+```
+if condicao {
+
+    //Código a ser executado caso a primeira condição seja verdadeira
+
+} else if condicao {
+
+    //Código a ser executado caso a segunda condição seja verdadeira
+
+} else {
+
+    //Código a ser executado caso nenhuma condição não seja verdadeira
+}
+```
+
+```
+var temp = 13
+
+if temp <= 12 {
+    print("Está muito frio")
+} else if temp <= 20 {
+    print("Acho que podemos pegar o casaco!")
+} else {
+    print("Oba deu praia!")
+}
+```
+
+**Saída**
+
+```
+Acho que podemos pegar o casaco!
+```
+
+Agora sabemos como adicionar mais condicionais no nosso **if**!
+
+Vamos exercitar:
+
+Crie uma condicional que trate o seguinte cenário:
+
+Idade menor que 3 a saída deve ser “Um bebê”
+
+Idade de 3 a 10 a saída deve ser “Uma criança”
+
+Idade de 11 a 17 saída deve ser “Um adolescente”
+
+Qualquer outra idade deve ser “Um adulto”
+
+Bom treino!
+
+**<a href="./Códigos/main07.swift">Código</a>**
+
+Resolução:
+
+```
+
+/*
+Idade menor que 3 a saída deve ser “Um bebê”
+Idade de 3 a 12 a saída deve ser “Uma criança”
+Idade de 13 a 17 saída deve ser “Um adolescente”
+Qualquer outra idade deve ser “Um adulto”
+*/
+var idade:Int = 14
+
+if idade < 3 {
+    print ("Um bebê")
+} else if idade >= 3 && idade <= 12 {
+    print ("Uma criança")
+} else if idade >= 13 && idade <= 17 {
+    print ("Um adolescente")
+} else {
+    print ("Um adulto")
+}
+```
+
+**Saída**
+
+```
+Um adolescente
+```
+
+---
+
+## COMANDO SWITCH
+
+O ***switch*** é uma forma de não entrarmos em grandes estruturas de ***if*** encadeadas e complexas. Ou seja, a lógica é a mesma do ***if***, diante de uma condição faça algo, mas o que o diferencia e possibilita que seja menos complexo? Vamos a sintaxe e alguns exemplos:
+
+```
+switch variavel/constante {
+
+    case condicao1 :
+
+        //Código a ser executado caso condicao1 seja verdadeira (No caso a condição padrão é ==, ou seja, ele irá comparar os dois valores)
+
+    case condicao2 :
+
+        //Código a ser executado caso condicao2 seja verdadeira (No caso a condição padrão é ==, ou seja, ele irá comparar os dois valores)
+
+    default :
+
+        //Código a ser executado caso nenhuma condicao1 seja verdadeira
+}
+```
+
+**💡 Podemos adicionar quantos cases forem necessários!**
+
+Vejam os 2 exemplos a seguir:
+
+```
+let num = 8
+ 
+switch num {
+case 0:
+    print("Num tem o valor 0")
+case 1:
+    print("Num tem o valor 1")
+default:
+    print("Num tem outro valor diferente de 0 e 1")
+}
+```
+
+**Saída**
+
+```
+Num tem outro valor diferente de 0 e 1
+```
+
+```
+let favoriteColor = "black"
+ 
+switch favoriteColor {
+case "blue":
+    print("minha cor predileta é Azul")
+case "black":
+    print("minha cor predileta é Preto")
+case "red":
+    print("minha cor predileta é Vermelho")
+default:
+    print("Não temos registro pra cor informada.")
+}
+```
+
+**Saída**
+
+```
+minha cor predileta é Preto
+```
+
+Então com um apenas um ***switch*** podemos verificar quantas condições quisermos para um valor informado no início dele. 
+
+**💡 Uma vez encontrado um valor correspondente ele saí da estrutura e não faz mais nenhuma verificação.**
+
+Vamos treinar? Faça um caixa eletrônico!  Vamos fazer um depósito, crie um ***switch*** que imprima qual nota foi inserida, sua variável pode ser uma ***String*** ou um ***Int***.
+
+**<a href="./Códigos/main08.swift">Código</a>**
+
+Resolução:
+
+```
+var nota = 3
+
+switch nota {
+case 1:
+    print("Nota de 1 real")
+case 2:
+    print("Nota de 2 reais")
+case 5:
+    print("Nota de 5 reais")
+case 10:
+    print("Nota de 10 reais")
+case 20:
+    print("Nota de 20 reais")
+case 50:
+    print("Nota de 50 reais")
+case 100:
+    print("Nota de 100 reais")
+default:
+    print("Nota inválida")
+}
+```
+
+**Saída**
+
+```
+Nota inválida
+```
+
+Vamos aprender novos operadores? Vamos ver no próximo exemplo operadores de intervalo!
+
+```
+let reais = 10
+ 
+switch reais {
+case 0..<5:
+    print("O preço está entre 0 e 4 reais.")
+case 5...10:
+    print("O preço está entre 5 reais e 10 reais.")
+default:
+    print("O preço é maior que 10 reais.")
+}
+```
+
+**Saída**
+
+```
+O preço está entre 5 reais e 10 reais.
+```
+
+Agora que já virão aplicado vamos às definições:
+
+| **Operador** | **Operação** |
+| ------------- | ------------- |
+| **A..<B** | É utilizado para definir um intervalo entre um numero A e B excluindo B. |
+| **A...B** | É utilizado para definir um intervalo entre um numero A e B incluindo B. |
+
+**Exemplos:**
+
+2 ..< 8 - Está entre 2 e 7
+
+0 ... 100 - Está entre 0 e 100
+
+**💡 Iremos utilizar esses operadores nos próximos módulos!**
+
+**Vamos treinar:**
+
+Crie um switch que trate os seguintes casos e imprima a mensagem correspondente:
+
+**Porcentagem seja 0** - “Insatisfatório, não acertou nenhuma questão.”
+
+**Porcentagem esteja entre 1 e 20 (Incluindo 20)** - “Insatisfatório, desempenho muito baixo.”
+
+**Porcentagem esteja entre 21 e 50 (excluindo 50)** - “Insatisfatório, vamos estudar mais?”
+
+**Porcentagem esteja entre 50 e 70 (excluindo 70)** - “Foi por pouco, vamos estudar mais!”
+
+**Porcentagem esteja entre 70 e 90 (excluindo 90)** - “Satisfatório, você foi aprovado!”
+
+**Outros casos** - “Excelente, desempenho memorável!”
+
+**<a href="./Códigos/main09.swift">Código</a>**
+
+Bom treino!
+
+Resolução:
+
+```
+/*
+Crie um switch que trate os seguintes casos e imprima a mensagem correspondente:
+Porcentagem seja 0 - “Insatisfatório, não acertou nenhuma questão.”
+Porcentagem esteja entre 1 e 20 (Incluindo 20) - “Insatisfatório, desempenho muito baixo.”
+Porcentagem esteja entre 21 e 50 (excluindo 50) - “Insatisfatório, vamos estudar mais?”
+Porcentagem esteja entre 50 e 70 (excluindo 70) - “Foi por pouco, vamos estudar mais!”
+Porcentagem esteja entre 70 e 90 (excluindo 90) - “Satisfatório, você foi aprovado!”
+Outros casos - “Excelente, desempenho memorável!”
+*/
+
+var porcentagem: Double = 70
+ 
+switch porcentagem {
+case 0:
+    print("O preço está entre 0 e 4 reais.")
+case 1...20:
+    print("Insatisfatório, desempenho muito baixo.")
+case 21..<50:
+    print("Insatisfatório, vamos estudar mais?")
+case 50..<70:
+    print("Foi por pouco, vamos estudar mais!")
+case 70..<90:
+    print("Satisfatório, você foi aprovado!")
+default:
+    print("Excelente, desempenho memorável!")
+}
+```
+
+**Saída**
+
+```
+Satisfatório, você foi aprovado!
+```
