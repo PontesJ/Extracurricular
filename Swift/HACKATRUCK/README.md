@@ -914,6 +914,8 @@ O resultado de !y && x é true
 O resultado de false && false é false
 ```
 
+---
+
 ## OPERADORES DE COMPARAÇÃO
 
 Operações de comparação atuam sobre dois operandos de mesmo tipo e retornam um valor lógico. São usados quando precisamos determinar a relação entre os dois operandos. Os comandos de comparação que podemos utilizar são:
