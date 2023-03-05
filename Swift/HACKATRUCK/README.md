@@ -823,10 +823,10 @@ O operador **OR** ( **||** ) assume um valor verdadeiro (**true**) se um de seus
 
 | **Operação** | **Saída** |
 | ------------- | ------------- |
-| ***true*** **||** ***true*** | Nosso resultado é ***true*** |
-| ***false*** **||** ***true*** | Nosso resultado é ***true*** |
-| ***true*** **||** ***false*** | Nosso resultado é ***true*** |
-| ***false*** **||** ***false*** | Nosso resultado é ***false*** |
+| ***true*** **\|\|** ***true*** | Nosso resultado é ***true*** |
+| ***false*** **\|\|** ***true*** | Nosso resultado é ***true*** |
+| ***true*** **\|\|** ***false*** | Nosso resultado é ***true*** |
+| ***false*** **\|\|** ***false*** | Nosso resultado é ***false*** |
 
 **Exemplos:**
 
@@ -866,16 +866,16 @@ Assim como os operadores aritméticos, os operadores lógicos também seguem uma
 | **1** | Parênteses **( )** |
 | **2** | ***NOT*** ! |
 | **3** | ***AND*** && |
-| **4** | ***OR*** || |
+| **4** | ***OR*** \|\| |
 
 Com os operadores aritméticos, devemos primeiramente resolver as operações com o operador de maior precedência. Temos assim, os seguintes valores para as expressões abaixo:
 
 | **Expressão** | **Como é interpretada** | **Saída** |
 | ------------- | ------------- | ------------- |
-| **true || true && false** | true || (true && false) | true |
-| **true && (true || false)** | true && (true || false) | true |
-| **true && (!true || false)** | true && (!true || false) | false |
-| **false || false || true** | (false || false) || true | true |
+| **true \|\| true && false** | true \|\| (true && false) | true |
+| **true && (true \|\| false)** | true && (true \|\| false) | true |
+| **true && (!true \|\| false)** | true && (!true \|\| false) | false |
+| **false \|\| false \|\| true** | (false \|\| false) \|\| true | true |
 | **true && false && true** | (true && false) && true | false |
 
 Podemos também utilizar variáveis lógicas no lugar das expressões ***true*** ou ***false,*** como por exemplo, x e y. A seguir, mostramos alguns exemplos de uso de expressões lógicas no corpo de um programa (lembrando sempre que as variáveis devem ser declaradas, apropriadamente, como Bool).
