@@ -1,0 +1,1 @@
+<img src="https://www.inovacao.usp.br/wp-content/uploads/sites/300/2019/08/2017_05_21-hackatruck1-720x340.png">
