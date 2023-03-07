@@ -1587,3 +1587,340 @@ default:
 ```
 Satisfatório, você foi aprovado!
 ```
+
+---
+
+# COMANDOS DE REPETIÇÃO
+
+## INTRODUÇÃO
+
+Comandos de repetição são úteis quando desejamos fazer operações repetitivas, sem escrever diversas vezes o mesmo código. Isto se torna ainda mais importante quando não sabemos, na hora em que estamos desenvolvendo, quantas vezes este comando precisará ser repetido. Para solucionar esses empecilhos e aumentar a qualidade do código, vamos entender os comandos ***WHILE, REPEAT-WHILE*** e ***FOR***.
+
+## COMANDO WHILE
+
+O comando ***while*** repete um conjunto de operações enquanto uma condição for verdadeira. Sua sintaxe é a seguinte:
+
+```
+while condicao {
+    //Comandos a serem executados em todas repetições enquanto a condição for verdadeira
+}
+```
+
+Exemplos:
+
+```
+var numero = 1
+var menorQueCinco = true
+ 
+while menorQueCinco {
+    if numero < 5{
+        print("o número \(numero) é menor que 5")
+    }else{
+        menorQueCinco = false
+    }
+    numero += 1 //Essa linha é igual a escrever numero = numero + 1
+}
+```
+
+**Saída**
+
+```
+o número 1 é menor que 5
+o número 2 é menor que 5
+o número 3 é menor que 5
+o número 4 é menor que 5
+```
+
+Ou seja, executamos 4 vezes o comando ***print()***, mesmo ele sendo escrito uma única vez, e colocamos nossa condição como false utilizando o ***else***, fazendo com que nosso laço pare de ser executado assim que a condição passa a ser falsa.
+
+**💡 Também podemos utilizar a palavra reservada break para parar a execução de um laço.**
+
+Vejamos o uso do break a partir do mesmo exemplo:
+
+```
+var numero = 1
+var menorQueCinco = true
+ 
+while menorQueCinco {
+    if numero < 5{
+        print("o número \(numero) é menor que 5")
+    }else{
+       break
+    }
+    numero += 1 //Essa linha é igual a escrever numero = numero + 1
+}
+```
+
+**Saída**
+
+```
+o número 1 é menor que 5
+o número 2 é menor que 5
+o número 3 é menor que 5
+o número 4 é menor que 5
+```
+
+Ou seja, assim que a condição do if passa a ser falsa, o comando break é executado no else, e faz nosso laço parar.
+
+É importante lembrar que, caso nossa condição do while seja falsa já no início, **nada será executado**. Por exemplo:
+
+```
+var x = 5
+var y = 5
+ 
+while x < y {
+    print("x é menor que y")
+}
+```
+
+**Vamos treinar?**
+
+Construa um contador que imprima os números até 512.
+
+**<a href="./Códigos/main10.swift">Código</a>**
+
+Resolução:
+
+```
+//Construa um contador que imprima os números até 512.
+
+var contador = 0
+
+while contador <= 512 {
+    print(contador)
+    contador += 1 // o mesmo que escrever contador = contador + 1
+}
+```
+
+**Saída**
+
+```
+0
+1
+2
+...
+512
+```
+
+---
+
+## COMANDO REPEAT-WHILE
+
+O comando ***repeat-while*** é uma variação do **while** cuja a condição só é verificada após a primeira execução dos comandos nele contidos. Vamos à sintaxe e em seguida, a uma comparação com o **while**:
+
+```
+repeat {
+    //Comandos a serem executados pelo menos uma vez e posteriormente em todas repetições em que a condição for verdadeira
+} while condicao
+```
+
+Comparação:
+
+```
+var x = 5
+var y = 5
+ 
+while x != y {
+    print("x é diferente de y")
+}
+ 
+repeat {
+    print("Mesmo sem validar a condição será executado ao menos uma vez")
+} while x != y
+```
+
+**Saída**
+
+```
+Mesmo sem validar a condição será executado ao menos uma vez
+```
+
+Com a mesma condição, o nosso ***repeat-while*** imprimiu sua mensagem enquanto o ***while*** não.
+
+Vamos ver mais um exemplo de uso:
+
+```
+var numero = 0
+
+repeat {
+   print("O número atual é \(numero)")
+   numero += 1
+} while (numero < 5);
+
+
+/********** Condição falsa *********/ 
+print("Condição falsa")
+
+var numero2 = 120
+
+repeat {
+   print("O número atual é \(numero2)")
+   numero2 += 1
+} while (numero2 < 0);
+```
+
+**Saída**
+
+```
+O número atual é 0
+O número atual é 1
+O número atual é 2
+O número atual é 3
+O número atual é 4
+Condição falsa
+O número atual é 120
+```
+
+Vimos que no primeiro exemplo tivemos 5 mensagens impressas no primeiro bloco, com uma condição válida. Já o segundo exemplo está com uma condição falsa, mas ainda assim, imprime a sua primeira mensagem. Essa estrutura pode vir a ser útil dependendo do que estiver fazendo e do cenário que se está trabalhando.
+
+---
+
+## COMANDO FOR
+
+Como vimos anteriormente, esse capítulo nos ensina a não repetirmos muitas vezes a mesma ação de forma manual, correto? Podemos, então, criar laços de repetição (*loops*) que irão trabalhar por nós (maravilhoso, não?), vamos conhecer agora o comando *for*. Vejamos a sintaxe:
+
+```
+For variavel in contador {
+    //Comando a ser executado em todas repetições até que acabe o contador definido
+}
+```
+
+E agora um exemplo básico para começarmos a nos familiarizar com o ***for***.
+
+```
+//Bom dia 5x
+
+for i in 1...5 {
+    print("Bom dia")
+}
+```
+
+**Saída**
+
+```
+Bom dia
+Bom dia
+Bom dia
+Bom dia
+Bom dia
+```
+
+O “Bom dia” foi impresso 5 vezes porque nosso contador é um intervalo de 1 até 5.
+
+**💡 Aprendemos sobre os operadores de limite no capítulo de Controle de Fluxo e os mesmos serão utilizados aqui. Recapitulando:**
+
+| **Operador** | **Operação** |
+| ------------- | ------------- |
+| **A..<B** | É utilizado para definir um intervalo entre um numero A e B excluindo B. |
+| **A...B** | É utilizado para definir um intervalo entre um numero A e B incluindo B. |
+
+Vamos avançar mais um pouco e imaginar que precisamos imprimir tabuadas. Uma das possibilidades seria gerar 10 ***prints()***, correto?
+
+```
+// Tabuada do 6
+
+print("6 x 1 = \(6 * 1)")
+print("6 x 2 = \(6 * 2)")
+print("6 x 3 = \(6 * 3)")
+print("6 x 4 = \(6 * 4)")
+print("6 x 5 = \(6 * 5)")
+print("6 x 6 = \(6 * 6)")
+print("6 x 7 = \(6 * 7)")
+print("6 x 8 = \(6 * 8)")
+print("6 x 9 = \(6 * 9)")
+print("6 x 10 = \(6 * 10)")
+```
+
+**Saída**
+
+```
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+6 x 5 = 30
+6 x 6 = 36
+6 x 7 = 42
+6 x 8 = 48
+6 x 9 = 54
+6 x 10 = 60
+```
+
+E de fato funcionaria, mas vamos aprender uma nova forma de fazer isso? Para que seja mais eficiente e processado pela máquina solucionando as linhas repetitivas que foram criadas de forma manual, utilizaremos o ***for***.
+
+```
+//Tabuada do 6
+
+for i in 1...10 {
+    print(" 6 x \(i) = \(6 * i)")
+}
+```
+
+**Saída**
+
+```
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+6 x 5 = 30
+6 x 6 = 36
+6 x 7 = 42
+6 x 8 = 48
+6 x 9 = 54
+6 x 10 = 60
+```
+
+Explicando, ***i*** é criada em tempo de execução, ou seja, não precisamos declará-la manualmente e ela recebe um valor a cada vez que passamos por essa linha, ou seja:
+
+- Da primeira vez ela tem o valor 1, pois nosso limite é de 1...10
+
+- Da segunda vez ela tem o valor 2, pois já executou os comandos para o valor 1 e assumiu o próximo valor do limite, e assim sucessivamente até que...
+
+- Na última vez ela assume o valor 10, executa todos os comandos e sai desse laço de repetição.
+
+Vamos agora entender isso da ótica dos nossos comandos:
+
+A cada vez que entramos na fase de executar os comandos, a nossa constante ***i*** está com um novo valor, correto? Então é só combinar esse valor com o que queremos fazer e conseguimos partir de um cenário de 10 linhas de ***print()*** pra um novo, com apenas 3 linhas!
+
+Vamos olhar de novo e escrever mais algumas tabuadas:
+
+Escrevam a tabuada do 1 ao 10, abaixo dessa:
+
+**<a href="./Códigos/main11.swift">Código</a>**
+
+Já pensou na possibilidade de não fazer o trabalho de forma manual? 
+
+```
+//Tabuada do 6
+
+for i in 1...10 {
+    for j in 1...10 {
+        print(" \(i) x \(j)  = \(j * i)")
+    }
+    print("_________________________")
+}
+```
+
+**Saída**
+
+```
+1 x 1  = 1
+1 x 2  = 2
+1 x 3  = 3
+1 x 4  = 4
+1 x 5  = 5
+1 x 6  = 6
+1 x 7  = 7
+1 x 8  = 8
+1 x 9  = 9
+1 x 10  = 10
+_________________________
+2 x 1  = 2
+2 x 2  = 4
+...
+10 x 10  = 100
+_________________________
+```
+
+Podemos criar um ***for*** dentro de outro ***for*** e diminuir ainda mais a escrita de código, só com a ressalva de que precisamos trocar o nome do nosso iterador, normalmente utilizamos ***i, j, k*** para referenciar nossos iteradores nos laços, mas nada impede que você atribua algum outro nome.
