@@ -1596,6 +1596,8 @@ Satisfatório, você foi aprovado!
 
 Comandos de repetição são úteis quando desejamos fazer operações repetitivas, sem escrever diversas vezes o mesmo código. Isto se torna ainda mais importante quando não sabemos, na hora em que estamos desenvolvendo, quantas vezes este comando precisará ser repetido. Para solucionar esses empecilhos e aumentar a qualidade do código, vamos entender os comandos ***WHILE, REPEAT-WHILE*** e ***FOR***.
 
+---
+
 ## COMANDO WHILE
 
 O comando ***while*** repete um conjunto de operações enquanto uma condição for verdadeira. Sua sintaxe é a seguinte:
@@ -1924,3 +1926,429 @@ _________________________
 ```
 
 Podemos criar um ***for*** dentro de outro ***for*** e diminuir ainda mais a escrita de código, só com a ressalva de que precisamos trocar o nome do nosso iterador, normalmente utilizamos ***i, j, k*** para referenciar nossos iteradores nos laços, mas nada impede que você atribua algum outro nome.
+
+---
+
+# FUNÇÕES
+
+### INTRODUÇÃO
+
+A função nos permite agrupar comandos (instruções) e tem por objetivo resolver um problema ou realizar uma ação. Podemos executá-la quantas vezes for necessário.
+
+**Exemplo:**
+
+```
+func primeiraFuncao() {
+    print("Essa é minha primeira função")
+}
+```
+
+Para executar uma tarefa cotidiana, como chupar uma bala, repetimos uma determinada sequência de passos. Uma vez aprendida, essa sequência é executada de forma tão automática que nem reparamos. Podemos representar isso com um conjunto de instruções:
+
+1- pegarBala( )
+
+2- abrirBala( )
+
+3- levarABoca( )
+
+Em nosso exemplo iremos criar a função ***chuparBala( )*** que agrupa todos esses comandos:
+
+```
+func chuparBala() {
+    pegarBala()
+    abrirBala()
+    porNaBoca()
+}
+```
+
+Nela agrupamos todos os nossos comandos em uma função e ela será executada somente quando chamarmos a função ***chuparBala( )***.
+
+**Note que não conseguiremos executar o código acima em nosso simulador, pois nossos 3 comandos não foram definidos.**
+
+Para definir uma função utilizaremos o prefixo **func**, após ele, um nome seguido de ( ) e por fim { } que engloba todo o código contido na função. Veja o exemplo de uma função básica em Swift:
+
+```
+func corPredileta() {
+    print("Minha cor predileta é laranja")
+}
+```
+
+No nosso simulador vemos que nada foi impresso, e isso está correto! O motivo é simples, apenas criamos a função ***corPredileta( )*** com o comando print( ) mas não a executamos, isso só ocorrerá quando digitarmos ***corPredileta( )***, e isso denomina-se **chamar a função** e assim os comandos dentro dela serão executados.
+
+```
+func corPredileta() {
+    print("Minha cor predileta é laranja")
+}
+
+corPredileta()
+```
+
+**Saída**
+
+```
+Minha cor predileta é laranja
+```
+
+**Vamos praticar?**
+
+Crie uma função que se chame ***nomeCompleto*** e imprima a frase “Meu nome completo é Monteiro de Sousa”. Em seguida chame sua função e confira a saída.
+
+**💡 Para chamar uma função basta colocar seu nome seguido de parênteses. No exercício será: nomeCompleto()!**
+
+**<a href="./Códigos/main12.swift">Código</a>**
+
+Vamos conferir?
+
+```
+/* Crie uma função que se chame nomeCompleto 
+e imprima a frase “Meu nome completo é Monteiro de Sousa”. 
+Em seguida chame sua função e confira a saída.*/
+
+
+func nomeCompleto(){
+    print("Meu nome completo é Monteiro de Sousa")
+}
+
+nomeCompleto()
+```
+
+**Saída**
+
+```
+Meu nome completo é Monteiro de Sousa
+```
+
+Você ainda pode estar se perguntando se realmente compensa escrever funções com apenas uma linha de código, como as acima. Vejamos: imagine um cenário onde utilizemos essa linha em 5 diferentes pontos e se precisássemos alterar uma informação seria em... 5 locais! Se centralizamos e alteramos somente em nossa função, todos os locais que ela for utilizada serão atualizados.
+
+Agora vamos continuar apreendo sobre funções, mais especificamente sobre **parametrização**.
+
+---
+
+## PARÂMETROS
+
+Vamos tornar o nosso exemplo das cores mais completo? Para isso, temos um recurso chamado parâmetro, ele nos permite fornecer um valor de entrada que poderá ser utilizado no corpo da nossa função.
+
+**Exemplo:**
+
+```
+func corPredileta(cor: String) {
+    print("Minha cor predileta é \(cor)")
+}
+
+corPredileta(cor: "Azul")
+```
+
+**Saída**
+
+```
+Minha cor predileta é Azul
+```
+
+Interessante, não? Acabamos de dizer para o ***Swift*** que nossa função aceita valores externos e que, nesse caso, o parâmetro deve se chamar ***cor*** e ser do tipo **String**. Ele ficará responsável por transportar os nossos dados externos para o corpo da nossa função. É importante mencionar que uma função aceita múltiplos parâmetros, sempre seguindo o padrão “nome e tipo”, como vimos no exemplo acima, tornando nossa função mais **útil**. Com essa alteração, ou seja, com o uso de múltiplos parâmetros, podemos, por exemplo, chamar nossa função 3 vezes passando 3 valores diferentes para o nosso parâmetro. Vejamos:
+
+```
+func corPredileta(cor: String) {
+    print("Minha cor predileta é \(cor)")
+}
+
+corPredileta(cor: "Azul")
+
+corPredileta(cor: "Preto")
+
+corPredileta(cor: "Rosa")
+```
+
+**Saída**
+
+```
+Minha cor predileta é Azul
+Minha cor predileta é Preto
+Minha cor predileta é Rosa
+```
+
+Com uma única função tivemos 3 saídas diferentes, uma para cada chamada.
+
+**Vamos exercitar?**
+
+Complete o código abaixo com uma função chamada ***imprimeNome*** que receba uma **String** nome e imprima “Meu nome é:” + o nome passado por parâmetro.
+
+**<a href="./Códigos/main13.swift">Código</a>**
+
+Conseguiu? Vamos à solução:
+
+```
+/* Crie uma função chamada imprimeNome 
+que receba uma String nome, 
+e imprima seu nome quando chamada. */
+func imprimeNome(nome: String){
+    print ("Meu nome é \(nome)")
+    
+}
+
+imprimeNome(nome: "Paulo")
+```
+
+**Saída**
+
+```
+Meu nome é Paulo
+```
+
+Dissemos que poderíamos ter mais de um parâmetro, certo? Vamos criar novamente a nossa função ***nomeCompleto***, recebendo, via parâmetro, o **nome** e o **sobrenome**? Vejamos:
+
+```
+/* Crie uma função que se chame nomeCompleto 
+e imprima a frase “Meu nome completo é" 
++ os valores recebidos por parâmetro.
+Em seguida chame sua função e confira a saída.*/
+
+
+func nomeCompleto(pNome: String, pSobrenome: String){
+    print("Meu nome completo é \(pNome) \(pSobrenome)")
+}
+
+var nome: String = "Monteiro"
+var sobrenome: String = "de Souza"
+
+nomeCompleto(pNome: nome, pSobrenome: sobrenome)
+```
+
+**Saída**
+
+```
+Meu nome completo é Monteiro de Souza
+```
+
+Podemos utilizar valores que estavam em variáveis para atribuir valor aos nossos parâmetros! Até agora vimos parâmetros do tipo **String**. E se quisermos trabalhar com números?
+
+```
+func somaValores(valorA: Int, valorB: Int){
+    var total: Int
+    total = valorA + valorB
+    
+    print ("O total da soma de \(valorA) + \(valorB) é de \(total)")    
+}
+
+somaValores(valorA: 12, valorB: 3)
+```
+
+**Saída**
+
+```
+O total da soma de 12 + 3 é de 15
+```
+
+Viu que interessante? Nossa função soma qualquer valor inteiro.
+
+Para exercitar, vamos criar uma função que receba 2 valores e imprima o resultado das 4 operações básicas?
+
+```
+func operacoesBasicas(valorA: Double, valorB: Double){
+    var total: Double
+    total = valorA + valorB
+    
+    print ("O total da soma de \(valorA) + \(valorB) é de \(total)")
+    
+    total = valorA - valorB
+    print ("O total da subtração de \(valorA) - \(valorB) é de \(total)")
+    
+}
+operacoesBasicas(valorA: 12, valorB: 3)
+```
+
+**Saída**
+
+```
+O total da soma de 12.0 + 3.0 é de 15.0
+O total da subtração de 12.0 - 3.0 é de 9.0
+```
+
+Complete o exemplo acima com multiplicação e divisão.
+
+**<a href="./Códigos/main14.swift">Código</a>**
+
+---
+
+## TIPO DE RETORNO
+
+Até agora nossas funções não nos retornavam nada, apenas imprimiam um valor no nosso console. Vamos aprender a devolver dados tipados?
+
+```
+/* Crie uma função chamada imprimeNome 
+que receba uma String nome, 
+e imprima seu nome quando chamada. */
+func imprimeNome(nome: String) -> String{
+    return "Meu nome é \(nome)"
+}
+
+print(imprimeNome(nome: "Paulo"))
+```
+
+**Saída**
+
+```
+Meu nome é Paulo
+```
+
+Viram as diferenças? Adicionamos que o tipo do nosso retorno vai ser uma ***String***, e no corpo da função adicionamos apenas um ***return***. Ou seja, agora a nossa função passa a não imprimir mais um valor, mas sim ***retornar*** um valor após seu processamento.
+
+**Vamos treinar um pouco?** Duas tarefas:
+
+1) Uma soma entre 2 inteiros só pode resultar num inteiro, certo? Vamos escrever uma função que some dois valores e retorne um INT?
+
+2) Uma função que receba 2 números e retorne o valor da divisão! (Se atente ao tipo de retorno que vai escolher).
+
+**<a href="./Códigos/main15.swift">Código</a>**
+
+Sem dar aquela espiadinha aqui hein?! Vamos às resoluções:
+
+```
+/********************* HORA DE PRATICAR *****************************/
+
+/********************* Exercício 1 *****************************/
+//1) Uma soma entre 2 inteiros só pode resultar num inteiro, certo? Vamos escrever uma função que some dois valores e retorne um INT:
+
+func somar(a: Int, b: Int) -> Int {
+    return a + b
+}
+
+print(somar(a: 4,  b: 3))
+
+/********************* Exercício 2 *****************************/
+//2) Uma função que receba 2 números e retorne o resultado da divisão! (Se atente ao tipo de retorno que vai escolher).
+func dividir(a: Double, b: Double) -> Double {
+    return a / b
+}
+
+print(dividir(a: 4,  b: 3))
+```
+
+**Saída**
+
+```
+7
+1.3333333333333333
+```
+
+---
+
+## RECURSÃO
+
+Uma função que chama a si mesma é conhecida como função recursiva. Essa técnica é chamada de recursão. Ao criar uma função desse tipo, temos que criar uma condição de parada para que a função não vire um *loop* infinito. Como citado, essa maneira de escrever funções é uma possível alternativa aos tradicionais *loops*.
+
+```
+func recurse () { 
+    // corpo da função
+    recurse () 
+} 
+recurse ()
+```
+
+**💡 Se estiver usando um compilador externo podemos ter um warning avisando sobre o loop infinito para o exemplo acima, pois não implementamos a condição de parada!**
+
+Vamos ver alguns exemplos de recursão e entender como funciona na prática:
+
+```
+func contagemRegressiva(numero: Int) {
+    
+    print(numero)
+
+    if numero > 0 {
+        contagemRegressiva(numero: numero - 1)
+    }
+}
+
+print("Contagem Regressiva:")
+contagemRegressiva(numero:3)
+```
+
+**Saída**
+
+```
+Contagem Regressiva:
+3
+2
+1
+0
+```
+
+No exemplo acima, conseguimos ver alguns pontos importantes: a chamada da própria função dentro dela (o que configura a recursão), e a condição de parada (numero > 0) para que não tenhamos um loop infinito. Para que seja executada, temos uma chamada simples passando apenas o nosso parâmetro, como já fizemos anteriormente. Mas vamos tentar ir mais a fundo nesse exemplo e ver como ele faz para concluir essa tarefa.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/4._Funcoes_-_01.png" width = 400>
+
+Da forma que nosso código está escrito ele faz a impressão do valor atual, e se o valor atual for maior que zero, ele chama novamente a nossa função (dentro dela mesma), passando o valor atual menos 1, ou seja, isso será repetido até nossa condição de parada não validar mais o valor, e aí o ciclo se encerra. Como podemos ver na imagem acima, o código nos exemplifica a ordem, imprime o valor atual (3), subtrai 1 e chama novamente a função passando 2 como parâmetro e assim sucessivamente.
+
+Esse é um exemplo bem básico e simples para que possamos entender de fato o mecanismo de recursão. Vamos agora fazer uma simples alteração no nosso código, movendo uma linha apenas para outro local e ver o comportamento do código. Foi alterado propositalmente o nome da função, pois a mesma terá um comportamento totalmente diferente. Se atente no corpo da função que alteraremos apenas a linha que imprime o nosso valor:
+
+```
+func contador(numero: Int) {
+    
+    if numero > 0 {
+        contador(numero: numero - 1)
+    }
+    
+    print(numero)
+}
+
+print("Contador:")
+contador(numero:3)
+```
+
+**Saída**
+
+```
+Contador:
+0
+1
+2
+3
+```
+
+Por que isso ocorre? Olhando apenas para o código é possível interpretar e entender? É SIMPLES!
+
+Quando chamamos a função de forma recursiva, qualquer linha posterior a chamada só será executada após o término da execução da função atual, e assim sucessivamente, ou seja, chegaremos na condição de parada e voltaremos executando o restante das linhas de todas funções. Assim, podemos dizer que a função é sequencialmente executada, de acordo com a ordem em que foi solicitada. Vamos observar a diferença:
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/4._Funcoes_-_02.png" width = 400>
+
+Dessa forma, conseguimos observar que a execução é feita da esquerda para a direita (seguindo a ordem na qual foram executadas as chamadas da função, sempre subtraindo um da variável número (seta vermelha), mas as impressões (e os retornos, como veremos a seguir), “são executados” da direita para a esquerda (em verde), dessa forma a chamada mais “interna” é a que nos permite continuar a executar o código de quem a chamou, e dessa forma, ele volta executando o restante das funções (setas verdes).
+
+Vamos ver um exemplo de uma aplicação de recursão para resolução de um problema:
+
+*“***Fatorial***  é um número natural inteiro positivo, o qual é representado por n! O ***fatorial***  de um número é calculado pela multiplicação desse número por todos os seus antecessores até chegar ao número 1.”*
+
+```
+func fatorial(num: Int) -> Int{
+
+    if (num == 0 || num == 1){
+        return 1
+    }
+    
+    return (num * fatorial(num: num - 1))
+}
+
+print(fatorial(num: 4))
+```
+
+**Saída**
+
+```
+24
+```
+
+Veja que nossa função resolveu isso com apenas 4 linhas de corpo!!! Incrível, não? Vamos às explicações:
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/logica/4._Funcoes_-_03.png" width = 400>
+
+riamos a função fatorial(*N*) onde *N* é um inteiro, a primeira verificação a ser feita é se o valor é 0 ou 1 para construir a nossa condição de parada, dessa forma evitando o *loop*, e garantindo a premissa do fatorial, já que foi afirmado na definição que *“***Fatorial*** é um número natural inteiro positivo”*. 0! e 1! tem como resultado 1. Feita a nossa condição de parada, vamos à parte mais interessante, onde, se o número não for nem 0 nem 1, chamaremos novamente a função fatorial(*N-1*) com *N-1*, e por *N-1* se entende que é o fatorial número atual decrementado de 1, e assim sucessivamente até chegarmos no 1, onde sabemos que o resultado é 1. Dessa forma, começamos novamente nossa leitura da direita para a esquerda, pois já temos os dois valores para concluir a multiplicação (o número que entrou via parâmetro na função + o retorno da que foi chamada subsequentemente). Novamente, voltamos executando todas as multiplicações até chegar no resultado do nosso fatorial de *N*. No exemplo acima tivemos:
+
+fatorial(num: 1) retornou 1
+
+fatorial(num: 2) retornou 2x1 = 2
+
+fatorial(num: 3) retornou  3x2 = 6
+
+fatorial(num: 4) retornou  4x6 = 24
+
+Então concluímos que 4! É 24.
+
+---
