@@ -140,3 +140,309 @@ A herança é um poderoso procedimento onde se herda as propriedades em comum de
 ## POLIMORFISMO
 
 A ordem dos nossos insights sobre POO (Programação Orientada a Objetos) é incremental, então, conseguimos ir construindo o conhecimento pouco a pouco. Para falar sobre polimorfismo utilizaremos dos conceitos de herança. Nos baseando no exemplo de criarmos uma montadora, conseguimos pensar e afirmar, por exemplo, que todos os veículos buzinam, mas a buzina de um ônibus, de um carro e uma moto têm diferenças! Isso é polimorfismo, características em comum, mas com execuções diferentes. Aprofundaremos, no capítulo específico, com implementações e ilustrações.
+
+---
+
+# CLASSES
+
+## INTRODUÇÃO
+
+Classe é um termo utilizado em Orientação a Objetos (OO) para designar um grupo de elementos com determinadas características. Uma classe pode ser considerada como uma base sobre a qual serão criados os objetos, com atributos e métodos, ou seja, ela descreve as características e comportamentos. A composição de uma classe se dá por 3 postos-chaves, o **NOME** da classe, o conjunto de **ATRIBUTOS** da classe e por fim o conjunto de **MÉTODOS** da classe. Vamos ver alguns exemplos de classe:
+
+```
+class Person {
+    var nome: String?
+    var sobrenome: String?
+     
+    func nomeCompleto() {
+        print(" \(self.nome ?? " ") \(self.sobrenome ?? " ")")
+    }
+}
+```
+
+```
+class Carro {
+    var ano: Int? // Estas são algumas das propriedades da classe Carro
+    var marca: String?
+    var modelo: String?
+    var versao: String?
+    var cor: String?
+    
+    func descricao(){
+        print("O carro \(self.modelo!) da marca \(self.marca!), versao \(self.versao!) e ano \(self.ano!), é da cor \(self.cor!)")
+    }
+}
+```
+
+```
+class Correntista {
+    var nome: String?
+    
+    //Criamos a propriedade privada
+    private var saldo: Double = 1000
+    
+    //Criamos o método que altera o Saldo
+    func mudarSaldo(novoSaldo: Double){
+        
+        saldo = novoSaldo
+    }
+    
+    func verSaldo(){
+        print(saldo)
+    }   
+}
+```
+
+As classes, como podemos ver, são a implementação (descrição) do que virá a ser um objeto. Dessa forma, as classes possuem atributos e métodos. Deixaremos 2 descrições para irem se acostumando:
+
+- **CLASSE**: é a descrição geral (implementação) de um objeto, com atributos e métodos;
+
+- **OBJETO**: é uma instância de uma classe, com valores específicos para os atributos.
+
+Não se preocupe se a definição de objeto não ficou clara ainda, debateremos mais à frente, ainda neste capítulo! Por ora, voltemos à definição de classe e suas observações.
+
+Para definirmos uma classe necessitamos:
+
+- O **nome** da classe;
+
+- O nome e tipo das suas variáveis (**atributos**);
+
+- O nome e especificação das suas funcionalidades (**métodos**).
+
+Classe = Nome + Atributos + Métodos.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_01.png" width = 400>
+
+A classe acima pode ser instanciada, por exemplo, nos seguintes objetos:
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_02.png" width = 400>
+
+Em termos de implementação, a definição da classe e a instanciação dos objetos do exemplo acima, podem ser feitos da seguinte forma:
+
+```
+class Person { 
+
+    var nome: String?
+    var sobrenome: String?     
+    
+    func nomeCompleto() {
+        print(" \(self.nome ?? " ") \(self.sobrenome ?? " ")")
+    }
+}
+
+var p1 = Person()
+var p2 = Person()
+var pN = Person()
+```
+
+É como se criássemos realmente o esqueleto de algo, e quando os atributos receberem os valores, por meio do objeto, ganharão vida.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_03.png" width = 400>
+
+O modelo (classe) estabelece as características e o comportamento que o objeto deve ter de forma genérica, propiciando que cada objeto, com seus respetivos valores, tenha seus atributos próprios. Outra característica das classes é que elas são conceitos facilmente identificadas na especificação dos sistemas, geralmente, descritas como substantivos. Assim, a classe é um conceito estático que, uma vez definido, permanece como está. Para o desenvolvimento de software são definidas as classes a serem utilizadas e seus inter-relacionamentos. Isso é feito na etapa de projeto, quando o software está sendo desenhado/modelado.
+
+Uma vez com as classes definidas, são iniciados os procedimentos de definição para atributos e métodos.
+
+---
+
+## ATRIBUTOS
+
+Os atributos são as propriedades da classe e servem para descrever o esqueleto da classe e representá-la.  Se lembram das variáveis e tipos? São elas que serão utilizadas para definir nossos atributos. Vamos criar uma classe e treinar? Criem uma classe chamada Musica, e adicionem os atributos que vocês imaginam para música.
+
+**<a href="./Códigos/main01.swift">Código</a>**
+
+Possível implementação:
+
+```
+//Criem uma classe chamada Musica, e adicione os atributos que vocês imaginam pra música.
+
+class Musica {
+    var nome: String?
+    var artista: String?
+    var album: String?
+    var anoLancamento: Int?
+    var duracao: Double?
+    var rating: Int? //Nota de 0-5 por exemplo
+    var linkToPlay: String? 
+}
+```
+
+**Tudo o que foi aprendido em “Variáveis e Constantes” pode e deve ser utilizado ao declarar atributos!**
+
+---
+
+## MÉTODOS
+
+As ações que um objeto pode executar são chamadas de métodos. Elas definem o que será possível executar a partir dos objetos dessa classe. Um método em uma classe é apenas uma predefinição, pois a execução se dá por meio do objeto.
+
+Uma classe, normalmente, tem diversos métodos, e cada um deles possui sua assinatura composta por um nome, o tipo de dado do retorno e sua lista de argumentos, sendo estes identificados por tipo e nome. Como vimos em “Funções”, os métodos são iniciados com a palavra reservada **func**, nome e os parâmetros, e logo após o tipo de retorno (tipo que será retornado após a execução). Vamos ver a sintaxe seguida de exemplos:
+
+```
+//Execução dará erro, exemplo teórico
+
+func nomeDoMetodo() {
+    //Corpo do método
+}
+
+func nomeDoMetodo() -> tipoDeDadoDoRetorno {
+    //Corpo do método
+}
+
+func nomeDoMetodo (nomeDoParametro : tipoDoParametro) -> tipoDeDadoDoRetorno {
+    //Corpo do método 
+}
+
+//Execução dará erro, exemplo teórico
+```
+
+```
+//Criem uma classe chamada Musica, e adicione os atributos que vocês imaginam pra música.
+
+class Musica {
+    var nome: String?
+    var artista: String?
+    var album: String?
+    var anoLancamento: Int?
+    var duracao: Double?
+    var rating: Int? //Nota de 0-5 por exemplo
+    var linkToPlay: String? 
+
+    func quemCanta(){
+        print("O nome do artista é:" + artista!)
+    }   
+    
+    func tocar()
+    {
+        print("Clique para ouvir:" + linkToPlay!)
+    }
+    
+    func feat( participante : String ) -> String {
+        return "o artista \(artista!) canta a música \(nome!)  com participação de \(participante)"    
+    }
+    
+    func nota() -> Int{
+        return rating!;
+    }
+}
+```
+
+Identificamos atributos e ações compartilhadas por qualquer item da categoria música. Embora cada item tenha seus valores, nossos métodos estão preparados para estas especificidades, ou seja, para cada música que chamarmos o método, ele fará o mesmo processamento, mas com valores distintos. Dessa forma, afetamos somente quem solicitou a ação. Veremos mais na sessão “Objetos”!
+
+---
+
+## OBJETOS
+
+Um programa orientado a objetos é composto por um grupo de objetos que se comunicam através de mensagens. Um objeto é capaz de armazenar atributos e executar ações como resposta a mensagens recebidas, tal como, enviar mensagens a outros objetos. Essa troca de mensagens pode ser acionada nos objetos por meio dos métodos.
+
+Quando criamos um objeto, o mesmo requer um espaço em memória, para assim conseguir armazenar seus atributos e seus métodos (conjuntos de ações que são definidas para o objeto).
+
+Exemplos de objetos do tipo Humano: José, Maria, Joaquim, etc.
+
+**💡 Repararam que Humano foi escrito com letra maiúscula? Humano? Referencia a classe e o tipo, então, uma outra possibilidade seria dizer objetos da classe Humano.**
+
+No mundo real observamos duas características marcantes: **ESTADO** e **COMPORTAMENTO.**
+
+O estado de um objeto nos diz sobre as propriedades dele.
+
+Por exemplo:
+
+- Uma pessoa tem: idade, peso, altura, cor de cabelo, cor de pele.
+
+- Um carro tem: rodas, cor, quantidade de lugares, ano de fabricação.
+
+Em Orientação a Objetos chamamos essas propriedades de **Atributo**.
+
+Já o comportamento nos diz sobre as ações que ele pode exercer/executar.
+
+Por exemplo:
+
+- Uma pessoa pode: andar( ), falar( ), ouvir( ), pular( ).
+
+- Um carro pode: acelerar( ), frear( ), buzinar( ).
+
+Em Orientação a Objetos chamamos esses comportamentos de **Métodos**.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_04.png" width = 400>
+
+Os objetos podem representar conceitos reais (pessoa, animal, carro, pizza, etc.) ou abstratos (conta poupança, funcionário, pessoa física, etc.).
+
+Cada objeto tem suas próprias “cópias” do que foi definido na classe, ou seja, cada um deles tem seus próprios atributos e métodos. Cada cópia representa uma instância daquela classe. Por exemplo: o carro 1, o carro 2 e o carro 3 são instâncias de Carro.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_05.png" width = 400>
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/2._Classes_-_06.png" width = 400>
+
+Vamos exemplificar e ver as definições do exemplo acima em código:
+
+```
+class Carro {
+    var ano: Int? // Estas são algumas das propriedades da classe Carro
+    var marca: String?
+    var modelo: String?
+    var versao: String?
+    var cor: String?
+    
+    func descricao(){
+        print("O carro \(self.modelo!) da marca \(self.marca!), versao \(self.versao!) e ano \(self.ano!), é da cor \(self.cor!)")
+    }
+}
+
+var carro1 = Carro()
+var carro2 = Carro()
+var carro3 = Carro()
+
+carro1.cor = "Laranja"
+carro1.ano = 1980
+carro1.modelo = "Fuxca"
+carro1.versao = "Turbo Shift Auto"
+carro1.marca = "WW"
+
+carro2.cor = "Azul"
+carro2.ano = 1980
+carro2.modelo = "Fuxca"
+carro2.versao = "Turbo Shift Auto"
+carro2.marca = "WW"
+
+carro3.cor = "Verde"
+carro3.ano = 1980
+carro3.modelo = "Fuxca"
+carro3.versao = "Turbo Shift Auto"
+carro3.marca = "WW"
+
+print(carro1.descricao())
+print(carro2.descricao())
+print(carro3.descricao())
+```
+
+**Saída**
+
+```
+O carro Fuxca da marca WW, versao Turbo Shift Auto e ano 1980, é da cor Laranja
+()
+O carro Fuxca da marca WW, versao Turbo Shift Auto e ano 1980, é da cor Azul
+()
+O carro Fuxca da marca WW, versao Turbo Shift Auto e ano 1980, é da cor Verde
+()
+```
+
+No exemplo, conseguimos ver que é possível criar N (diversos) objetos a partir de um só modelo (classe), cada qual com seus atributos e valores. Quando executamos a função descricao( ), ela traz o estado atual com os valores atuais pertinentes ao objeto relativo à chamada, então, concluímos que cada objeto é capaz de executar suas próprias operações.
+
+---
+
+## MENSAGENS
+
+Um objeto isolado em um sistema não tem significado. Para que o mesmo seja útil, ele deve se relacionar com outros objetos e partes do sistema, viabilizando a troca de informações e o processamento dos dados. Essa comunicação se dá por meio de mensagens que trafegam a partir dos métodos. Veja as definições sobre mensagens:
+
+- **Mensagens enviadas para as variáveis:** são as mensagens que resgatam ou alteram os valores de variáveis.
+
+- **Mensagens enviadas para os métodos:** são mensagens que desencadeiam a realização dos métodos de cada objeto (chamadas dos métodos).
+
+Uma mensagem enviada para um método deve ser composta por três partes:
+
+- Um destino - objeto que receberá a mensagem;
+
+- Nome do método a ser invocado pela mensagem;
+
+- Parâmetros necessários para o método invocado.
+
+Note que além desses três aspectos, a mensagem também pode receber uma resposta no formato do retorno do método invocado.
