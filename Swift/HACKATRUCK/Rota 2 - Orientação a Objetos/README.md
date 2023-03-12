@@ -532,3 +532,213 @@ Sim, com o uso de um método! Utilizando um método que é acessível externamen
 Encapsular não é algo mandatório para o funcionamento do programa, mas é uma boa prática para que nossa estrutura seja sólida e nossos objetos sejam seguros do ponto de vista de escrita e leitura, pois ambas as operações só serão feitas de dentro da própria classe se forem declarados como privados.
 
 **💡 O encapsulamento do Swift funciona apenas se a classe e sua instância estiverem em arquivos separados. Apenas para efeito de ensino, mantivemos no mesmo simulador.**
+
+---
+
+# HERANÇA
+
+Herança é um conceito muito importante em Orientação a Objetos (OO), pois permite uma melhor organização e reaproveitamento de código. Por meio desse conceito, as classes *filhas* compartilham os atributos e métodos da *classe mãe*.
+
+Os apelidos “classe pai”, “classe mãe”, “supertipo”, “superclasse” e “classe base” são a mesma coisa, então não se assuste ao ver algum desses termos, pois todos se referem à classe original a ser herdada.
+
+Já os termos “classe filha”, “subtipo”, “subclasse” e “classe derivada” também são sinônimos, e se referem às classes que herdam os atributos e métodos de uma superclasse.
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/4._Heranca_-_01.png" width = 400>
+
+Para dizer que uma classe herda o comportamento de outra, usamos a palavra **“estende”**. No exemplo abaixo veremos “Carro estende Veiculo”, onde a classe Carro é a subclasse e a classe Veiculo é a superclasse. Desse modo, Carro terá todos os atributos públicos da classe Veiculo, e também poderá utilizar seus métodos públicos (ou até mesmo modificá-los, se necessário, conforme veremos no capítulo de Polimorfismo). É justamente por isso que dizemos que as classes filhas herdam o comportamento das classes mães, e também podem acrescentar outras características (atributos) ou novas funcionalidades (novos métodos). É importante notar que herança também segue os princípios de visibilidade e encapsulamento, portanto, o que é privado em uma classe não será observado nas suas subclasses.
+
+O conceito de herança está claramente relacionado com o conceito de **“é um(a)”**. No nosso exemplo anterior, Carro é um Veículo. A herança também se relaciona com os conceitos:
+
+**Generalização** - Quando partimos de uma classe e chegamos à sua superclasse. 
+
+<img src="https://lms.hackatruck.com.br/courses/EADALGOOSWJS/document/imagens/oo/4._Heranca_-_02.png" width = 400>
+
+**Especialização** - Quando partimos de uma superclasse e chegamos na sua subclasse.
+
+Assim, Carro é uma especialização de Veiculo e Veiculo é uma generalização de Carro. Do mesmo modo será com qualquer outro meio de transporte se definirmos que “MeioDeTransporte estende Veiculo”. Isso exemplifica outro ponto relevante: uma superclasse pode ser estendida por infinitos subtipos, no entanto, um subtipo ***NORMALMENTE*** herda as características de uma única superclasse por vez.
+
+**💡 É possível herdar mais de uma superclasse com o uso de Protocolos, mas não se preocupem com isso neste momento, apenas saibam que é possível!**
+
+Vejamos nosso exemplo acima em código:
+
+```
+class Veiculo{
+    var pneus: String?
+    var assentos: String?
+    var motor: String?
+    
+    func desc() {
+        print("Número de rodas \(self.pneus ?? " "), Número de Assentos \(self.assentos ?? " "), Potencia Motor \(self.motor ?? " ")") 
+    }
+}
+
+class Carro: Veiculo {
+    var tipo: String?
+}
+
+class Caminhao: Veiculo {
+    var tipo: String?
+    var eixos: Int?
+}
+
+class Motocicleta: Veiculo {
+    var cilindradas: Int?
+}
+
+class Aviao: Veiculo {
+    var numMotores: Int?
+}
+
+var c = Caminhao()
+c.pneus = "TY607 295/80 R22,5"
+c.assentos = "3 Lugares"
+c.motor = "V8"
+c.tipo = " Caçamba "
+c.eixos = 5
+c.desc()
+```
+
+**Saída**
+
+```
+Número de rodas TY607 295/80 R22,5, Número de Assentos 3 Lugares, Potencia Motor V8
+```
+
+**Vamos treinar?**
+
+Corrija os erros, instancie um objeto e adicione valores para Motocicleta e Avião. Usem como exemplo o código disponibilizado no exemplo anterior:
+
+```
+class Veiculo{
+    var pneus: String?
+    var assentos: String?
+    var motor: String?
+    
+    func desc() {
+        print("Número de rodas \(self.pneus ?? " "), Número de Assentos \(self.assentos ?? " "), Potencia Motor \(self.motor ?? " ")") 
+    }
+}
+
+class Motocicleta {
+    var cilindradas: Int?
+}
+
+class Aviao, Veiculo {
+    var numMotores: Int?
+}
+```
+
+**<a href="./Códigos/main02.swift">Código</a>**
+
+---
+
+## HERANÇA - CONTINUAÇÃO
+
+Como vimos nos exemplos anteriores, podemos também adicionar atributos na subclasse, e isso se estende também a adicionar novos métodos, a fazer overloading, e até mesmo reescrevê-los, overriding (detalharemos no próximo capitulo essa definição).
+
+Vejamos os exemplos a seguir: 
+
+```
+class Veiculo{
+    var pneus: String?
+    var assentos: String?
+    var motor: String?
+    var cidadeDeRegistro: String?
+    
+    func desc() {
+        print("Número de pneus \(self.pneus ?? " "), Número de Assentos \(self.assentos ?? " "), Potencia Motor \(self.motor ?? " ")") 
+    }
+    
+    func registro() {
+        print("Nossa cidade de registro é \(self.cidadeDeRegistro ?? " ")") 
+    }
+}
+
+class Motocicleta: Veiculo {
+    var cilindradas: Int?
+    
+    func descansar(){
+         print("Farei paradas de 2h em 2h, o destino é Maresias.  \n") 
+    }
+}
+
+class Aviao: Veiculo {
+    var numMotores: Int?
+    
+    func voar () {
+         print("Estamos a 1000 pés de altitude.") 
+    }
+}
+
+var m = Motocicleta()
+m.pneus = "2"
+m.assentos = "2 Lugares"
+m.motor = "2 cilindros"
+m.cidadeDeRegistro = " Campinas "
+m.cilindradas = 800
+m.desc()
+m.descansar()
+
+var a = Aviao()
+a.pneus = "4"
+a.assentos = "12 Lugares"
+a.motor = "Cirrus SR22 8000"
+a.numMotores = 1
+a.cidadeDeRegistro = " Campinas "
+a.desc()
+a.voar()
+```
+
+**Saída**
+
+```
+Número de pneus 2, Número de Assentos 2 Lugares, Potencia Motor 2 cilindros
+Farei paradas de 2h em 2h, o destino é Maresias.  
+
+Número de pneus 4, Número de Assentos 12 Lugares, Potencia Motor Cirrus SR22 8000
+Estamos a 1000 pés de altitude.
+```
+
+Adicionamos novos atributos, cilindradas e numMotores respectivamente, e também novos métodos, descansar() para Motocicleta e voar() para Avião. Dessa forma, adicionamos comportamentos que são cabíveis somente para a realidade da própria classe.
+
+Com o *overloading* (sobrecarga), conseguimos especificar mais o comportamento da classe por meio de novos métodos com o mesmo nome e ações distintas a serem executadas, e isso é fazer sobrecarga. Para que isso ocorra e se torne possível, existem as assinaturas dos métodos que consistem em validar a soma de **Nome do Método + (Tipo dos Parâmetros) + Tipo do Retorno**. Para que nosso conceito seja válido, essa soma não pode ser repetida, ou seja, precisamos de assinaturas únicas. Exemplos:
+
+func calcula(a: Int, b: Int) -> retorno INT
+
+func calcula(a: Double, b: Double) -> retorno DOUBLE
+
+func calcula(a: String, b: String) -> retorno STRING
+
+Então, podemos definir e criar um método mais genérico, e fazer nossas especificações somente por meio de diferentes assinaturas, ou seja, métodos com o mesmo nome, mas com diferenças nos parâmetros ou até mesmo no tipo de retorno. Estes seriam exemplos de diferentes assinaturas para o método calcula. Vamos olhar no código como eles se comportariam?
+
+```
+class Soma{
+    func calcula( a : Int, b : Int) -> Int{
+       return a+b;
+    }
+    
+    func calcula(a : Double, b: Double) -> Double{
+        return a+b;
+    }
+    
+    func calcula(a: String, b: String) -> String{
+        return a+b;
+    }
+}
+
+var calc = Soma();
+
+print( calc.calcula( a:1 , b:1 ));
+
+print( calc.calcula( a:2.0 , b:2.1 ));
+
+print( calc.calcula( a:"vi" , b:"ram?" ));
+```
+
+**Saída**
+
+```
+2
+4.1
+viram?
+```
