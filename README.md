@@ -24,6 +24,6 @@
 
 ---
 
-## <img src="https://cdn-icons-png.flaticon.com/512/732/732250.png" width="25"> <a href="/Swift">Swift</a>
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg" width="25"> <a href="/Swift">Swift</a>
 
 ### <img src="http://pctguama.org.br/wp-content/uploads/2019/04/Hackatruck-para-site-1484x1237.jpg" width="25"> <a href="/Swift/HACKATRUCK">HACKATRUCK</a>
