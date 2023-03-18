@@ -565,3 +565,638 @@ for i in 0..<10{
 ```
 
 ---
+
+# ESTRUTURA DE DADOS
+
+## INTRODUÇÃO
+
+Linguagens de programação de mais alto nível, como Swift, tentam ao máximo facilitar a vida dos desenvolvedores por meio de abstrações de alto nível. Por exemplo, lembre-se da programação C e das dificuldades para se trabalhar com alocação de memória dinamicamente, vetores e strings. Grande parte do poder e da produtividade que o Swift entrega está no fato de possuir **Estruturas de Dados** e muito bem documentadas para permitir que o desenvolvedor seja produtivo e não precise ‘reinventar a roda’ em todos os programas que venha a implementar.
+
+A Apple fornece a maior parte de suas estruturas de dados sobre a forma de bibliotecas, que chamamos de *frameworks*. O principal deles é o *Foundation*, que como o nome sugere, é a base para todos os outros. Esse é o *framework* onde importantes estruturas de dados do Swift estão definidas.
+
+## STRING
+
+É muito comum em nossos programas precisarmos trabalhar com textos. Para isso, no Swift temos a classe String que serve para abstrair as operações e os tipos de dados relacionados a essa coleção de caracteres Unicode. Ela define todas as strings em nossos programas.
+
+Strings podem ser criadas de diversas maneiras em Swift. Apesar disso, algo que varia, é a mutabilidade. Strings constantes (declaradas com *let*) são por padrão imutáveis, ou seja, não podemos realizar operações nessas strings que as alterem (porém, perceba que podemos criar novas strings a partir delas, atribuindo seu valor). Strings declaradas com *var*, por sua vez, são mutáveis e podem ser alteradas em memória diretamente, sem a necessidade de declararmos uma nova String.
+
+```
+let stringImutável = "Uma string imutável" 
+/* perceba que podemos acentuar nomes de varíaveis ou constantes em Swift! :)*/
+
+// o símbolo + nesse caso será utilizado para concatenação de string 
+// (explicaremos melhor no próximo parágrafo)
+
+let novaString = stringImutável + ", ou seja, constante." 
+
+// valor de novaString = "Uma string imutável, ou seja, constante."
+// concatenação e atribuição válidas, mesmo a string inicial sendo constante.
+
+// Observe esse outro exemplo
+let outraStringImutavel = "Outra string imutável"
+outraStringImutavel += " concatenada com outra string?!" // Erro!!!!
+
+/* O erro ocorre porque não podemos alterar a string imutável propriamente 
+dita,apenas poderíamos criar uma nova a partir dela.  Por fim, vamos fazer o 
+mesmo com uma string mutável agora */
+
+var stringMutavel = "Uma String mutável"
+stringMutavel += " concatenada com outra string!!"
+
+/* O valor de stringMutavel é "Uma string mutável concatenada com outra 
+string!!". Pois, podemos concatenar uma nova string ao valor inicial dela, já 
+que ela é mutável.*/
+```
+
+Perceba que caso você tenha uma String “Meu nome é:” que deva ser concatenada com o valor real do seu nome (vamos supor que seja “João da Silva”), resultando no valor final “Meu nome é: João da Silva”, em Swift, isso é tão simples como uma operação de soma de inteiros para o compilador do Swift. Assim, utilizamos o operador “+” não somente para números, mas também para Strings.
+
+```
+var entrada = "Meu nome é: " // string mutável
+entrada += "João da Silva" // concatenação
+entrada = entrada + "..." // comando similar ao anterior
+// entrada se torna "Meu nome é: João da Silva..."
+```
+
+Uma outra forma de atingir nesse tipo de resultado é com o uso da interpolação. Essa é uma forma de trabalhar com strings auxiliada pela operação “\(String)” no meio de uma outra String. Esse comando é uma maneira legível de se pegar o valor que está entre os parênteses da operação “\(String)” sob a forma de String e concatená-lo a uma outra String. Por exemplo:
+
+```
+let entrada = "Meu nome é:"
+let nome = "João da Silva"
+let saida = "\(entrada) \(nome)!!! Olá!!!"
+// saida se torna "Meu nome é: João da Silva!!! Olá!!!"
+```
+
+Da mesma forma que a operação + foi facilmente adaptada para ser utilizada com strings em Swift, podemos também utilizar os operadores de comparação. Veja alguns exemplos:
+
+```
+var cargo = "administrador"
+
+if cargo == "administrador" {
+    print("Acesso permitido!")
+}
+
+// Será impresso "Acesso permitido!"
+// Perceba que utilizamos o operador == para comparar Strings nesse exemplo
+
+var nome1 = "josé"
+var nome2 = "maria"
+
+if nome1 < nome2 {
+    print("Ordenação dos nomes: \(nome1) -> \(nome2)")
+}
+
+// Será impresso "Ordenação dos nomes: josé -> maria"
+// Perceba que utilizamos o operador < para descobrir se alfabeticamente
+// nome1 vem antes de nome2.
+```
+
+**Saída**
+
+```
+Acesso permitido!
+Ordenação dos nomes: josé -> maria
+```
+
+Por fim, podemos percorrer strings com um *for-in*. Nesse caso, iremos iterar sobre os caracteres dessa String. No Swift 5 toda String já é de forma nativa uma coleção (Array) de caracteres. Por exemplo, a String “Entrada” já é uma coleção de caracteres com 7 posições.
+
+```
+for c in "Entrada" {
+    print(c)
+}
+
+// Será impresso:
+// E
+// n
+// t
+// r
+// a
+// d
+// a
+```
+
+**Saída**
+
+```
+E
+n
+t
+r
+a
+d
+a
+```
+
+---
+
+## ARRAY
+
+Quando queremos trabalhar com vetores, que são coleções de dados indexadas por inteiros de 0 à N-1 (onde N é o tamanho da coleção), utilizamos os *Arrays*. Talvez, você já tenha trabalhado em alguma linguagem onde os *Arrays* podem conter qualquer tipo de elemento. Por exemplo, poderíamos misturar inteiros e strings em uma coleção (esse é o caso de Javascript ou Ruby). A linguagem Swift, como já comentamos, é muito segura! Dessa maneira, os *Arrays* precisam ser fortemente tipados, ou seja, buscamos ter elementos dos mesmos tipos em nossas coleções.
+
+```
+let pares: Array<Int> = [2, 4, 6, 8]
+let impares = [1, 3, 5, 7] 
+// Perceba que o compilador irá inferir o tipo Array<Int> na constante impares.
+// Esse tipo também pode ser definido como Array[Int] (entre chaves e não somente entre <>) em Swift.
+```
+
+Assim como no caso das strings, *Arrays* declarados com *let* são imutáveis, enquanto *Arrays* declarados com *var* são mutáveis:
+
+```
+let paresImutavel = [2, 4, 6, 8]
+paresImutavel.append(10) //Erro! Array imutável não pode receber novos elementos
+var imparesMutaveis = [1, 3, 5, 7]
+imparesMutaveis.append(9) // Agora, imparesMutaveis = [1, 3, 5, 7, 9]
+```
+
+Perceba a utilização do comando *“append”* chamado com o uso de um *“.”* após o nome de nosso *array*. Chamamos isso de envio da mensagem *“append”* (ou chamada do método *append*), responsável por adicionar ao final do *Array* (no caso, imparesMutaveis) o valor passado como parâmetro.
+
+Veja um caso de erro onde tentamos adicionar uma String a um *Array* de *Int.*
+
+```
+var imparesMutaveis = [1, 3, 5, 7]
+imparesMutaveis.append("nove") // Erro! O parametro "nove" é uma String e não um Int
+```
+
+Como *imparesMutaveis* é do tipo *Array<Int> (uma coleção de inteiros)* ele não pode receber uma String, por isso um erro no trecho de código anterior.
+
+Veja a seguir que podemos utilizar o *for-in* ou um *for* tradicional, auxiliado pelo método *count* de um *Array* (que retorna à quantidade de elementos que ele possui) para percorrer os elementos de um *Array*:
+
+```
+var imparesMutaveis = [1, 3, 5, 7]
+imparesMutaveis.append(9)
+
+for impar in imparesMutaveis {
+    print(impar)
+}
+
+// Será impresso:
+// 1
+// 3
+// 5
+// 7
+// 9
+
+// Caso prefira também pode-se utilizar um for com 
+// a quantidade de elementos do Array, obtida com 
+// o método count
+for i in 0 ..< imparesMutaveis.count {
+    print(imparesMutaveis[i])
+}
+```
+
+**Saída**
+
+```
+1
+3
+5
+7
+9
+1
+3
+5
+7
+9
+```
+
+Já sabemos como adicionar elementos a um *Array* e também como percorrê-los, porém, como podemos alterar uma posição que não seja a última ou trocar um elemento em um *Array*? Para isso, utilizamos o índice da seguinte forma *“array[índice]”* (chamada de indexação do *Array*) para nos auxiliar. *“array[índice]=”* pode ser utilizada para alterar um elemento na posição índice, enquanto *“array[índice]”* pode ser utilizada para buscar o elemento de *array* que esteja na posição índice. Veja alguns exemplos de utilização:
+
+```
+// Exemplo de indexação de Array
+var imparesMutaveis = [1, 3, 5, 7]
+let segundoImpar = imparesMutaveis[1] 
+// Arrays vão de 0 até N-1 (onde N é o tamanho)
+print("O segundo impar na coleção imparesMutaveis é \(segundoImpar)")
+
+// Exemplo de alteração de elemento em determinado indice de um Array
+imparesMutaveis[0] = 9
+imparesMutaveis[1] = 11
+imparesMutaveis[2] = 13
+imparesMutaveis[3] = 15
+// imparesMutaveis agora é [9, 11, 13, 15]
+```
+
+**Saída**
+
+```
+O segundo impar na coleção imparesMutaveis é 3
+```
+
+**💡 A quantidade de posições de um Array sempre é contabilizada a partir do 0 (zero). Dessa forma, um Array de 9 posições tem índices de 0 à 8.**
+
+Em Swift, há outras formas muito comuns de se instanciar *Arrays* e concatenar elementos a eles. Veja essas formas alternativas no seguinte trecho de código:
+
+```
+// Esse é um jeito de se iniciar um array de inteiros vazio:
+var pares = [Int]() 
+
+// E esse é outro jeito de se concatenar elementos:
+pares += [2, 4, 6, 8, 10]
+pares += [12, 14, 16, 18, 20]
+print(pares)
+// Será impresso: "[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]"
+
+// Esse é outro jeito de se iniciar um array de inteiros vazio:
+var impares = Array<Int>()
+impares += [1, 3, 5, 7]
+print(impares)
+// Será impresso: "[1, 3, 5, 7]"
+```
+
+**Saída**
+
+```
+[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+[1, 3, 5, 7]
+```
+
+Vamos treinar? Crie um Array com o nome de 3 pessoas e um segundo Array com as respectivas idades. Utilizando os laços de repetições já vistos, crie a seguinte estrutura de frase:
+
+“A 1a pessoa tem o nome _____ e a idade      ”.
+
+“A 2a pessoa tem o nome _____ e a idade      ”.
+
+**</a href="./Códigos/main03.swift">Código</a>**
+
+Resolução:
+
+```
+//Crie um Array com o nome de 3 pessoas e um segundo Array com as respectivas idades. 
+//Utilizando os laços de repetições já vistos crie a seguinte estrutura de frase:
+//“A 1a pessoa tem o nome _________ e a idade __________”.
+//“A 2a pessoa tem o nome _________ e a idade __________”.
+
+var nomes = [String]() 
+var idades = [Int]()
+
+nomes.append("João");
+nomes.append("Pedro");
+nomes.append("Fernando");
+nomes.append("Alex");
+nomes.append("Marcos");
+
+idades.append(10);
+idades.append(2);
+idades.append(18);
+idades.append(21);
+idades.append(29);
+
+for i in 0 ..< nomes.count{
+    print("A \(i+1)a pessoa tem o nome \(nomes[i]) e a idade \(idades[i])")
+}
+```
+
+**Saída**
+
+```
+A 1a pessoa tem o nome João e a idade 10
+A 2a pessoa tem o nome Pedro e a idade 2
+A 3a pessoa tem o nome Fernando e a idade 18
+A 4a pessoa tem o nome Alex e a idade 21
+A 5a pessoa tem o nome Marcos e a idade 29
+```
+
+---
+
+## DICIONÁRIOS
+
+Um outro tipo de dado muito comum quando queremos trabalhar com coleções, são os dicionários (conhecidos como vetores associativos, *hash maps* ou *hashes* em outras linguagens). A grande diferença entre um *array* e um dicionário é que enquanto indexamos *Arrays* com inteiros, dicionários são indexados com quaisquer objetos, por exemplo, Strings. Em um formato de chave e valor, tanto o tipo das chaves como o tipo dos valores devem ser pré-definidos, já que a tipagem é estática e forte. Vamos ver como fazer isso:
+
+```
+let precosDosProdutos = ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0] 
+// tipo inferido de precosDosProdutos: Dictionary<String, Double>
+// chaves String e valores Double, também pode ser escrito como 
+// [String: Double] em Swift
+```
+
+Nesse exemplo, criamos um dicionário onde as chaves são do tipo *String* e os preços são do tipo *Double* para guardar os preços de determinados produtos de uma determinada loja online.
+
+Da mesma maneira que no caso dos *Arrays*, a mutabilidade dos Dicionários é definida com o uso na declaração da palavra-chave *let* ou *var*:
+
+```
+let precosDosProdutosImutavel = ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0] 
+precosDosProdutosImutavel["Borracha"] = 0.5 // Erro! Dicionário é imutável!
+
+var precosDosProdutosMutavel = ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0] 
+precosDosProdutosMutavel["Borracha"] = 0.5 
+
+/* precosDosProdutosMutavel agora vale: ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0, "Borracha": 0.5] */
+```
+
+É interessante notar que Dicionários, no momento da sua indexação, retornam o tipo da chave, porém este retorno pode ser do tipo opcional (!). Sendo do tipo opcional (!) o compilador espera que a chave contenha um valor. Se esse valor não existir, o código irá quebrar e gerar um erro em tempo de execução. Por isso, antes de utilizarmos o valor de uma determinada chave de um dicionário, precisamos desempacotar essa entrada com *“if let”*, por exemplo, para evitar que o código quebre em tempo de execução.
+
+```
+var precosDosProdutosMutavel = ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0] 
+precosDosProdutosMutavel["Borracha"] = 0.5 
+/* precosDosProdutosMutavel agora vale: ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0, "Borracha": 0.5] */
+
+if let preco = precosDosProdutosMutavel["Borracha"] {
+    print("O preço da borracha é: \(preco)")
+    // será impresso "O preço da borracha é: 0.5"
+}
+```
+
+**Saída**
+
+```
+O preço da borracha é: 0.5
+```
+
+Para percorrer dicionários, utilizamos um outro tipo em Swift, chamado Tupla. Trata-se de uma maneira simples e rápida de associar um ou mais tipos em Swift. Vamos ver um exemplo de *for-in* em um dicionário que utiliza uma Tupla para passar por todas as chaves e valores:
+
+```
+var precosDosProdutosMutavel = ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0] 
+precosDosProdutosMutavel["Borracha"] = 0.5 
+/* precosDosProdutosMutavel agora vale: ["Livro": 20.0, "Lapiseira": 2.0, "Caneta": 4.0, "Borracha": 0.5] */
+
+for (chave, valor) in precosDosProdutosMutavel {
+    print("O preço de \(chave) é: \(valor)")
+}
+
+// Será impresso:
+// O preço de Lapiseira é: 2.0
+// O preço de Borracha é: 0.5
+// O preço de Livro é: 20.0
+// O preço de Caneta é: 4.0
+```
+
+**Saída**
+
+```
+O preço de Caneta é: 4.0
+O preço de Livro é: 20.0
+O preço de Borracha é: 0.5
+O preço de Lapiseira é: 2.0
+```
+
+Perceba que a Tupla (chave, valor) é associada a cada iteração a uma *String* e a um *Double* que estão contidos no dicionário.
+
+Swift oferece outras formas muito comuns de se instanciar dicionários. Vejamos essas formas alternativas no seguinte trecho de código:
+
+```
+// Esse é um jeito de se iniciar um dicionário vazio: com chaves do
+// tipo String e valores do tipo Double:
+var precosDosProdutos = Dictionary<String, Double>()
+precosDosProdutos["Borracha"] = 0.5
+print(precosDosProdutos)
+// Será impresso: "[Borracha: 0.5]"
+
+// Esse é um outro jeito de se iniciar um dicionário em Swift:
+var precoCombustivel = [String: Double]()
+precoCombustivel["Gasolina"] = 3.555
+print(precoCombustivel)
+// Será impresso: "[Gasolina: 3.555]"
+```
+
+**Saída**
+
+```
+["Borracha": 0.5]
+["Gasolina": 3.555]
+```
+
+**Vamos treinar?** Crie um dicionário com nome e valor de 5 carros e após percorra esse dicionário imprimindo a seguinte frase para cara item: “O carro ________ custa ________ reais”.
+
+**</a href="./Códigos/main04.swift">Código</a>**
+
+Solução:
+
+```
+//Vamos treinar? Crie um dicionário com nome e valor de 5 carros e após
+//percorra esse dicionário imprimindo a seguinte frase para cara item: 
+//“O carro __________ custa ________ reais”.
+
+var carros = ["Fuxca": 25000, "Goool": 20000, "Onixx": 40000] 
+
+for (chave, valor) in carros {
+    print("O carro \(chave) custa \(valor) reais")
+}
+```
+
+**Saída**
+
+```
+O carro Goool custa 20000 reais
+O carro Fuxca custa 25000 reais
+O carro Onixx custa 40000 reais
+```
+
+---
+
+## ENUM
+
+Talvez você já tenha utilizado *Enums* em outras linguagens, como C ou Java, porém os *Enums* em Swift são bem mais completos do que nessas linguagens. Podemos criar nossos próprios *Enums* e utilizar seus valores diretamente em *switches*. Os *Enums* nos ajudam a explicitar tipos importantes para o nosso programa, por exemplo: suponha que temos que tratar alguns caracteres especiais de maneira diferente em nosso código, ele pode ficar muito legível com um *Enum*. Vejamos:
+
+```
+// Exemplo de definição de um enum simples
+// Perceba que Enums em Swift não são apenas constantes 
+// inteiras como em outras linguagens
+
+enum CaracterEspecial: Character {
+    case Tab = "\t"
+    case Linefeed = "\n"
+    case CarriageReturn = "\r"
+}
+```
+
+Agora, vejamos como utilizar os valores definidos em *Enums* em nossas variáveis:
+
+```
+enum Bussola {
+    case Norte, Sul, Leste, Oeste
+}
+
+var direcao = Bussola.Norte // inferencia de tipo: Bussola
+print(direcao)
+
+direcao = .Leste // atribuindo novo valor
+print(direcao)
+```
+
+**Saída**
+
+```
+Norte
+Leste
+```
+
+*Enums* podem conter um pouquinho de lógica e podem definir valores associados. Suponha que queremos criar um tipo que nos ajude a trabalhar com horários de trens. Um trem pode estar “Dentro do Horário” ou “Atrasado por X minutos”. Podemos modelar isso dessa maneira em Swift:
+
+```
+enum HorarioTrem {
+    case NoHorario
+    case Atrasado(Int) // atrasado por alguns minutos
+}
+
+func descricao(status: HorarioTrem) {
+    switch status {
+    case .NoHorario:
+        print("O trem está no horário")
+    case .Atrasado(let min):
+        print("O trem está atrasado por \(min) minutos")
+    }
+}
+
+var status = HorarioTrem.NoHorario
+descricao(status: status)
+// Será impresso: "O trem está no horário"
+
+status = .Atrasado(5)
+descricao(status: status)
+// Será impresso: "O trem está atrasado por 5 minutos"
+```
+
+**Saída**
+
+```
+O trem está no horário
+O trem está atrasado por 5 minutos
+```
+
+Perceba que utilizamos um *switch* para “varrer” os valores possíveis para o *Enum* e extrair a quantidade de minutos que o trem está atrasado. Agora, imagine o poder que esse tipo de dado nos traz, além de uma série de possibilidades em um código muito mais legível e enxuto!
+
+Para facilitar a fixação, **vamos treinar?** Crie um *Enum* para as estações do ano, e crie uma variável chamada atual e atribua um valor do *Enum* para ela:
+
+**</a href="./Códigos/main05.swift">Código</a>**
+
+Solução:
+
+```
+//crie um Enum para as estações do ano, e crie uma variavel 
+//chamada atual e atribua um valor do Enum à ela
+
+enum Estacao {
+    case Outono
+    case Inverno
+    case Verão
+    case Primavera
+}
+
+var atual = Estacao.Outono
+print(atual)
+```
+
+**Saída**
+
+```
+Outono
+```
+
+---
+
+## FUNÇÕES
+
+No que diz respeito a retornos, as funções podem ser declaradas de duas maneiras distintas: a primeira quando ela tem algum tipo de retorno, e a segunda quando ela não deve retornar nada (*void* em outras linguagens). Além disso, as funções podem ou não conter parâmetros internos que serão levados em conta na sua execução. Veja exemplos:
+
+```
+func funcaoSemParamESemRetorno() {
+    print("Nada será retornado")
+}
+
+func funcaoSemParamEComRetornoInt() -> Int {
+    return 0
+}
+
+func funcaoComParamEComRetornoInt(param: Int) -> Int {
+    return param + 1
+}
+```
+
+Esses exemplos são bastante simples, porém dizemos que em Swift funções são “cidadãos de primeira classe”. O que queremos dizer com isso é basicamente que funções são tratadas como qualquer outro objeto do programa (um *Int* ou uma *String*, por exemplo), podendo serem atreladas a variáveis e serem passadas como parâmetro para outras funções. Pode-se ainda criar uma função como um retorno de uma outra função. O conceito parece confuso à primeira vista, mas não é, além disso, é altamente poderoso.
+
+Veja esse exemplo de atribuição de funções a variáveis:
+
+```
+// Função que recebe uma String como parâmetro e
+// imprime "String passada como parametro: " seguido
+// de seu valor.
+func imprima(str: String) {
+    print("String passada como parametro: \(str)")
+}
+
+// Atribui-se a função anterior a uma constante 
+let funcao = imprima
+
+// Agora tanto funcao(str) como imprima(str) chamam
+// os mesmos comandos, a mesma função!
+funcao("Hello World!") // irá imprimir "String passada como parametro: Hello World!"
+```
+
+**Saída**
+
+```
+String passada como parametro: Hello World!
+```
+
+E agora, veja esse exemplo de atribuição de uma função que recebe uma outra função como parâmetro:
+
+```
+// Função que recebe uma String como parâmetro e
+// imprime "String passada como parametro: " seguido
+// de seu valor.
+func imprima(str: String) {
+    print("String passada como parametro: \(str)")
+}
+
+// Função que recebe uma outra função como parametro
+func funcaoQueChamaFuncaoComHelloWorld(funcao: (String) -> ()) {
+    // chamando a função
+    funcao("Hello World!")
+}
+
+// Você pode chamar a função passando a outra função como parametro
+funcaoQueChamaFuncaoComHelloWorld(funcao: imprima)
+```
+
+**Saída**
+
+```
+String passada como parametro: Hello World!
+```
+
+Isso abre uma série de possibilidades para a linguagem.
+
+Vamos ver um exemplo com a classe *Array* que vimos anteriormente. *Arrays* em Swift possuem um método chamado *“map”* que recebe uma outra função como parâmetro. Essa função é chamada para cada elemento desse array e os resultados são colocados em um novo *array* (na mesma ordem). Veja um exemplo:
+
+```
+let vetor = [1, 2, 3, 4]
+
+func duplicador(i: Int) -> Int {
+    return i * 2
+}
+
+let vetorDuplicado = vetor.map(duplicador) 
+
+print (vetorDuplicado)
+```
+
+**Saída**
+
+```
+[2, 4, 6, 8]
+```
+
+**Sugestão de estudo**: procure na documentação do *Array* de Swift pelos métodos *filter* e *sort*. Note como as funções e como os parâmetros são utilizados nesses casos.
+
+Para finalizar essa nossa breve introdução às funções em Swift, vamos ver um exemplo de múltiplos retornos. Utilizamos as Tuplas (as que vimos na seção sobre Dicionários) para criar funções que possam retornar mais do que um valor (inclusive podendo ser de múltiplos tipos), e podemos gravar esses valores em múltiplas variáveis em apenas uma linha. Veja:
+
+```
+func buscarLatitudeLongitude() -> (String, Double, Double) {
+    return ("Campinas", -22.002, -25.012)
+}
+
+let (cidade, lat, lng) = buscarLatitudeLongitude()
+// Agora, temos: cidade = "Campinas, lat = -22.002 e lng = -25.012
+
+print(cidade)
+print(lat)
+print(lng)
+```
+
+**Saída**
+
+```
+Campinas
+-22.002
+-25.012
+```
