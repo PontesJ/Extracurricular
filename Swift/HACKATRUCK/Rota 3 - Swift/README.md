@@ -1200,3 +1200,558 @@ Campinas
 -22.002
 -25.012
 ```
+
+---
+
+# ORIENTAÇÃO A OBJETOS
+
+## INTRODUÇÃO
+
+Orientação a Objetos é sem sombra de dúvidas o paradigma de programação que mais observamos na indústria de software hoje em dia. Trata-se de uma maneira organizada de pensar e estruturar código, pautada principalmente em três princípios:
+
+- **Encapsulamento**: objetos “protegem” seu estado e as ações que podem ser realizadas sobre eles com o uso de modificadores de visibilidade. Em *Swift*, essa visibilidade pode ter 5 níveis de acesso: *public, open, internal, fileprivate* ou *private*. Dessa forma, outros objetos devem enviar mensagens a esse objeto e caso seja desejado, ele pode mudar seu estado interno.
+
+- **Herança**: pode-se construir uma árvore hierárquica de comportamento com o uso de herança. Isso quer dizer que é possível definir uma classe base (pai) e caso especializações dessa classe (filhas) existam, pode-se utilizar comportamentos da base, sobrescrevê-los ou até mesmo complementá-los com comportamentos únicos à essas especializações. Importante destacar que a linguagem *Swift* não suporta herança múltipla, ou seja, uma classe filha pode herdar de apenas uma classe pai.
+
+- **Polimorfismo**: expressão que significa múltiplas formas. Classes derivadas de uma única classe base são capazes de invocar métodos que se comportam de maneira diferente para cada uma das classes derivadas, apesar de possuírem a mesma assinatura. Sendo assim, para quem chama o método é indiferente a implementação interna que cada uma dessas classes derivadas fornece, o que interessa é o resultado que pode ser obtido com manipulações diferentes do estado do objeto para cada uma delas.
+
+---
+
+## CLASSES E OBJETOS
+
+Uma classe, na orientação a objetos, é um *template* para os nossos objetos. São as classes que definem o estado (propriedades) e as ações (métodos) que nossos objetos terão.
+
+```
+class FiguraGeometrica {
+}
+```
+
+Para definir uma classe basta utilizar a palavra-chave *“class”*. Para se instanciar objetos a partir destas classes, utilizamos uma sintaxe também muito simples:
+
+```
+class FiguraGeometrica {
+}
+
+let quadrado = FiguraGeometrica()
+var circulo = FiguraGeometrica()
+```
+
+E novamente, podemos utilizar as palavras-chaves *let* e *var* para nos auxiliar com a mutabilidade desses objetos, ou seja, no caso do exemplo *quadrado* o mesmo não pode ser reatribuído a outro objeto, porém, o objeto *circulo* pode. Quando utilizamos a chamada *“FiguraGeometrica()”* estamos chamando um construtor (método especial da classe).
+
+```
+class FiguraGeometrica {
+    init() {
+        print("O construtor da classe FiguraGeometrica foi chamado")
+    }
+}
+
+let quadrado = FiguraGeometrica()
+
+// Será impresso: "O construtor da classe FiguraGeometrica foi chamado"
+```
+
+**Saída**
+
+```
+O construtor da classe FiguraGeometrica foi chamado
+```
+
+Em Swift, o tipo de construtor mais básico que podemos definir para uma classe é o que mostramos no exemplo anterior, ou seja, com a definição da “função” especial na classe chamada *“init()”*. É nossa responsabilidade inicializar o estado do objeto dentro dessa função especial. Nas próximas seções desse módulo, veremos construtores mais complexos que ilustram como esse estado pode ser inicializado.
+
+---
+
+## PROPRIEDADES
+
+Para manter o estado em nossos objetos, podemos utilizar as propriedades, que equivalem aos atributos em outras linguagens orientadas a objetos que talvez você conheça. As propriedades em *Swift* podem ser enxergadas como variáveis e constantes dentro das classes (e consequentemente dos objetos que são as instâncias dessas classes).
+
+```
+class Bicicleta {
+    let rodas = 2
+    var dono: String
+    
+    init(dono: String) {
+        // utilizamos "self.dono" para se referir a propriedade
+        // já que somente "dono" se refere ao parametro String
+        // do construtor
+        self.dono = dono
+    }
+}
+```
+
+Vejamos em detalhes esse exemplo. Nesse caso, definimos uma classe chamada *Bicicleta* que possui as propriedades *rodas* e *dono*. A primeira dessas propriedades é constante e do tipo *Int* (por inferência do compilador, já que ela recebe o valor 2 na sua inicialização). Perceba que ela é constante porque ainda não faz sentido em nosso programa ter uma bicicleta com número de rodas diferente de dois. A segunda propriedade é uma variável do tipo *String*. Por fim, definimos um construtor mais complexo do que os que vimos até agora, e nesse caso esse construtor recebe um parâmetro chamado *“dono”* que é do tipo *String* e é atribuído à propriedade *“dono”* do objeto que, para evitar a ambiguidade (e erros), deve ser referida como *“self.dono”* dentro do construtor. Vejamos como utilizar essas propriedades, atribuí-las e construir objetos *Bicicleta* utilizando o nosso novo construtor:
+
+```
+class Bicicleta {
+    let rodas = 2
+    var dono: String
+    
+    init(dono: String) {
+        // utilizamos "self.dono" para se referir a propriedade
+        // já que somente "dono" se refere ao parametro String
+        // do construtor
+        self.dono = dono
+    }
+}
+
+let bicicleta = Bicicleta(dono: "João") // Instanciamos a bicicleta de João.
+
+print("A bicicleta de \(bicicleta.dono) tem \(bicicleta.rodas) rodas")
+
+// Será impresso: "A bicicleta de João tem 2 rodas"
+
+// Suponha que João venda sua bicicleta para Matheus, podemos representar
+// isso em nosso programa alterando o dono de bicicleta. Perceba que não
+// atribuímos uma nova bicicleta à constante, algo que ocasionaria um erro, 
+// apenas alteramos o estado do objeto bicicleta, alterando sua propriedade
+// nome.
+
+bicicleta.dono = "Matheus"
+
+print("A bicicleta de \(bicicleta.dono) tem \(bicicleta.rodas) rodas")
+
+// Será impresso: "A bicicleta de Matheus tem 2 rodas"
+```
+
+**Saída**
+
+```
+A bicicleta de João tem 2 rodas
+A bicicleta de Matheus tem 2 rodas
+```
+
+---
+
+## MÉTODOS
+
+Métodos são as formas como adicionamos comportamentos (ações) aos nossos objetos e classes. São como funções, mas no contexto da classe ou do objeto. Além disso, no *Swift* 5 diferentemente das funções definidas em contexto global (fora das classes), estes possuem os parâmetros nomeados. Na verdade, esses nomes fazem parte do nome do método, mas separam logicamente cada um dos parâmetros facilitando a legibilidade.
+
+```
+class Bicicleta {
+    let rodas = 2
+    var dono: String
+    
+    init(dono: String) {
+        // utilizamos "self.dono" para se referir a propriedade
+        // já que somente "dono" se refere ao parametro String
+        // do construtor
+        self.dono = dono
+    }
+
+    func emprestar(para: String, horas: Int) {
+        print("A bicicleta de \(dono) foi emprestada para \(para) por \(horas) horas")
+    }
+}
+
+// Vamos instanciar uma bicicleta e emprestá-la
+let b = Bicicleta(dono: "Matheus")
+b.emprestar(para: "João", horas: 2)
+
+// Será impresso: "A bicicleta de Matheus foi emprestada para João por 2 horas"
+```
+
+**Saída**
+
+```
+A bicicleta de Matheus foi emprestada para João por 2 horas
+```
+
+Note que definimos um método *público* - que pode ser acessado fora do contexto da classe - chamado *emprestar*. Esse método possui dois parâmetros: *para* e *horas*, indicando que podemos emprestar uma bicicleta para alguém por algum período de tempo. Note que utilizamos o comando *b.emprestar(para: “João”, horas: 2),* ou seja, é assim que podemos chamar o método criado: o primeiro parâmetro logo após o label “para:“ e o segundo logo após o label “horas:”.
+
+Métodos, assim como qualquer função, podem retornar valores para aqueles que o chamam. Suponha que nossa classe Bicicleta queira devolver a quantidade máxima de ciclistas sobre uma mesma bicicleta, ou seja, podemos ter bicicletas que comportem 1, 2, 3 ou mais pessoas. A quantidade de ciclistas na mesma bicicleta está diretamente relacionada à quantidade de rodas da bicicleta: 2 rodas => 1 ciclista, 3 rodas => 2 ciclistas, 4 rodas => 3 ciclistas, e assim por diante. Vamos redefinir nossa classe e seus métodos para nos auxiliar a trabalhar com o conceito de dar carona numa mesma bicicleta:
+
+```
+class Bicicleta {
+    var rodas: Int
+    var dono: String
+    var qtdeCiclistas: Int
+    
+    init(dono: String, rodas: Int) {
+        self.dono = dono
+        self.rodas = rodas
+        
+        // no inicio não temos ciclista sobre a
+        // bicicleta ainda
+        self.qtdeCiclistas = 0
+    }
+
+    // retorna true caso seja possível dar carona
+    // na bicicleta e false em caso contrário
+    func darCarona(para: String) -> Bool {
+        if qtdeCiclistas < quantidadeMaxima() {
+            if para == dono {
+                print("\(dono) subiu em sua própria bicicleta")
+            } else {
+                print("\(para) subiu na bicicleta de \(dono)")
+            }
+            qtdeCiclistas += 1
+            
+            return true
+        } else {
+            print("A bicicleta de \(dono) já está lotada! \(qtdeCiclistas) ciclista(s)!")
+            
+            return false
+        }
+    }
+    
+    // método que só faz sentido ser utilizado internamente
+    // na classe por isso é private
+    private func quantidadeMaxima() -> Int {
+        if rodas > 1 {
+            // 2 rodas => 1 ciclista
+            // 3 rodas => 2 ciclistas
+            // 4 rodas => 3 ciclistas
+            // e assim por diante...
+            return rodas - 1
+        } else {
+            // monociclo: 1 roda => 1 ciclista
+            return 1
+        }
+    }
+}
+
+// Vamos instanciar uma bicicleta para Matheus
+let b = Bicicleta(dono: "Matheus", rodas: 2)
+
+// Matheus sobe em sua propria bicicleta
+b.darCarona(para: "Matheus") 
+// Será impresso: "Matheus subiu em sua própria bicicleta"
+
+// Matheus tenta dar carona para João
+b.darCarona(para: "João")
+// Será impresso: "A bicicleta de Matheus já está lotada! 1 ciclista(s)!"
+
+// Matheus reforma sua bicicleta e adiciona uma roda
+// agora poderá transportar até 2 pessoas
+b.rodas = 3
+
+// Matheus dá carona para João agora com sucesso!
+b.darCarona(para: "João")
+// Será impresso: "João subiu na bicicleta de Matheus"
+
+// Matheus tenta dar carona para Maria
+b.darCarona(para: "Maria")
+// Será impresso: "A bicicleta de Matheus já está lotada! 2 ciclista(s)!"
+```
+
+**Saída**
+
+```
+Matheus subiu em sua própria bicicleta
+A bicicleta de Matheus já está lotada! 1 ciclista(s)!
+João subiu na bicicleta de Matheus
+A bicicleta de Matheus já está lotada! 2 ciclista(s)!
+```
+
+Definimos dois novos métodos: *darCarona(para: String)* e *quantidadeMaxima()*. O primeiro pode ser acessado fora da classe (*public*). O segundo, retorna a quantidade de pessoas suportada pela bicicleta, número que é uma função da quantidade de rodas da bicicleta e essa informação só interessa dentro do contexto da classe (por isso *private*). Agora, nossa classe *Bicicleta* comporta o conceito de transportar o próprio dono e os que recebem carona.
+
+---
+
+## HERANÇA
+
+Um fundamento importante da Orientação a Objetos é a Herança. Com ela podemos ter classes que herdam comportamentos, propriedades e outras características de outras classes. Quando uma classe herda da outra, chamamos a classe filha de *sub-classe* e a classe pai de *super-classe*. Herança é uma das principais características que diferenciam as classes de outros tipos em *Swift*.
+
+Veja esse exemplo de herança:
+
+```
+class FormaGeometrica {
+    func descricao() {
+        print("Decrição de uma forma geométrica")
+    }
+}
+
+class Quadrado: FormaGeometrica {
+    var tamanho: Int
+    
+    init(tamanho: Int) {
+        self.tamanho = tamanho
+    }
+    
+    func area() -> Int {
+        return tamanho * tamanho
+    }
+}
+
+let quadrado = Quadrado(tamanho: 2)
+let area = quadrado.area()
+
+print("Área do quadrado é \(area)")
+// Será impresso: "Área do quadrado é 4"
+
+quadrado.descricao()
+// Será impresso: "Decricao de uma forma geométrica"
+```
+
+**Saída**
+
+```
+Área do quadrado é 4
+Decrição de uma forma geométrica
+```
+
+Note que criamos uma super-classe *FormaGeometrica* e uma sub-classe chamada *Quadrado*. Dizemos que a segunda é filha da primeira. A segunda adiciona um parâmetro à primeira, chamado *tamanho*, e um método que sabe calcular a área de um *Quadrado*. Mesmo sendo uma outra classe, perceba que *Quadrado* responde ao método definido em *FormaGeometrica* chamado *descricao*. Porém, a descrição está muito genérica, desta forma, podemos utilizar o conceito de sobreposição de métodos para melhorar isso. Veja como fica em *Swift*:
+
+```
+class FormaGeometrica {
+    func descricao() {
+        print("Decrição de uma forma geométrica")
+    }
+}
+
+class Quadrado: FormaGeometrica {
+    var tamanho: Int
+    
+    init(tamanho: Int) {
+        self.tamanho = tamanho
+    }
+    
+    func area() -> Int {
+        return tamanho * tamanho
+    }
+    
+    override func descricao() {
+        super.descricao()
+        print("- Quadrado de area \(area())")
+    }
+}
+
+let quadrado = Quadrado(tamanho: 2)
+quadrado.descricao()
+
+// Serão impressas as linhas:
+//
+// Descrição de uma forma geométrica
+// - Quadrado de area 4
+```
+
+**Saída**
+
+```
+Decrição de uma forma geométrica
+- Quadrado de area 4
+```
+
+Nesse caso, nossa classe *Quadrado* sobrescreveu o método *descricao* de sua super-classe *FormaGeometrica*. Para realizar tal operação é obrigatório, em *Swift*, o uso da palavra-chave *override* antes do cabeçalho da função a ser sobrescrita. Agora, na classe *Quadrado*, podemos implementar uma descrição mais adequada à realidade dessa forma geométrica. Dentro do método que está sobrescrevendo um comportamento, pode-se referir-se ao método original com o uso da palavra-chave *super*, e nesse caso, chamamos o método *descricao* da classe *FormaGeometrica* com o uso de *super.descricao()*. Esse conceito de sobreposição é uma das maneiras de implementarmos polimorfismo em *Swift*.
+
+**Vamos treinar?** Com a base do exemplo anterior, crie as classes *circulo* e *retangulo* e seus respectivos métodos para calcular a área. Fórmulas:
+
+Área círculo = 3,14 x raio^2
+
+Área retângulo = base x altura
+
+**</a href="./Códigos/main06.swift">Código</a>**
+
+Solução:
+
+```
+class FormaGeometrica {
+    func descricao() {
+        print("Decrição de uma forma geométrica")
+    }
+}
+
+class Quadrado: FormaGeometrica {
+    var tamanho: Int
+    
+    init(tamanho: Int) {
+        self.tamanho = tamanho
+    }
+    
+    func area() -> Int {
+        return tamanho * tamanho
+    }
+    
+    override func descricao() {
+        super.descricao()
+        print("- Quadrado de area \(area())")
+    }
+}
+
+let quadrado = Quadrado(tamanho: 2)
+quadrado.descricao()
+
+// crie as classes circulo e triangulo e seus respectivos métodos para calcular área.
+
+class Circulo: FormaGeometrica {
+    var raio: Double
+    let pi = 3.14
+    
+    init(raio: Double) {
+        self.raio = raio
+    }
+    
+    func area() -> Double {
+        return pi * (raio * raio)
+    }
+    
+    override func descricao() {
+        super.descricao()
+        print("- Círculo de area \(area())")
+    }
+}
+
+class Retangulo: FormaGeometrica {
+    var base: Double
+    var altura: Double
+    
+    init(base: Double, altura: Double) {
+        self.base = base
+        self.altura = altura
+    }
+    
+    func area() -> Double {
+        return base * altura
+    }
+    
+    override func descricao() {
+        super.descricao()
+        print("- Retângulo de area \(area())")
+    }
+}
+
+let circulo = Circulo(raio: 2)
+circulo.descricao()
+
+let retangulo = Retangulo(base: 2, altura: 4)
+retangulo.descricao()
+```
+
+**Saída**
+
+```
+Decrição de uma forma geométrica
+- Quadrado de area 4
+Decrição de uma forma geométrica
+- Círculo de area 12.56
+Decrição de uma forma geométrica
+- Retângulo de area 8.0
+```
+
+---
+
+## PROTOCOLOS
+
+Esse conceito é similar à interface do Java, sua proposta é estabelecer um **contrato** entre quem utiliza um determinado objeto de forma que o cliente não dependa do tipo, mas sim, do comportamento. Um exemplo nos ajudará a clarear o conceito. Primeiro, vamos definir um protocolo e implementá-lo de duas formas diferentes para entendermos melhor a ideia de **contrato**.
+
+```
+protocol OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double
+}
+
+class Soma: OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double {
+        return x + y
+    }
+}
+
+class Subtracao: OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double {
+        return x - y
+    }
+}
+```
+
+Para a classe *Soma*, calcular significa utilizar a operação *“+”* para adicionar *x* a *y*. Por outro lado, para a classe *Subtracao*, calcular significa utilizar a operação *“-”* para subtrair *x* de *y*. Vamos supor que queremos escrever uma função que se aproveite do conceito de *OperacaoMatematica* simplesmente para realizar somas e subtrações em sequência. Como tanto a classe *Soma* como a classe *Subtracao* implementam o protocolo *OperacaoMatematica*, podemos escrever uma função que receba um *array* de objetos que, com o comportamento de uma *OperacaoMatematica*, retorne um *array* com o resultado dos cálculos nas posições correspondentes. Dessa maneira, não estamos presos a tipos (*Soma* ou *Subtracao*), mas sim a comportamentos (*OperacaoMatematica*) que podem ser calculados.
+
+```
+protocol OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double
+}
+
+class Soma: OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double {
+        return x + y
+    }
+}
+
+class Subtracao: OperacaoMatematica {
+    func calcular(x: Double, y: Double) -> Double {
+        return x - y
+    }
+}
+
+func realizaOperacoes(operacoes: [OperacaoMatematica], a: Double, b: Double) -> [Double] {
+    var resultado = [Double]()
+    
+    for operacao in operacoes {
+        resultado.append(operacao.calcular(x: a, y: b))
+    }
+    
+    return resultado
+}
+
+let soma = Soma()
+let subtracao = Subtracao()
+
+var operacoes = [OperacaoMatematica]()
+operacoes.append(soma)
+operacoes.append(subtracao)
+
+print(realizaOperacoes(operacoes: operacoes, a: 4.0, b: 2.0))
+// Será impresso: "[6.0, 2.0]"
+```
+
+**Saída**
+
+```
+[6.0, 2.0]
+```
+
+Aqui definimos uma função chamada *realizaOperacoes* que recebe um *array* de operações matemáticas e dois números, *a* e *b*. Como retorno ela devolve um *array* que é o resultado da aplicação das operações sobre *a* e *b*. A ideia é que essa função não conhece nada sobre *Soma* ou *Subtracao*, ela só sabe que operações matemáticas podem ser calculadas com o uso do método *calcular*. Por isso, dizemos que ela é independente de tipos e é dependente apenas de comportamentos (protocolos).
+
+---
+
+## EXTENSÕES
+
+Para finalizar nosso módulo sobre conceitos de orientação a objetos em *Swift*, vamos abordar as Extensões. Tratam-se de estruturas que permitem que qualquer classe (seja ela definida pelo desenvolvedor ou pelos *frameworks*) do programa *Swift* seja “reaberta” e métodos sejam adicionados a ela. Vamos ver um exemplo de extensão sobre uma classe que a própria Apple nos fornece (*String*):
+
+```
+extension String {
+    func onlyVogals() -> String {
+        var vogals = ""
+        
+        for c in self {
+            let letter = "\(c)"
+            if (letter == "a" || letter == "e" || letter == "i" || 
+                letter == "o" || letter == "u") {
+                vogals += letter
+            }
+        }
+
+        return vogals
+    }
+}
+```
+
+Aqui definimos uma extensão na classe *String*, ou seja, todas as *Strings* do nosso programa possuem um novo método chamado *“onlyVogals”* (somente vogais, em português). Esse método percorre a *string* corrente (*self*) olhando cada caractere e elimina qualquer um que não seja uma vogal. Agora, podemos utilizar nosso novo método de maneira transparente, ou seja, como qualquer outro método da classe *String*. Veja o exemplo:
+
+```
+extension String {
+    func onlyVogals() -> String {
+        var vogals = ""
+        
+        for c in self {
+            let letter = "\(c)"
+            if (letter == "a" || letter == "e" || letter == "i" || 
+                letter == "o" || letter == "u") {
+                vogals += letter
+            }
+        }
+        
+        return vogals
+    }
+}
+
+let hello = "Hello, World!"
+print(hello.onlyVogals())
+// Será impresso: "eoo"
+```
+
+**Saída**
+
+```
+eoo
+```
+
+**Para finalizar!**
+
+Esperamos que você tenha aprendido bastante sobre *Swift* e gostado desse nosso conteúdo introdutório sobre a linguagem. Lembre-se, programação é como exercício físico, para se ficar bom é necessário praticar! Então não deixe de praticar programação! Pratique Swift!
