@@ -529,7 +529,7 @@ A saída consiste em um valor racional, seguido de um sinal de igualdade e outro
 | ------------- | ------------- |
 | 4<br>1 / 2 + 3 / 4<br>1 / 2 - 3 / 4<br>2 / 3 * 6 / 6<br>1 / 2 / 3 / 4 | 10/8 = 5/4<br>-2/8 = -1/4<br>12/18 = 2/3<br>4/6 = 2/3 |
 
-**<a href="./Exercícios/bee1022.py">Resolução</a>**
+**<a href="../Python/Beecrowd/Exercícios/bee1022.py">Resolução</a>**
 
 ---
 
